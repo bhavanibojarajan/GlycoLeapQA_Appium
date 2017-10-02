@@ -1,0 +1,5 @@
+rootProject.name = 'GlycoLeapQA_Appium'
+
+include 'XTestKitComponents'
+include 'XTestKit'
+include 'JavaUtilities'
