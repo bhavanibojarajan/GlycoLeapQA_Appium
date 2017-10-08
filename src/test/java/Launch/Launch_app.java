@@ -1,39 +1,29 @@
 package Launch;
 
-import PAOBFactory.Food_Log_Repository;
-import PAOBFactory.Glucose_Food_Log_Repository;
-import PAOBFactory.PersonalDetail_Registory;
-import PAOBFactory.Add_Photo_Comment_Delete_Edit_Repository;
+import PAOBFactory.Comment_Edit_Delete.Android_Add_Photo_Comment_Delete_Edit_Repository;
+import PAOBFactory.FoodLog.Android_Food_Log_Repository;
+import PAOBFactory.FoodLog.Android_Glucose_Food_Log_Repository;
+import PAOBFactory.Login.Android_Login_Repository;
+import PAOBFactory.RegisterNewUser.Android_PersonalDetail_Registory;
+import PAOBFactory.RegisterNewUser.Android_Register_Repository;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
-import org.swiften.xtestkit.mobile.Platform;
-import org.swiften.xtestkitcomponents.xpath.Attributes;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.swiften.xtestkit.mobile.Platform;
-import org.swiften.xtestkitcomponents.common.ErrorProviderType;
-import org.swiften.xtestkitcomponents.platform.PlatformType;
-import org.swiften.xtestkitcomponents.xpath.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.CapabilityType;
-import org.testng.annotations.BeforeMethod;
-import PAOBFactory.Login_Repository;
-import PAOBFactory.Register_Repository;
+
 import java.net.MalformedURLException;
-import org.openqa.selenium.support.PageFactory;
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import java.net.URL;
-import java.util.concurrent.TimeUnit;
+
 public class Launch_app {
 
    static AndroidDriver driver;
-    Login_Repository LR;
-    Register_Repository RR;
-    PersonalDetail_Registory PDR;
-    Food_Log_Repository FLR;
-    Glucose_Food_Log_Repository GFLR;
-    Add_Photo_Comment_Delete_Edit_Repository APCDER;
+    Android_Login_Repository LR;
+    Android_Register_Repository RR;
+    Android_PersonalDetail_Registory PDR;
+    Android_Food_Log_Repository FLR;
+    Android_Glucose_Food_Log_Repository GFLR;
+    Android_Add_Photo_Comment_Delete_Edit_Repository APCDER;
     @BeforeClass
     public void setup() throws MalformedURLException {
 
@@ -43,7 +33,7 @@ public class Launch_app {
         d.setCapability(MobileCapabilityType.DEVICE_NAME,"Nexus_4_API_22");
         d.setCapability(MobileCapabilityType.PLATFORM_NAME,"ANDROID");
 
-        d.setCapability(MobileCapabilityType.APP,"//Users//bhavani//GlycoLeap_apk//Release//glycoRelease.apk");
+        d.setCapability(MobileCapabilityType.APP,"C:\\Users\\bhava\\glycoleap\\app-release.apk");
         d.setCapability("appActivity","com.holmusk.glycoleap.ui.activity.SplashActivity");
         d.setCapability("appPackage","com.holmusk.glycoleap");
 
@@ -68,7 +58,7 @@ public class Launch_app {
 
     {
 
-        LR = new Login_Repository(driver);
+        LR = new Android_Login_Repository(driver);
 
              LR.Ok.click();
          LR.Signin.click();
@@ -80,8 +70,8 @@ public class Launch_app {
         @Test
         public void Register_New_USer() throws InterruptedException {
 
-                  RR = new Register_Repository(driver);
-                PDR =new PersonalDetail_Registory(driver);
+                  RR = new Android_Register_Repository(driver);
+                PDR =new Android_PersonalDetail_Registory(driver);
 
             RR.Ok.click();
             RR.Register.click();
@@ -108,9 +98,9 @@ public class Launch_app {
         public void Food_Log() throws InterruptedException
         {
 
-            FLR=new Food_Log_Repository(driver);
-            GFLR=new Glucose_Food_Log_Repository(driver);
-            APCDER =new Add_Photo_Comment_Delete_Edit_Repository(driver);
+            FLR=new Android_Food_Log_Repository(driver);
+            GFLR=new Android_Glucose_Food_Log_Repository(driver);
+            APCDER =new Android_Add_Photo_Comment_Delete_Edit_Repository(driver);
             FLR.Taking_One_Full_Food_Log();
             //FLR.View_Edit_Delete();
             GFLR.Taking_Before_Food_Glucose().click();
