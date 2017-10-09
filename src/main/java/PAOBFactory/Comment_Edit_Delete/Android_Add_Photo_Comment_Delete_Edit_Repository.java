@@ -26,10 +26,10 @@ public class Android_Add_Photo_Comment_Delete_Edit_Repository implements Add_Pho
     public AndroidElement send_btn;
 
 
-    @FindBy(how = How.XPATH, using = "//*[contains(text(),'Edit')]")
+    @FindBy(how = How.XPATH, using = "//android.widget.LinearLayout[text()='Edit']")
     public AndroidElement edit;
 
-    @FindBy(how = How.XPATH, using = "//*[contains(text(),'Delete')]")
+    @FindBy(how = How.XPATH, using = "//android.widget.LinearLayout[text()='Delete']")
     public AndroidElement delete;
 
 
@@ -74,16 +74,22 @@ public class Android_Add_Photo_Comment_Delete_Edit_Repository implements Add_Pho
     }
 
     public void AddCommentandImage() {
+        //To do delete and edit
+
+        dotdeleteoredit.click();
+
+        edit.click();
+
         addcomment.sendKeys("adja");
         send_btn.click();
-        cammeraicon.click();
+       /* cammeraicon.click();
         // select for the camera option
         camera.click();
         camerashutter.click();
         done.click();
         photocaption.sendKeys("photocaption");
         photoaccept.click();
-        send_btn.click();
+        send_btn.click();*/
 
 
 

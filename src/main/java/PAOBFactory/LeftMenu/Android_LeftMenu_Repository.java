@@ -6,16 +6,23 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
+import org.testng.asserts.SoftAssert;
 import java.util.concurrent.TimeUnit;
+  import Log_File.Log;
+
+
 
 public class Android_LeftMenu_Repository implements LeftMenu_Repository {
 
+    SoftAssert s_assert = new SoftAssert();
+
     //==========================================================================================================
     //FindElement
-
+//android.widget.ImageButton[@content-desc='Open navigation drawer']
     //AndroidElement LeftMenu Opener
-    @FindBy(how = How.XPATH, using ="//android.widget.ImageButton[@content-desc()='Open navigation drawer'" )
+    @FindBy(how = How.XPATH, using ="//*[@class='android.widget.ImageButton']" )
     public AndroidElement leftmenuopner;
 
     //AndroidElement LeftMenu ProfileImage
@@ -32,27 +39,55 @@ public class Android_LeftMenu_Repository implements LeftMenu_Repository {
 
 
     //AndroidElement Settings
-    @FindBy(how = How.XPATH, using = "//*[@text()='Settings']")
+    @FindBy(how = How.XPATH, using = "//*[@text='Settings']")
     public AndroidElement settings;
 
+    //AndroidElement Settings
+    @FindBy(how = How.XPATH, using = "//*[@text='Subscription']")
+    public AndroidElement subscription;
     //AndroidElement Ihaveacode
-    @FindBy(how = How.XPATH, using = "//*[@text()='I have a code']")
+    @FindBy(how = How.XPATH, using = "//*[@text='I have a code']")
     public AndroidElement ihaveacode;
 
     //AndroidElement DietitianProfile
-    @FindBy(how = How.XPATH, using = "//*[@text()='Dietitian Profiles']")
+    @FindBy(how = How.XPATH, using = "//*[@text='Dietitian Profiles']")
     public AndroidElement dietitianprofiles;
 
     //AndroidElement AboutGlyco
-    @FindBy(how = How.XPATH, using = "//*[@text()='About Glyco']")
+    @FindBy(how = How.XPATH, using = "//*[@text='About Glyco']")
     public AndroidElement aboutglyco;
 
     //AndroidElement Version
     @FindBy(how = How.ID, using = "iv_slot1")
     public AndroidElement version;
 
+    //AndroidElement BackButton
+    @FindBy(how = How.XPATH, using = "//*[@content-desc='Navigate up']")
+    public AndroidElement backButton;
 
-  //==========================================================================================================
+
+    //AndroidElement BackButton
+    @FindBy(how = How.ID, using = "btn_back")
+    public AndroidElement backButtonUniquecode;
+
+
+    //What's your Unique
+    //AndroidElement What's your Unique
+    @FindBy(how = How.ID, using = "btn_programID")
+    public AndroidElement ihaveacodetext;
+
+
+
+    //Your current subscription plan
+    //AndroidElement What's your Unique
+    @FindBy(how = How.XPATH, using = "//*[@text='Your current subscription plan']")
+    public AndroidElement subscriptiontext;
+
+    //AndroidElement Glyco
+    @FindBy(how = How.XPATH, using = "//*[@text='Glyco']")
+    public AndroidElement glycotext;
+
+    //==========================================================================================================
     //Constructor for the Android_LeftMenu_Repository
     public Android_LeftMenu_Repository(AppiumDriver driver2) {
         // TODO Auto-generated constructor stub
@@ -64,7 +99,53 @@ public class Android_LeftMenu_Repository implements LeftMenu_Repository {
     //==========================================================================================================
 
     @Override
-    public void LeftMenu_Navigation() {
+    public void LeftMenu_Navigation(String useremail) {
+
+        leftmenuopner.click();
+
+        Log.info("LeftmenuOpenedProperly");
+        Assert.assertEquals(username.getText(),"Bhavani","UserName Displayed in the LeftMenu");
+
+        Assert.assertEquals(email.getText(),useremail,"UserName Displayed in the LeftMenu");
+
+        //Navigate to setting Page
+        settings.click();
+        Assert.assertEquals(settings.getText(),"Settings","Opened the Setting Page");
+        backButton.click();
+
+
+        //Navigate to I have a Code Page
+        leftmenuopner.click();
+        ihaveacode.click();
+        Assert.assertEquals(ihaveacodetext.getText(),"Where do I find my UPID?","Opened the I Have a code  Page");
+        backButtonUniquecode.click();
+
+
+        //Navigate to Subscription
+        leftmenuopner.click();
+        subscription.click();
+        Assert.assertEquals(subscriptiontext.getText(),"Your current subscription plan","Opened the Subscription page");
+
+        backButton.click();
+
+
+        //Navigate to Dietitian Profiles
+        leftmenuopner.click();
+        dietitianprofiles.click();
+        Assert.assertEquals(dietitianprofiles.getText(),"Dietitian Profiles","Opened the Dietitian Profile Page");
+        backButton.click();
+
+        //Navigate to About Glyco
+        leftmenuopner.click();
+        aboutglyco.click();
+        Assert.assertEquals(glycotext.getText(),"Glyco","Opened the Dietitian Profile Page");
+        backButton.click();
+
+
+
+
+
 
     }
+
 }

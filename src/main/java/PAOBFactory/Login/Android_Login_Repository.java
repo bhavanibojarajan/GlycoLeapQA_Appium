@@ -14,6 +14,7 @@ import static org.openqa.selenium.support.PageFactory.initElements;
 import org.openqa.selenium.support.How;
 
 import java.util.concurrent.TimeUnit;
+import Log_File.Log;
 
 public class Android_Login_Repository implements Login_Repository {
 
@@ -33,6 +34,8 @@ public class Android_Login_Repository implements Login_Repository {
     public AndroidElement Password;
 
 
+    @FindBy(how = How.XPATH, using = "//*[@text='Home']")
+    public AndroidElement HomeTitle;
 
 
 
@@ -49,9 +52,12 @@ public class Android_Login_Repository implements Login_Repository {
 
 public MobileElement Enter_Username_Password()
 {
+    String sUserName = "bhavani.bose@gmail.com";
 
     Username.sendKeys("bhavani.bose@gmail.com");
+    Log.info("Username is "+ sUserName );
     Password.sendKeys("Test4test");
+    Log.info("Password is entered");
     return Signin;
     }
 
