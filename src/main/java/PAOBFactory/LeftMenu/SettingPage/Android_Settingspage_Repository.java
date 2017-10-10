@@ -1,5 +1,6 @@
 package PAOBFactory.LeftMenu.SettingPage;
 
+import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -101,25 +102,34 @@ public class Android_Settingspage_Repository implements Settingspage_Repository{
 public void Setting_Navigation() {
         String value="OFF";
 
-    //Navigate to profile page
+        //Navigate to profile page
         profile.click();
+         Log.info("Profile menu clicked");
         Assert.assertEquals(profile.getText(),"Profile","Opened Profile Page");
+        Log.info("Profile opened properly and asserted with the value "+profile.getText());
         backbutton.click();
+         Log.info("Back button clicked");
+
 
         //Navigate to Goal page
         goal.click();
+        Log.info("Goal menu clicked");
         Assert.assertEquals(goal.getText(),"Goal","Opened Goal Page");
+        Log.info("Goal opened properly and asserted with the value "+goal.getText());
         backbutton.click();
-
+        Log.info("Back button clicked");
 
         //Try to Toggle the Food button
-
+/*
         foodtapbutton.click();
+        foodtapbutton.click();
+            Log.info("Food Toggle Button Working");
 
-    foodtapbutton.click();
-            //Try to Toggle the Glucose
-                glucosetapbutton.click();
+    //Try to Toggle the Glucose
     glucosetapbutton.click();
+    glucosetapbutton.click();
+    Log.info("Glucose Toggle Button Working");
+
 
    /* if(value.equals(glucosetapbutton.getText()))
 
@@ -130,9 +140,12 @@ public void Setting_Navigation() {
 
       //Navigate to Unit System
             units.click();
+            Log.info("Unit System menu clicked");
             Assert.assertEquals(units.getText(),"Unit System", "Opened Unit System");
+            Log.info("Unit System opened properly and asserted with the value "+units.getText());
             backbutton.click();
-
+            Log.info("Back button clicked");
+         backbutton.click();
 
            /*//Navigate to Privacy
             privacy.click();
@@ -148,10 +161,12 @@ public void Setting_Navigation() {
 
 public String  CheckUnits_glucose() {
     units.click();
+    Log.info("Unit System menu clicked");
     return glucoseunit.getText();
       }
 public String  CheckUnits_weight() {
     units.click();
+    Log.info("Unit System menu clicked");
         return weightunit.getText();
 
 }

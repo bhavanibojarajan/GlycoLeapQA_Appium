@@ -103,42 +103,59 @@ public class Android_LeftMenu_Repository implements LeftMenu_Repository {
 
         leftmenuopner.click();
 
-        Log.info("LeftmenuOpenedProperly");
+        Log.info("Left Menu Opened Properly");
         Assert.assertEquals(username.getText(),"Bhavani","UserName Displayed in the LeftMenu");
+        Log.info("User name "+username.getText() +" Displayed in the Left Menu Page" );
 
         Assert.assertEquals(email.getText(),useremail,"UserName Displayed in the LeftMenu");
+        Log.info("Email of the user "+email.getText() +" Displayed in the Left Menu Page" );
+
 
         //Navigate to setting Page
         settings.click();
+        Log.info("Setting menu clicked");
         Assert.assertEquals(settings.getText(),"Settings","Opened the Setting Page");
+        Log.info("Setting page opened properly and asserted with value "+settings.getText());
         backButton.click();
+        Log.info("Back button clicked");
 
 
         //Navigate to I have a Code Page
         leftmenuopner.click();
-        ihaveacode.click();
-        Assert.assertEquals(ihaveacodetext.getText(),"Where do I find my UPID?","Opened the I Have a code  Page");
-        backButtonUniquecode.click();
 
+        ihaveacode.click();
+        Log.info("I have a code menu clicked");
+        Assert.assertEquals(ihaveacodetext.getText(),"Where do I find my UPID?","Opened the I Have a code  Page");
+        Log.info("I have a code opened properly and asserted with value "+ ihaveacodetext.getText());
+        backButtonUniquecode.click();
+        Log.info("Back button clicked");
 
         //Navigate to Subscription
         leftmenuopner.click();
         subscription.click();
+        Log.info("Subscription menu clicked");
         Assert.assertEquals(subscriptiontext.getText(),"Your current subscription plan","Opened the Subscription page");
-
+        Log.info("Subscription opened properly and asserted with the value "+subscriptiontext.getText());
         backButton.click();
+        Log.info("Back button clicked");
 
 
         //Navigate to Dietitian Profiles
         leftmenuopner.click();
         dietitianprofiles.click();
+        Log.info("Dietitian Profiles menu clicked");
         Assert.assertEquals(dietitianprofiles.getText(),"Dietitian Profiles","Opened the Dietitian Profile Page");
+        Log.info("Dietitian Profiles opened properly and asserted with the value "+dietitianprofiles.getText());
         backButton.click();
+        Log.info("Back button clicked");
+
 
         //Navigate to About Glyco
         leftmenuopner.click();
         aboutglyco.click();
+        Log.info("About Glyco menu clicked");
         Assert.assertEquals(glycotext.getText(),"Glyco","Opened the Dietitian Profile Page");
+        Log.info("About Glyco opened properly and asserted with the value "+glycotext.getText());
         backButton.click();
 
 

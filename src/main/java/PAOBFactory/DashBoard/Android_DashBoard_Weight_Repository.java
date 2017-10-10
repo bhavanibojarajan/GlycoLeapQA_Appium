@@ -1,5 +1,6 @@
 package PAOBFactory.DashBoard;
 
+import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -43,10 +44,14 @@ public class Android_DashBoard_Weight_Repository implements DashBoard_Weight_Rep
 
     public void Check_units_DashBoard(String units)
     {
-        s_assert.assertEquals(currentweightunits.getText(),units,"Units matches with current Weight in the DashBoard");
-        s_assert.assertEquals(startweightunits.getText(),units,"Units matches with start Weight in the DashBoard");
 
-        s_assert.assertEquals(startweightunits.getText(),units,"Units matches with start Weight in the DashBoard");
+        s_assert.assertEquals(currentweightunits.getText(),units,"Units matches with current weight in the DashBoard");
+        Log.info("The Units displayed for the current weight same as in the settings "+currentweightunits.getText());
+        s_assert.assertEquals(startweightunits.getText(),units,"Units matches with start weight in the DashBoard");
+
+        Log.info("The Units displayed for the start weight same as in the settings "+startweightunits.getText());
+        s_assert.assertEquals(goalweightunits.getText(),units,"Units matches with goal weight in the DashBoard");
+        Log.info("The Units displayed for the goal weight same as in the settings "+goalweightunits.getText());
 
 
     }

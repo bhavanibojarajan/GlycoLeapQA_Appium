@@ -1,5 +1,6 @@
 package PAOBFactory.TimeLine;
 
+import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -46,6 +47,7 @@ public class Android_Weight_Timeline_Repository implements Weight_Timeline_Repos
     {
         s_assert.assertEquals(weightunits.getText(),units,"Units matches with current Weight in the DashBoard");
 
+        Log.info("The Units displayed for the weight log  same as in the settings "+weightunits.getText());
 
 
     }

@@ -55,9 +55,9 @@ public MobileElement Enter_Username_Password()
     String sUserName = "bhavani.bose@gmail.com";
 
     Username.sendKeys("bhavani.bose@gmail.com");
-    Log.info("Username is "+ sUserName );
+    Log.info("Username  "+ sUserName +" entered");
     Password.sendKeys("Test4test");
-    Log.info("Password is entered");
+    Log.info("Password entered");
     return Signin;
     }
 
