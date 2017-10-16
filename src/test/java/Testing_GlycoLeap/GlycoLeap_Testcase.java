@@ -1,9 +1,5 @@
 package Testing_GlycoLeap;
 
-import PAOBFactory.Comment_Edit_Delete.Android_Add_Photo_Comment_Delete_Edit_Repository;
-import PAOBFactory.FoodLog.Android_Food_Log_Repository;
-import PAOBFactory.FoodLog.Android_Glucose_Food_Log_Repository;
-import PAOBFactory.Login.Android_Login_Repository;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -24,24 +20,27 @@ public static String UserEmail;
     File prop = new File (appDir, "log4j.properties");
 
 
-    @BeforeClass
+    @Test
     public void Login()
 
     {
-        PropertyConfigurator.configure(prop.getAbsolutePath());
+
+
+
+   PropertyConfigurator.configure(prop.getAbsolutePath());
 
         MobileElement login;
         Log.startTestCase("Login");
-        LR.Ok.click();
+        LR.Press_Signin_Button();
 
-        LR.Signin.click();
+
         Log.info("Signin Button Pressed");
         login = LR.Enter_Username_Password();
-        UserEmail = LR.Username.getText();
+
         login.click();
 
-
-        Assert.assertEquals(LR.HomeTitle.getText(), "Home", "GlycoLeap App opened the Home Page");
+        LR.Verify_Proper_Login();
+        //Assert.assertEquals(LR.HomeTitle.getText(), "Home", "GlycoLeap App opened the Home Page");
 
         Log.endTestCase("Login");
     }
@@ -62,10 +61,10 @@ public static String UserEmail;
     }*/
 
 
-   @Test
+ /*  @Test
     public void Left_Menu() {
 
-      /* Log.startTestCase("Left Menu Navigation");
+       Log.startTestCase("Left Menu Navigation");
 
 
        // LeftMenu TestCase
@@ -90,12 +89,11 @@ public static String UserEmail;
 
         Log.endTestCase("Settings Navigation");
 
-        */
 
-    }
+    }*/
 
 
-    @Test
+   /* @Test
     public void Units()
     {
         Log.startTestCase("Unit System - Weight Unit");
@@ -126,7 +124,7 @@ public static String UserEmail;
         WTR.weightbuttontimeline.click();
         Log.info("Pressed the Weight button to display all the Logged weight cards");
         WTR.Check_units_Timeline(weightunit);
-        */
+
         //Checking the units in the notification
         Log.info("Check the same unit dislayed in the Notification");
         NWR.Check_units_Notification(weightunit);
@@ -138,7 +136,7 @@ public static String UserEmail;
         Log.endTestCase("Unit System - Weight Unit");
 
 
-    }
+    }*/
 
     @Test
     public void Profile()

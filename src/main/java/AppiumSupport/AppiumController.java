@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class AppiumController {
 
-    public static OS executionOS = OS.ANDROID;
+    public static OS executionOS = OS.IOS;
 
     public enum OS {
         ANDROID,
@@ -39,15 +39,23 @@ public class AppiumController {
                 driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
                 break;
             case IOS:
+
+
                 classpathRoot = new File(System.getProperty("user.dir"));
-                appDir = new File(classpathRoot, "/app/iOS/");
-                app = new File(appDir, "ContactsSimulator.app");
+                appDir = new File(classpathRoot, "/app/Ios/");
+                app = new File(appDir, "Glyco.app");
                 capabilities = new DesiredCapabilities();
                 capabilities.setCapability("platformName", "ios");
-                capabilities.setCapability("deviceName", "=iPhone 5s");
+                capabilities.setCapability("deviceName", "iPhone X");
+                capabilities.setCapability("platformVersion","11.0");
+                capabilities.setCapability("AutomationName","XCUITest");
+
                 capabilities.setCapability("app", app.getAbsolutePath());
                 driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
                 break;
+
+           // capabilities.setCapability("udid","8DE40AF5-3280-4ACF-B8CD-1507F6C305");
+
         }
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }

@@ -15,7 +15,7 @@ import org.openqa.selenium.support.How;
 
 import java.util.concurrent.TimeUnit;
 import Log_File.Log;
-
+import org.testng.Assert;
 public class Android_Login_Repository implements Login_Repository {
 
     @FindBy(how = How.ID, using = "btn_sign_in")
@@ -49,6 +49,11 @@ public class Android_Login_Repository implements Login_Repository {
         PageFactory.initElements(new AppiumFieldDecorator(driver2,5, TimeUnit.SECONDS),this);
     }
 
+    public void Press_Signin_Button() {
+
+        Ok.click();
+        Signin.click();
+    }
 
 public MobileElement Enter_Username_Password()
 {
@@ -61,8 +66,10 @@ public MobileElement Enter_Username_Password()
     return Signin;
     }
 
-
-
+   public void Verify_Proper_Login()
+   {
+       Assert.assertEquals(HomeTitle.getText(), "Home", "GlycoLeap App opened the Home Page");
+   }
 
 
 

@@ -1,41 +1,80 @@
-2017-10-10 13:01:11,471 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-10 13:01:11,475 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-10 13:01:11,476 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-10 13:01:14,966 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-10 13:01:20,802 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
-2017-10-10 13:01:26,101 [main] INFO Log_File.Log - Password entered
-2017-10-10 13:01:32,160 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-10 13:01:32,170 [main] INFO Log_File.Log - X
-2017-10-10 13:01:32,170 [main] INFO Log_File.Log - X
-2017-10-10 13:01:32,187 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-10 13:01:32,188 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-10 13:01:32,188 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-10 13:01:32,832 [main] INFO Log_File.Log - Left Menu opened Properly
-2017-10-10 13:01:34,202 [main] INFO Log_File.Log - Settings page opened Properly
-2017-10-10 13:01:35,210 [main] INFO Log_File.Log - Unit System menu clicked
-2017-10-10 13:01:35,769 [main] INFO Log_File.Log - In Units Page the weight units set to Weight lbs/ft
-2017-10-10 13:01:39,500 [main] INFO Log_File.Log - Check the same unit dislayed in the Notification
-2017-10-10 13:01:40,589 [main] INFO Log_File.Log - Pressed the Notification Button
-2017-10-10 13:01:41,328 [main] INFO Log_File.Log - The Units displayed for the current weight same as in the settings LBS
-2017-10-10 13:01:42,727 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-10 13:01:42,727 [main] INFO Log_File.Log - X
-2017-10-10 13:01:42,728 [main] INFO Log_File.Log - X
-2017-10-10 14:13:40,544 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-10 14:13:40,567 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-10 14:13:40,567 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-10 14:13:44,880 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-10 14:13:50,664 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
-2017-10-10 14:13:56,511 [main] INFO Log_File.Log - Password entered
-2017-10-10 14:14:04,365 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-10 14:14:04,398 [main] INFO Log_File.Log - X
-2017-10-10 14:14:04,399 [main] INFO Log_File.Log - X
-2017-10-10 14:14:04,416 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-10 14:14:04,416 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-10 14:14:04,417 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-10 14:14:06,194 [main] INFO Log_File.Log - Left Menu opened Properly
-2017-10-10 14:14:06,722 [main] INFO Log_File.Log - Settings page opened Properly
-2017-10-10 14:14:07,845 [main] INFO Log_File.Log - Unit System menu clicked
-2017-10-10 14:14:08,397 [main] INFO Log_File.Log - In Units Page the weight units set to Weight lbs/ft
-2017-10-10 14:14:12,444 [main] INFO Log_File.Log - Check the same unit dislayed in the Notification
-2017-10-10 14:14:13,426 [main] INFO Log_File.Log - Pressed the Notification Button
-2017-10-10 14:14:14,325 [main] INFO Log_File.Log - The Units displayed for the current weight same as in the settings LBS
+2017-10-16 10:33:54,175 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 10:33:54,189 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 10:33:54,189 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 10:33:56,278 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 10:36:25,602 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 10:36:25,611 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 10:36:25,613 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 10:36:27,743 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 12:08:25,603 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 12:08:25,650 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 12:08:25,651 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 12:08:28,132 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 12:20:56,193 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 12:20:56,222 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 12:20:56,223 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 12:20:58,323 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 12:26:43,054 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 12:26:43,084 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 12:26:43,086 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 12:26:45,444 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 12:35:01,500 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 12:35:01,532 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 12:35:01,533 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 12:35:03,795 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 12:35:08,611 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-16 12:48:03,496 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 12:48:03,536 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 12:48:03,537 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 12:48:05,917 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 12:48:11,266 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-16 13:03:09,580 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 13:03:09,612 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 13:03:09,612 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 13:03:11,816 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 13:03:16,821 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-16 13:13:00,753 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 13:13:00,786 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 13:13:00,788 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 13:13:03,244 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 13:13:08,297 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-16 13:13:14,796 [main] INFO Log_File.Log - Password entered
+2017-10-16 13:13:16,555 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-16 13:13:16,556 [main] INFO Log_File.Log - X
+2017-10-16 13:13:16,556 [main] INFO Log_File.Log - X
+2017-10-16 13:53:10,727 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 13:53:10,752 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 13:53:10,753 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 13:53:14,479 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 13:53:18,724 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-16 13:53:25,336 [main] INFO Log_File.Log - Password entered
+2017-10-16 14:14:50,413 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 14:14:50,437 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 14:14:50,438 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 14:20:08,941 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 14:20:08,974 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 14:20:08,974 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 14:20:11,730 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 14:20:17,414 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-16 14:20:24,055 [main] INFO Log_File.Log - Password entered
+2017-10-16 14:37:15,248 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 14:37:15,286 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 14:37:15,286 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 14:37:17,452 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 14:37:22,554 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-16 14:37:29,574 [main] INFO Log_File.Log - Password entered
+2017-10-16 14:50:10,319 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 14:50:10,372 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 14:50:10,373 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 14:58:44,001 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 14:58:44,075 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 14:58:44,079 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 14:58:48,401 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 14:58:53,748 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-16 14:59:00,436 [main] INFO Log_File.Log - Password entered
+2017-10-16 16:00:18,011 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 16:00:18,060 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-16 16:00:18,061 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-16 16:00:20,139 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-16 16:00:25,752 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-16 16:00:32,086 [main] INFO Log_File.Log - Password entered
