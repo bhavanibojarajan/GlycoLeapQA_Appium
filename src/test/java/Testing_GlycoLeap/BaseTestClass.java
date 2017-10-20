@@ -11,8 +11,10 @@ import PAOBFactory.FoodLog.Android_Glucose_Food_Log_Repository;
 import PAOBFactory.FoodLog.Food_Log_Repository;
 import PAOBFactory.FoodLog.Glucose_Food_Log_Repository;
 import PAOBFactory.LeftMenu.Android_LeftMenu_Repository;
+import PAOBFactory.LeftMenu.IOS_LeftMenu_Repository;
 import PAOBFactory.LeftMenu.LeftMenu_Repository;
 import PAOBFactory.LeftMenu.SettingPage.Android_Settingspage_Repository;
+import PAOBFactory.LeftMenu.SettingPage.IOS_Settingspage_Repository;
 import PAOBFactory.LeftMenu.SettingPage.Settingspage_Repository;
 import PAOBFactory.Login.Android_Login_Repository;
 import PAOBFactory.Login.IOS_Login_Repository;
@@ -74,6 +76,8 @@ public class BaseTestClass extends AppiumBaseClass{
             case IOS:
                 LR = new IOS_Login_Repository(driver());
 
+                LMR=new IOS_LeftMenu_Repository(driver());
+                SR = new IOS_Settingspage_Repository(driver());
                 break;
         }
     }

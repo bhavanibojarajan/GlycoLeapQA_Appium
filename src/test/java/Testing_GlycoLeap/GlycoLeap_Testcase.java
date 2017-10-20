@@ -3,6 +3,7 @@ package Testing_GlycoLeap;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import io.appium.java_client.MobileElement;
 import Log_File.Log;
@@ -20,7 +21,7 @@ public static String UserEmail;
     File prop = new File (appDir, "log4j.properties");
 
 
-    @Test
+    @BeforeTest
     public void Login()
 
     {
@@ -39,8 +40,8 @@ public static String UserEmail;
 
         login.click();
 
-        LR.Verify_Proper_Login();
-        //Assert.assertEquals(LR.HomeTitle.getText(), "Home", "GlycoLeap App opened the Home Page");
+        //LR.Verify_Proper_Login();
+
 
         Log.endTestCase("Login");
     }
@@ -61,14 +62,14 @@ public static String UserEmail;
     }*/
 
 
- /*  @Test
+  @Test
     public void Left_Menu() {
 
        Log.startTestCase("Left Menu Navigation");
 
 
        // LeftMenu TestCase
-     // LMR.LeftMenu_Navigation(UserEmail);
+      LMR.LeftMenu_Navigation(UserEmail);
 
 
        Log.endTestCase("LeftMenu Navigation");
@@ -80,17 +81,14 @@ public static String UserEmail;
      //LeftMenu - SettingPage Navigation
        Log.startTestCase("Settings Navigation");
 
-       LMR.leftmenuopner.click();
-       Log.info("Left Menu opened Properly");
-        LMR.settings.click();
-       Log.info("Settings page opened Properly");
+
         SR.Setting_Navigation();
 
 
         Log.endTestCase("Settings Navigation");
 
 
-    }*/
+    }
 
 
    /* @Test

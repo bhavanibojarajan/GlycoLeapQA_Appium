@@ -5,6 +5,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.junit.Assert;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
@@ -14,6 +15,9 @@ import java.util.concurrent.TimeUnit;
 import Log_File.Log;
 public class IOS_Login_Repository implements Login_Repository {
 
+    private AppiumDriver driver;
+
+    String notification="\"Glyco\" Would ike to Send You Notifications ";
     @FindBy(how = How.ID, using = "SIGN IN")
     public IOSElement Signin;
 
@@ -28,9 +32,16 @@ public class IOS_Login_Repository implements Login_Repository {
     public IOSElement Password;
 
 
-    @FindBy(how = How.XPATH, using = "//XCUIElementTypeNavigationBar[contains(@name,'Weight')]")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='Weight']")
     public IOSElement HomeTitle;
 
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='Don't Allow']")
+    public IOSElement dontallow;
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='Allow']")
+    public IOSElement allow;
+
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeAlert[@name='\"Glyco\" Would ike to Send You Notifications ']")
+    public IOSElement alertnotification;
 
 
     public IOS_Login_Repository(AppiumDriver driver2) {
@@ -41,7 +52,6 @@ public class IOS_Login_Repository implements Login_Repository {
     }
 
     public void Press_Signin_Button() {
-
 
         Signin.click();
     }
@@ -58,6 +68,24 @@ public class IOS_Login_Repository implements Login_Repository {
 
     public void Verify_Proper_Login()
     {
+        if(alertnotification.getText().equals("\"Gylco\" Would Like to Send You Notifications"))
+        {
+        allow.click();}
         Assert.assertEquals(HomeTitle.getText(),"Weight","The Login Failed");
     }
+
+    public boolean isAlertPresent()
+    {
+        try
+        {
+            driver.switchTo().alert();
+            return true;
+        }   // try
+        catch (NoAlertPresentException Ex)
+        {
+            return false;
+        }   // catch
+    }   // isAlertPresent()
+
+
 }

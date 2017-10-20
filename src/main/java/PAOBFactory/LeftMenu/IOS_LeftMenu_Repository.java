@@ -3,7 +3,9 @@ package PAOBFactory.LeftMenu;
 import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
@@ -12,100 +14,131 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
+import static java.lang.Boolean.TRUE;
+
 
 public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
 
     SoftAssert s_assert = new SoftAssert();
 
+    private AppiumDriver driver;
     //==========================================================================================================
-    //FindElement
-//android.widget.ImageButton[@content-desc='Open navigation drawer']
-    //AndroidElement LeftMenu Opener
-    @FindBy(how = How.XPATH, using ="//*[@class='android.widget.ImageButton']" )
-    public AndroidElement leftmenuopner;
 
-    //AndroidElement LeftMenu ProfileImage
+    //IOSElement LeftMenu Opener
+    @FindBy(how = How.ID, using ="button hamburger menu" )
+    public IOSElement leftmenuopner;
+
+    //IOSElement LeftMenu ProfileImage
     @FindBy(how = How.ID, using = "iv_nav_header_profile_image")
-    public AndroidElement leftmenuprofileimage;
+    public IOSElement leftmenuprofileimage;
 
-    //AndroidElement Username
-    @FindBy(how = How.ID, using = "tv_nav_header_username")
-    public AndroidElement username;
+    //IOSElement Username
+    @FindBy(how = How.ID, using = "Test50")
+    public IOSElement username;
 
-    //AndroidElement Email
-    @FindBy(how = How.ID, using = "tv_nav_header_email")
-    public AndroidElement email;
+    //IOSElement Email
+    @FindBy(how = How.ID, using = "test50@gmail.com")
+    public IOSElement email;
 
     //==========================================================================================================
-    //AndroidElement Settings
+    //IOSElement Settings
     @FindBy(how = How.ID, using = "Settings")
-    public AndroidElement settings;
+    public IOSElement settings;
 
-    //AndroidElement Settings
+    //IOSElement Settings
     @FindBy(how = How.ID, using = "Subscription")
-    public AndroidElement subscription;
-    //AndroidElement Ihaveacode
+    public IOSElement subscription;
+    //IOSElement Ihaveacode
     @FindBy(how = How.ID, using = "I have a code")
-    public AndroidElement ihaveacode;
+    public IOSElement ihaveacode;
 
-    //AndroidElement DietitianProfile
-    @FindBy(how = How.ID, using = "Dietitian Profiles")
-    public AndroidElement dietitianprofiles;
+    //IOSElement DietitianProfile
+    @FindBy(how = How.ID, using = "Dietitians Profile")
+    public IOSElement dietitianprofiles;
 
-    //AndroidElement AboutGlyco
+    //IOSElement AboutGlyco
     @FindBy(how = How.ID, using = "About Glyco")
-    public AndroidElement aboutglyco;
+    public IOSElement aboutglyco;
 
-    //AndroidElement Connect Apple Health
+    //IOSElement Connect Apple Health
     @FindBy(how = How.ID, using = "Connect Apple Health")
-    public AndroidElement connectappleHealth;
+    public IOSElement connectappleHealth;
 
-    //AndroidElement Write us a review
+    //IOSElement Write us a review
     @FindBy(how = How.ID, using = "Write us a review")
-    public AndroidElement writeusareview;
+    public IOSElement writeusareview;
 
-    //AndroidElement signout
+    //IOSElement signout
     @FindBy(how = How.ID, using = "Sign out")
-    public AndroidElement signout;
+    public IOSElement signout;
 
     //==========================================================================================================
 
-    //AndroidElement Version
-    @FindBy(how = How.ID, using = "iv_slot1")
-    public AndroidElement version;
-
-    //AndroidElement BackButton
-    @FindBy(how = How.XPATH, using = "//*[@content-desc='Navigate up']")
-    public AndroidElement backButton;
+    //IOSElement Version
+    @FindBy(how = How.ID, using = "//XCUIElementTypeStaticText[@name='v3.13.142.c2cbf8c0']")
+    public IOSElement version;
 
 
-    //AndroidElement BackButton
-    @FindBy(how = How.ID, using = "btn_back")
-    public AndroidElement backButtonUniquecode;
+
+
+    //IOSElement Setting page
+    @FindBy(how = How.ID, using = "button back")
+    public IOSElement backButton;
+
+    //IOSElement BackButton
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='SETTINGS']")
+    public IOSElement settingpage;
 
 
     //What's your Unique
-    //AndroidElement What's your Unique
-    @FindBy(how = How.ID, using = "btn_programID")
-    public AndroidElement ihaveacodetext;
+    //IOSElement What's your Unique
+    @FindBy(how = How.ID, using = "What's your Unique Program ID?")
+    public IOSElement ihaveacodetext;
 
+    //IOSElement back button for the ihavecode
+    @FindBy(how = How.ID, using = "ob back")
+    public IOSElement backButton_ihavecode;
+
+
+
+    //IOSElement cancel button
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeNavigationBar[@name='Glyco.HGLSideMenuVC']/XCUIElementTypeButton")
+    public IOSElement canceltheleftmenu;
 
 
     //Your current subscription plan
-    //AndroidElement What's your Unique
-    @FindBy(how = How.XPATH, using = "//*[@text='Your current subscription plan']")
-    public AndroidElement subscriptiontext;
+    //IOSElement Your current subscription plan
+    @FindBy(how = How.ID, using = "Your current subscription plan")
+    public IOSElement subscriptiontext;
 
-    //AndroidElement Glyco
-    @FindBy(how = How.XPATH, using = "//*[@text='Glyco']")
-    public AndroidElement glycotext;
+
+    //IOSElement Dietitians Profile
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='Dietitians Profile']")
+    public IOSElement dietitiansprofiletext;
+
+    //IOSElement Glyco
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='About']")
+    public IOSElement glycotext;
+
+    //==========================================================================================================
+
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='Don't Allow']")
+    public IOSElement dontallow;
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='Allow']")
+    public IOSElement allow;
+
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeAlert[@name='\"Glyco\" Would Like to Send You Notifications']")
+    public IOSElement alertnotification;
+
+
+
 
     //==========================================================================================================
     //Constructor for the Android_LeftMenu_Repository
     public IOS_LeftMenu_Repository(AppiumDriver driver2) {
         // TODO Auto-generated constructor stub
 
-
+         AppiumDriver driver=driver2;
         PageFactory.initElements(new AppiumFieldDecorator(driver2, 5, TimeUnit.SECONDS), this);
     }
 
@@ -114,37 +147,44 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
     @Override
     public void LeftMenu_Navigation(String useremail) {
 
+        /*if(isAlertPresent())
+        {
+          allow.click();}*/
+
+            allow.click();
+
+
         leftmenuopner.click();
 
         Log.info("Left Menu Opened Properly");
-        Assert.assertEquals(username.getText(),"Bhavani","UserName Displayed in the LeftMenu");
+        Assert.assertEquals(username.getText(),"Test50","UserName Displayed in the LeftMenu");
         Log.info("User name "+username.getText() +" Displayed in the Left Menu Page" );
 
-        Assert.assertEquals(email.getText(),useremail,"UserName Displayed in the LeftMenu");
+        Assert.assertEquals(email.getText(),"test50@gmail.com","UserName Displayed in the LeftMenu");
         Log.info("Email of the user "+email.getText() +" Displayed in the Left Menu Page" );
 
 
         //Navigate to setting Page
         settings.click();
         Log.info("Setting menu clicked");
-        Assert.assertEquals(settings.getText(),"Settings","Opened the Setting Page");
-        Log.info("Setting page opened properly and asserted with value "+settings.getText());
+        Assert.assertEquals(settingpage.getText(),"SETTINGS","Opened the Setting Page");
+        Log.info("Setting page opened properly and asserted with value "+settingpage.getText());
         backButton.click();
         Log.info("Back button clicked");
 
 
         //Navigate to I have a Code Page
-        leftmenuopner.click();
+
 
         ihaveacode.click();
         Log.info("I have a code menu clicked");
-        Assert.assertEquals(ihaveacodetext.getText(),"Where do I find my UPID?","Opened the I Have a code  Page");
+        Assert.assertEquals(ihaveacodetext.getText(),"What's your Unique Program ID?","Opened the I Have a code  Page");
         Log.info("I have a code opened properly and asserted with value "+ ihaveacodetext.getText());
-        backButtonUniquecode.click();
+        backButton_ihavecode.click();
         Log.info("Back button clicked");
 
         //Navigate to Subscription
-        leftmenuopner.click();
+
         subscription.click();
         Log.info("Subscription menu clicked");
         Assert.assertEquals(subscriptiontext.getText(),"Your current subscription plan","Opened the Subscription page");
@@ -154,28 +194,43 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
 
 
         //Navigate to Dietitian Profiles
-        leftmenuopner.click();
+
         dietitianprofiles.click();
         Log.info("Dietitian Profiles menu clicked");
-        Assert.assertEquals(dietitianprofiles.getText(),"Dietitian Profiles","Opened the Dietitian Profile Page");
-        Log.info("Dietitian Profiles opened properly and asserted with the value "+dietitianprofiles.getText());
+        Assert.assertEquals(dietitiansprofiletext.getText(),"Dietitians Profile","Opened the Dietitian Profile Page");
+        Log.info("Dietitian Profiles opened properly and asserted with the value "+dietitiansprofiletext.getText());
         backButton.click();
         Log.info("Back button clicked");
 
 
         //Navigate to About Glyco
-        leftmenuopner.click();
+
         aboutglyco.click();
         Log.info("About Glyco menu clicked");
-        Assert.assertEquals(glycotext.getText(),"Glyco","Opened the Dietitian Profile Page");
+        Assert.assertEquals(glycotext.getText(),"About","Opened the Dietitian Profile Page");
         Log.info("About Glyco opened properly and asserted with the value "+glycotext.getText());
         backButton.click();
 
-
+        canceltheleftmenu.click();
 
 
 
 
     }
+    public boolean isAlertPresent()
+    {
+        try
+        {
+            driver.switchTo().alert();
+            return true;
+        }   // try
+        catch (NoAlertPresentException Ex)
+        {
+            return false;
+        }   // catch
+    }   // isAlertPresent()
+
+
+
 
 }
