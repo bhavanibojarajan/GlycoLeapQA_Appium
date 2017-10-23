@@ -64,7 +64,9 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
     public IOSElement privacysetting;
 
 
-
+    //IOSELement Close icon
+    @FindBy(how = How.ID, using = "icon close")
+    public IOSElement iconclose;
 
     //IOSElement BACK BUTTON
 
@@ -122,7 +124,7 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
 
     public void Setting_Navigation() {
         // String value="OFF";
-
+        allow.click();
         leftmenuopener.click();
         Log.info("Left Menu opened Properly");
         settings.click();
@@ -174,6 +176,8 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
         backbutton.click();
         Log.info("Back button clicked");
         backbutton.click();
+
+        iconclose.click();
 
            /*//Navigate to Privacy
             privacy.click();

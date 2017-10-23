@@ -6,10 +6,7 @@ import AppiumSupport.AppiumBaseClass;
 import PAOBFactory.Comment_Edit_Delete.Add_Photo_Comment_Delete_Edit_Repository;
 import PAOBFactory.Comment_Edit_Delete.Android_Add_Photo_Comment_Delete_Edit_Repository;
 import PAOBFactory.DashBoard.DashBoard_Weight_Repository;
-import PAOBFactory.FoodLog.Android_Food_Log_Repository;
-import PAOBFactory.FoodLog.Android_Glucose_Food_Log_Repository;
-import PAOBFactory.FoodLog.Food_Log_Repository;
-import PAOBFactory.FoodLog.Glucose_Food_Log_Repository;
+import PAOBFactory.FoodLog.*;
 import PAOBFactory.LeftMenu.Android_LeftMenu_Repository;
 import PAOBFactory.LeftMenu.IOS_LeftMenu_Repository;
 import PAOBFactory.LeftMenu.LeftMenu_Repository;
@@ -21,6 +18,9 @@ import PAOBFactory.Login.IOS_Login_Repository;
 import PAOBFactory.Login.Login_Repository;
 import PAOBFactory.Notification.Android_Notification_Weight_Repository;
 import PAOBFactory.Notification.Notification_Weight_Repository;
+import PAOBFactory.Profile.Android_Profilepage_Repository;
+import PAOBFactory.Profile.IOS_Profilepage_Repository;
+import PAOBFactory.Profile.Profilepage_Repository;
 import PAOBFactory.RegisterNewUser.Android_PersonalDetail_Registory;
 import PAOBFactory.RegisterNewUser.Android_Register_Repository;
 import PAOBFactory.DashBoard.Android_DashBoard_Weight_Repository;
@@ -50,6 +50,7 @@ public class BaseTestClass extends AppiumBaseClass{
     protected Weight_Timeline_Repository WTR;
     protected Notification_Weight_Repository NWR;
     protected Weight_Detail_Repository WDR;
+    protected Profilepage_Repository PR;
 
     protected IOS_Login_Repository ILR;
 
@@ -72,12 +73,16 @@ public class BaseTestClass extends AppiumBaseClass{
                 WTR=new Android_Weight_Timeline_Repository(driver());
                 NWR = new Android_Notification_Weight_Repository(driver());
                 WDR= new Android_Weight_Detail_Repository(driver());
+                PR=new Android_Profilepage_Repository(driver());
                 break;
             case IOS:
                 LR = new IOS_Login_Repository(driver());
 
                 LMR=new IOS_LeftMenu_Repository(driver());
                 SR = new IOS_Settingspage_Repository(driver());
+                PR = new IOS_Profilepage_Repository(driver());
+                FLR=new IOS_Food_Log_Repository(driver());
+
                 break;
         }
     }

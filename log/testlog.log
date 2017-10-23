@@ -1,371 +1,130 @@
-2017-10-17 13:34:52,083 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:34:52,095 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 13:34:52,100 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:34:54,786 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 13:35:02,016 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 13:35:08,116 - Log_File.Log -INFO - Password entered
-2017-10-17 13:35:09,870 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 13:35:09,870 - Log_File.Log -INFO - X
-2017-10-17 13:35:09,870 - Log_File.Log -INFO - X
-2017-10-17 13:35:09,880 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:35:09,881 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 13:35:09,881 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:45:23,708 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:45:23,831 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 13:45:23,851 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:45:26,441 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 13:45:32,541 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 13:45:38,757 - Log_File.Log -INFO - Password entered
-2017-10-17 13:45:40,589 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 13:45:40,590 - Log_File.Log -INFO - X
-2017-10-17 13:45:40,590 - Log_File.Log -INFO - X
-2017-10-17 13:45:40,599 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:45:40,599 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 13:45:40,599 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:46:08,452 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-17 13:53:28,153 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:53:28,258 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 13:53:28,262 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:53:31,072 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 13:53:37,390 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 13:53:43,620 - Log_File.Log -INFO - Password entered
-2017-10-17 13:53:45,371 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 13:53:45,371 - Log_File.Log -INFO - X
-2017-10-17 13:53:45,371 - Log_File.Log -INFO - X
-2017-10-17 13:53:45,381 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:53:45,381 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 13:53:45,381 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 13:54:14,622 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-17 13:54:18,282 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-17 14:01:39,954 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:01:40,055 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 14:01:40,057 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:01:42,822 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 14:01:49,124 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 14:01:55,724 - Log_File.Log -INFO - Password entered
-2017-10-17 14:01:57,487 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 14:01:57,488 - Log_File.Log -INFO - X
-2017-10-17 14:01:57,488 - Log_File.Log -INFO - X
-2017-10-17 14:01:57,498 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:01:57,498 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 14:01:57,498 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:02:28,284 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-17 14:02:31,992 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-17 14:02:35,036 - Log_File.Log -INFO - Email of the user test50@gmail.com Displayed in the Left Menu Page
-2017-10-17 14:02:37,133 - Log_File.Log -INFO - Setting menu clicked
-2017-10-17 14:02:49,830 - Log_File.Log -INFO - Setting page opened properly and asserted with value SETTINGS
-2017-10-17 14:02:52,284 - Log_File.Log -INFO - Back button clicked
-2017-10-17 14:02:54,712 - Log_File.Log -INFO - I have a code menu clicked
-2017-10-17 14:02:57,210 - Log_File.Log -INFO - I have a code opened properly and asserted with value What's your Unique Program ID?
-2017-10-17 14:02:58,693 - Log_File.Log -INFO - Back button clicked
-2017-10-17 14:03:01,118 - Log_File.Log -INFO - Subscription menu clicked
-2017-10-17 14:03:03,557 - Log_File.Log -INFO - Subscription opened properly and asserted with the value Your current subscription plan
-2017-10-17 14:03:04,973 - Log_File.Log -INFO - Back button clicked
-2017-10-17 14:27:19,866 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:27:19,908 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 14:27:19,908 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:27:22,767 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 14:27:28,317 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 14:27:34,812 - Log_File.Log -INFO - Password entered
-2017-10-17 14:27:36,623 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 14:27:36,623 - Log_File.Log -INFO - X
-2017-10-17 14:27:36,624 - Log_File.Log -INFO - X
-2017-10-17 14:27:36,634 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:27:36,634 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 14:27:36,634 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:36:32,961 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:36:33,014 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 14:36:33,015 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:36:35,518 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 14:36:40,914 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 14:36:47,082 - Log_File.Log -INFO - Password entered
-2017-10-17 14:36:48,814 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 14:36:48,814 - Log_File.Log -INFO - X
-2017-10-17 14:36:48,815 - Log_File.Log -INFO - X
-2017-10-17 14:36:48,826 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:36:48,826 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 14:36:48,827 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:55:13,681 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 14:55:13,725 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 14:55:13,726 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:02:40,580 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:02:40,624 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:02:40,625 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:02:43,313 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 15:02:48,813 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 15:02:56,324 - Log_File.Log -INFO - Password entered
-2017-10-17 15:02:58,109 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 15:02:58,110 - Log_File.Log -INFO - X
-2017-10-17 15:02:58,110 - Log_File.Log -INFO - X
-2017-10-17 15:02:58,119 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:02:58,119 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:02:58,120 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:10:55,748 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:10:55,813 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:10:55,813 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:10:58,414 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 15:11:03,975 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 15:11:11,762 - Log_File.Log -INFO - Password entered
-2017-10-17 15:11:13,612 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 15:11:13,612 - Log_File.Log -INFO - X
-2017-10-17 15:11:13,612 - Log_File.Log -INFO - X
-2017-10-17 15:11:13,643 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:11:13,644 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:11:13,644 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:19:16,749 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:19:16,792 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:19:16,793 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:19:24,022 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 15:19:29,719 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 15:19:36,431 - Log_File.Log -INFO - Password entered
-2017-10-17 15:19:38,176 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 15:19:38,176 - Log_File.Log -INFO - X
-2017-10-17 15:19:38,176 - Log_File.Log -INFO - X
-2017-10-17 15:19:38,188 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:19:38,189 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:19:38,189 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:20:04,022 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-17 15:20:07,640 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-17 15:20:10,793 - Log_File.Log -INFO - Email of the user test50@gmail.com Displayed in the Left Menu Page
-2017-10-17 15:20:12,993 - Log_File.Log -INFO - Setting menu clicked
-2017-10-17 15:20:26,921 - Log_File.Log -INFO - Setting page opened properly and asserted with value SETTINGS
-2017-10-17 15:20:29,322 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:20:31,921 - Log_File.Log -INFO - I have a code menu clicked
-2017-10-17 15:20:34,524 - Log_File.Log -INFO - I have a code opened properly and asserted with value What's your Unique Program ID?
-2017-10-17 15:20:36,032 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:20:38,436 - Log_File.Log -INFO - Subscription menu clicked
-2017-10-17 15:20:40,986 - Log_File.Log -INFO - Subscription opened properly and asserted with the value Your current subscription plan
-2017-10-17 15:20:42,435 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:28:15,153 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:28:15,173 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:28:15,173 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:28:18,099 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 15:28:25,851 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 15:28:32,616 - Log_File.Log -INFO - Password entered
-2017-10-17 15:28:34,665 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 15:28:34,665 - Log_File.Log -INFO - X
-2017-10-17 15:28:34,665 - Log_File.Log -INFO - X
-2017-10-17 15:28:34,675 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:28:34,676 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:28:34,676 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:28:57,201 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-17 15:29:01,199 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-17 15:29:04,805 - Log_File.Log -INFO - Email of the user test50@gmail.com Displayed in the Left Menu Page
-2017-10-17 15:29:06,950 - Log_File.Log -INFO - Setting menu clicked
-2017-10-17 15:29:19,901 - Log_File.Log -INFO - Setting page opened properly and asserted with value SETTINGS
-2017-10-17 15:29:22,372 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:29:24,951 - Log_File.Log -INFO - I have a code menu clicked
-2017-10-17 15:29:28,316 - Log_File.Log -INFO - I have a code opened properly and asserted with value What's your Unique Program ID?
-2017-10-17 15:29:29,804 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:29:32,256 - Log_File.Log -INFO - Subscription menu clicked
-2017-10-17 15:29:34,767 - Log_File.Log -INFO - Subscription opened properly and asserted with the value Your current subscription plan
-2017-10-17 15:29:36,272 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:29:38,670 - Log_File.Log -INFO - Dietitian Profiles menu clicked
-2017-10-17 15:37:13,623 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:37:13,689 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:37:13,690 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:37:16,202 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 15:37:21,745 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 15:37:28,765 - Log_File.Log -INFO - Password entered
-2017-10-17 15:37:30,504 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 15:37:30,505 - Log_File.Log -INFO - X
-2017-10-17 15:37:30,505 - Log_File.Log -INFO - X
-2017-10-17 15:37:30,517 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:37:30,517 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:37:30,517 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:37:54,093 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-17 15:37:58,344 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-17 15:38:01,594 - Log_File.Log -INFO - Email of the user test50@gmail.com Displayed in the Left Menu Page
-2017-10-17 15:38:03,956 - Log_File.Log -INFO - Setting menu clicked
-2017-10-17 15:38:16,644 - Log_File.Log -INFO - Setting page opened properly and asserted with value SETTINGS
-2017-10-17 15:38:19,148 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:38:21,896 - Log_File.Log -INFO - I have a code menu clicked
-2017-10-17 15:38:24,594 - Log_File.Log -INFO - I have a code opened properly and asserted with value What's your Unique Program ID?
-2017-10-17 15:38:27,009 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:38:29,496 - Log_File.Log -INFO - Subscription menu clicked
-2017-10-17 15:38:31,993 - Log_File.Log -INFO - Subscription opened properly and asserted with the value Your current subscription plan
-2017-10-17 15:38:33,543 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:38:36,153 - Log_File.Log -INFO - Dietitian Profiles menu clicked
-2017-10-17 15:46:16,651 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:46:16,716 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:46:16,717 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:46:19,427 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-17 15:46:25,375 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-17 15:46:32,911 - Log_File.Log -INFO - Password entered
-2017-10-17 15:46:35,262 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 15:46:35,263 - Log_File.Log -INFO - X
-2017-10-17 15:46:35,263 - Log_File.Log -INFO - X
-2017-10-17 15:46:35,274 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:46:35,275 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-17 15:46:35,275 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-17 15:47:04,474 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-17 15:47:08,219 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-17 15:47:11,283 - Log_File.Log -INFO - Email of the user test50@gmail.com Displayed in the Left Menu Page
-2017-10-17 15:47:13,429 - Log_File.Log -INFO - Setting menu clicked
-2017-10-17 15:47:25,659 - Log_File.Log -INFO - Setting page opened properly and asserted with value SETTINGS
-2017-10-17 15:47:28,075 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:47:30,554 - Log_File.Log -INFO - I have a code menu clicked
-2017-10-17 15:47:33,027 - Log_File.Log -INFO - I have a code opened properly and asserted with value What's your Unique Program ID?
-2017-10-17 15:47:34,519 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:47:37,476 - Log_File.Log -INFO - Subscription menu clicked
-2017-10-17 15:47:39,819 - Log_File.Log -INFO - Subscription opened properly and asserted with the value Your current subscription plan
-2017-10-17 15:47:41,227 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:47:43,536 - Log_File.Log -INFO - Dietitian Profiles menu clicked
-2017-10-17 15:47:51,869 - Log_File.Log -INFO - Dietitian Profiles opened properly and asserted with the value Dietitians Profile
-2017-10-17 15:47:53,603 - Log_File.Log -INFO - Back button clicked
-2017-10-17 15:47:55,959 - Log_File.Log -INFO - About Glyco menu clicked
-2017-10-17 15:48:00,362 - Log_File.Log -INFO - About Glyco opened properly and asserted with the value About
-2017-10-17 15:48:01,854 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-17 15:48:01,854 - Log_File.Log -INFO - X
-2017-10-17 15:48:01,855 - Log_File.Log -INFO - X
-2017-10-20 09:40:23,339 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 09:40:23,416 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 09:40:23,417 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 09:40:25,922 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-20 09:40:38,923 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-20 09:40:45,474 - Log_File.Log -INFO - Password entered
-2017-10-20 09:40:47,383 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-20 09:40:47,383 - Log_File.Log -INFO - X
-2017-10-20 09:40:47,384 - Log_File.Log -INFO - X
-2017-10-20 09:40:47,457 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 09:40:47,457 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 09:40:47,457 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 09:41:16,790 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-20 09:41:21,112 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-20 09:41:24,362 - Log_File.Log -INFO - Email of the user test50@gmail.com Displayed in the Left Menu Page
-2017-10-20 09:41:26,554 - Log_File.Log -INFO - Setting menu clicked
-2017-10-20 09:41:39,318 - Log_File.Log -INFO - Setting page opened properly and asserted with value SETTINGS
-2017-10-20 09:41:41,718 - Log_File.Log -INFO - Back button clicked
-2017-10-20 09:41:44,238 - Log_File.Log -INFO - I have a code menu clicked
-2017-10-20 09:41:46,788 - Log_File.Log -INFO - I have a code opened properly and asserted with value What's your Unique Program ID?
-2017-10-20 09:41:48,203 - Log_File.Log -INFO - Back button clicked
-2017-10-20 09:41:50,599 - Log_File.Log -INFO - Subscription menu clicked
-2017-10-20 09:41:53,111 - Log_File.Log -INFO - Subscription opened properly and asserted with the value Your current subscription plan
-2017-10-20 09:41:54,607 - Log_File.Log -INFO - Back button clicked
-2017-10-20 09:41:57,014 - Log_File.Log -INFO - Dietitian Profiles menu clicked
-2017-10-20 09:42:06,249 - Log_File.Log -INFO - Dietitian Profiles opened properly and asserted with the value Dietitians Profile
-2017-10-20 09:42:08,324 - Log_File.Log -INFO - Back button clicked
-2017-10-20 09:42:10,901 - Log_File.Log -INFO - About Glyco menu clicked
-2017-10-20 09:42:15,705 - Log_File.Log -INFO - About Glyco opened properly and asserted with the value About
-2017-10-20 09:42:17,210 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-20 09:42:17,211 - Log_File.Log -INFO - X
-2017-10-20 09:42:17,211 - Log_File.Log -INFO - X
-2017-10-20 09:42:17,212 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 09:42:17,212 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Settings Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 09:42:17,213 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 09:50:32,410 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 09:50:32,475 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 09:50:32,476 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 09:50:34,881 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-20 09:50:40,367 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-20 09:50:46,064 - Log_File.Log -INFO - Password entered
-2017-10-20 09:50:47,720 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-20 09:50:47,721 - Log_File.Log -INFO - X
-2017-10-20 09:50:47,721 - Log_File.Log -INFO - X
-2017-10-20 09:50:47,741 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 09:50:47,741 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 09:50:47,741 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 09:51:20,872 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-20 09:51:24,462 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-20 09:51:27,256 - Log_File.Log -INFO - Email of the user test50@gmail.com Displayed in the Left Menu Page
-2017-10-20 09:51:29,210 - Log_File.Log -INFO - Setting menu clicked
-2017-10-20 09:51:40,636 - Log_File.Log -INFO - Setting page opened properly and asserted with value SETTINGS
-2017-10-20 09:51:42,880 - Log_File.Log -INFO - Back button clicked
-2017-10-20 09:51:45,375 - Log_File.Log -INFO - I have a code menu clicked
-2017-10-20 09:51:47,876 - Log_File.Log -INFO - I have a code opened properly and asserted with value What's your Unique Program ID?
-2017-10-20 09:51:49,323 - Log_File.Log -INFO - Back button clicked
-2017-10-20 09:51:51,577 - Log_File.Log -INFO - Subscription menu clicked
-2017-10-20 09:51:53,860 - Log_File.Log -INFO - Subscription opened properly and asserted with the value Your current subscription plan
-2017-10-20 09:51:55,762 - Log_File.Log -INFO - Back button clicked
-2017-10-20 09:51:58,383 - Log_File.Log -INFO - Dietitian Profiles menu clicked
-2017-10-20 09:52:05,961 - Log_File.Log -INFO - Dietitian Profiles opened properly and asserted with the value Dietitians Profile
-2017-10-20 09:52:07,572 - Log_File.Log -INFO - Back button clicked
-2017-10-20 09:52:09,871 - Log_File.Log -INFO - About Glyco menu clicked
-2017-10-20 09:52:14,188 - Log_File.Log -INFO - About Glyco opened properly and asserted with the value About
-2017-10-20 10:32:14,508 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 10:32:14,585 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 10:32:14,586 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 10:32:17,090 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-20 10:32:22,486 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-20 10:32:28,984 - Log_File.Log -INFO - Password entered
-2017-10-20 10:32:30,843 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-20 10:32:30,862 - Log_File.Log -INFO - X
-2017-10-20 10:32:30,862 - Log_File.Log -INFO - X
-2017-10-20 10:32:30,880 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 10:32:30,881 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 10:32:30,881 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 10:33:01,886 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-20 10:33:05,686 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-20 10:33:08,682 - Log_File.Log -INFO - Email of the user test50@gmail.com Displayed in the Left Menu Page
-2017-10-20 10:33:10,778 - Log_File.Log -INFO - Setting menu clicked
-2017-10-20 10:33:23,097 - Log_File.Log -INFO - Setting page opened properly and asserted with value SETTINGS
-2017-10-20 10:33:25,454 - Log_File.Log -INFO - Back button clicked
-2017-10-20 10:33:27,951 - Log_File.Log -INFO - I have a code menu clicked
-2017-10-20 10:33:30,248 - Log_File.Log -INFO - I have a code opened properly and asserted with value What's your Unique Program ID?
-2017-10-20 10:33:31,757 - Log_File.Log -INFO - Back button clicked
-2017-10-20 10:33:34,036 - Log_File.Log -INFO - Subscription menu clicked
-2017-10-20 10:33:36,613 - Log_File.Log -INFO - Subscription opened properly and asserted with the value Your current subscription plan
-2017-10-20 10:33:37,986 - Log_File.Log -INFO - Back button clicked
-2017-10-20 10:33:41,502 - Log_File.Log -INFO - Dietitian Profiles menu clicked
-2017-10-20 10:33:49,840 - Log_File.Log -INFO - Dietitian Profiles opened properly and asserted with the value Dietitians Profile
-2017-10-20 10:33:51,568 - Log_File.Log -INFO - Back button clicked
-2017-10-20 10:33:53,828 - Log_File.Log -INFO - About Glyco menu clicked
-2017-10-20 10:33:58,200 - Log_File.Log -INFO - About Glyco opened properly and asserted with the value About
-2017-10-20 10:41:55,711 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 10:41:55,777 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 10:41:55,778 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 10:41:57,997 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-20 10:42:03,645 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-20 10:42:09,696 - Log_File.Log -INFO - Password entered
-2017-10-20 10:42:11,448 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-20 10:42:11,448 - Log_File.Log -INFO - X
-2017-10-20 10:42:11,448 - Log_File.Log -INFO - X
-2017-10-20 10:42:11,466 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 10:42:11,467 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 10:42:11,467 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 10:42:37,394 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-20 10:42:41,117 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-20 10:42:44,244 - Log_File.Log -INFO - Email of the user test50@gmail.com Displayed in the Left Menu Page
-2017-10-20 10:42:46,415 - Log_File.Log -INFO - Setting menu clicked
-2017-10-20 10:42:59,445 - Log_File.Log -INFO - Setting page opened properly and asserted with value SETTINGS
-2017-10-20 10:43:01,897 - Log_File.Log -INFO - Back button clicked
-2017-10-20 10:43:04,396 - Log_File.Log -INFO - I have a code menu clicked
-2017-10-20 10:43:06,958 - Log_File.Log -INFO - I have a code opened properly and asserted with value What's your Unique Program ID?
-2017-10-20 10:43:08,445 - Log_File.Log -INFO - Back button clicked
-2017-10-20 10:43:10,843 - Log_File.Log -INFO - Subscription menu clicked
-2017-10-20 10:43:13,306 - Log_File.Log -INFO - Subscription opened properly and asserted with the value Your current subscription plan
-2017-10-20 10:43:14,752 - Log_File.Log -INFO - Back button clicked
-2017-10-20 10:43:17,114 - Log_File.Log -INFO - Dietitian Profiles menu clicked
-2017-10-20 10:43:25,139 - Log_File.Log -INFO - Dietitian Profiles opened properly and asserted with the value Dietitians Profile
-2017-10-20 10:43:26,945 - Log_File.Log -INFO - Back button clicked
-2017-10-20 10:43:29,338 - Log_File.Log -INFO - About Glyco menu clicked
-2017-10-20 10:43:33,905 - Log_File.Log -INFO - About Glyco opened properly and asserted with the value About
-2017-10-20 14:39:10,812 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 14:39:10,878 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 14:39:10,878 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 14:39:13,667 - Log_File.Log -INFO - Signin Button Pressed
-2017-10-20 14:39:19,333 - Log_File.Log -INFO - Username  test50@gmail.com entered
-2017-10-20 14:39:25,465 - Log_File.Log -INFO - Password entered
-2017-10-20 14:39:27,215 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-20 14:39:27,215 - Log_File.Log -INFO - X
-2017-10-20 14:39:27,216 - Log_File.Log -INFO - X
-2017-10-20 14:39:27,238 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 14:39:27,239 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Left Menu Navigation       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-20 14:39:27,239 - Log_File.Log -INFO - ****************************************************************************************
-2017-10-20 14:39:48,063 - Log_File.Log -INFO - Left Menu Opened Properly
-2017-10-20 14:39:51,771 - Log_File.Log -INFO - User name Test50 Displayed in the Left Menu Page
-2017-10-20 14:39:54,914 - Log_File.Log -INFO - Email of the user test50@gmail.com Displayed in the Left Menu Page
-2017-10-20 14:39:57,018 - Log_File.Log -INFO - Setting menu clicked
-2017-10-20 14:40:09,135 - Log_File.Log -INFO - Setting page opened properly and asserted with value SETTINGS
-2017-10-20 14:40:11,517 - Log_File.Log -INFO - Back button clicked
-2017-10-20 14:40:13,928 - Log_File.Log -INFO - I have a code menu clicked
-2017-10-20 14:40:16,414 - Log_File.Log -INFO - I have a code opened properly and asserted with value What's your Unique Program ID?
-2017-10-20 14:40:17,929 - Log_File.Log -INFO - Back button clicked
-2017-10-20 14:40:20,282 - Log_File.Log -INFO - Subscription menu clicked
-2017-10-20 14:40:22,778 - Log_File.Log -INFO - Subscription opened properly and asserted with the value Your current subscription plan
-2017-10-20 14:40:24,265 - Log_File.Log -INFO - Back button clicked
-2017-10-20 14:40:26,536 - Log_File.Log -INFO - Dietitian Profiles menu clicked
-2017-10-20 14:40:34,410 - Log_File.Log -INFO - Dietitian Profiles opened properly and asserted with the value Dietitians Profile
-2017-10-20 14:40:36,720 - Log_File.Log -INFO - Back button clicked
-2017-10-20 14:40:39,583 - Log_File.Log -INFO - About Glyco menu clicked
-2017-10-20 14:40:44,259 - Log_File.Log -INFO - About Glyco opened properly and asserted with the value About
+2017-10-23 14:37:52,637 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 14:37:52,654 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 14:37:52,675 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 14:46:23,535 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 14:46:23,548 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 14:46:23,549 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 14:46:26,090 - Log_File.Log -INFO - Signin Button Pressed
+2017-10-23 14:46:30,978 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-10-23 14:46:37,090 - Log_File.Log -INFO - Password entered
+2017-10-23 14:46:38,826 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-23 14:46:38,826 - Log_File.Log -INFO - X
+2017-10-23 14:46:38,826 - Log_File.Log -INFO - X
+2017-10-23 14:46:38,850 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 14:46:38,850 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 14:46:38,850 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 14:47:01,973 - Log_File.Log -INFO - Left Menu opened Properly
+2017-10-23 14:47:04,931 - Log_File.Log -INFO - Settings page opened Properly
+2017-10-23 14:47:07,993 - Log_File.Log -INFO - Profile menu clicked
+2017-10-23 14:47:18,085 - Log_File.Log -INFO - User email  displayed properly test50@gmail.com
+2017-10-23 15:23:22,562 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:23:22,576 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 15:23:22,577 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:23:24,764 - Log_File.Log -INFO - Signin Button Pressed
+2017-10-23 15:23:30,011 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-10-23 15:23:35,976 - Log_File.Log -INFO - Password entered
+2017-10-23 15:23:37,666 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-23 15:23:37,680 - Log_File.Log -INFO - X
+2017-10-23 15:23:37,681 - Log_File.Log -INFO - X
+2017-10-23 15:23:37,690 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:23:37,691 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 15:23:37,691 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:24:00,463 - Log_File.Log -INFO - Left Menu opened Properly
+2017-10-23 15:24:03,064 - Log_File.Log -INFO - Settings page opened Properly
+2017-10-23 15:24:05,763 - Log_File.Log -INFO - Profile menu clicked
+2017-10-23 15:24:15,018 - Log_File.Log -INFO - User email  displayed properly test50@gmail.com
+2017-10-23 15:43:28,871 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:43:28,895 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 15:43:28,895 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:43:31,591 - Log_File.Log -INFO - Signin Button Pressed
+2017-10-23 15:43:37,042 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-10-23 15:43:43,441 - Log_File.Log -INFO - Password entered
+2017-10-23 15:43:45,291 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-23 15:43:45,292 - Log_File.Log -INFO - X
+2017-10-23 15:43:45,292 - Log_File.Log -INFO - X
+2017-10-23 15:43:45,302 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:43:45,302 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 15:43:45,302 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:44:09,593 - Log_File.Log -INFO - Left Menu opened Properly
+2017-10-23 15:44:12,342 - Log_File.Log -INFO - Settings page opened Properly
+2017-10-23 15:44:15,292 - Log_File.Log -INFO - Profile menu clicked
+2017-10-23 15:44:25,313 - Log_File.Log -INFO - User email  displayed properly test50@gmail.com
+2017-10-23 15:44:34,652 - Log_File.Log -INFO - User name displayed properly Test50
+2017-10-23 15:44:44,239 - Log_File.Log -INFO - User date of birth displayed properly Apr 11, 1982
+2017-10-23 15:55:27,747 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:55:27,770 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 15:55:27,771 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:55:30,376 - Log_File.Log -INFO - Signin Button Pressed
+2017-10-23 15:55:35,817 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-10-23 15:55:42,014 - Log_File.Log -INFO - Password entered
+2017-10-23 15:55:43,764 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-23 15:55:43,764 - Log_File.Log -INFO - X
+2017-10-23 15:55:43,765 - Log_File.Log -INFO - X
+2017-10-23 15:55:43,776 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:55:43,776 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 15:55:43,776 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 15:56:07,677 - Log_File.Log -INFO - Left Menu opened Properly
+2017-10-23 15:56:10,415 - Log_File.Log -INFO - Settings page opened Properly
+2017-10-23 15:56:13,964 - Log_File.Log -INFO - Profile menu clicked
+2017-10-23 15:56:23,776 - Log_File.Log -INFO - User email  displayed properly test50@gmail.com
+2017-10-23 15:56:33,281 - Log_File.Log -INFO - User name displayed properly Test50
+2017-10-23 15:56:42,678 - Log_File.Log -INFO - User date of birth displayed properly Apr 11, 1982
+2017-10-23 15:56:52,230 - Log_File.Log -INFO - User gender displayed properly Female
+2017-10-23 15:57:02,221 - Log_File.Log -INFO - Start weight unit displayed properly 54.0 kg
+2017-10-23 16:06:54,033 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 16:06:54,068 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 16:06:54,069 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 16:06:57,235 - Log_File.Log -INFO - Signin Button Pressed
+2017-10-23 16:07:03,661 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-10-23 16:07:10,066 - Log_File.Log -INFO - Password entered
+2017-10-23 16:07:11,920 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-23 16:07:11,922 - Log_File.Log -INFO - X
+2017-10-23 16:07:11,922 - Log_File.Log -INFO - X
+2017-10-23 16:07:11,932 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 16:07:11,933 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 16:07:11,933 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 16:07:48,813 - Log_File.Log -INFO - Left Menu opened Properly
+2017-10-23 16:07:52,263 - Log_File.Log -INFO - Settings page opened Properly
+2017-10-23 16:07:55,861 - Log_File.Log -INFO - Profile menu clicked
+2017-10-23 16:08:06,106 - Log_File.Log -INFO - User email  displayed properly test50@gmail.com
+2017-10-23 16:08:15,506 - Log_File.Log -INFO - User name displayed properly Test50
+2017-10-23 16:08:24,656 - Log_File.Log -INFO - User date of birth displayed properly Apr 11, 1982
+2017-10-23 16:08:34,306 - Log_File.Log -INFO - User gender displayed properly Female
+2017-10-23 16:08:43,505 - Log_File.Log -INFO - Start weight unit displayed properly 54.0 kg
+2017-10-23 16:08:52,500 - Log_File.Log -INFO - Start height unit displayed properly 157.5 cm
+2017-10-23 16:08:52,500 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-23 16:08:52,500 - Log_File.Log -INFO - X
+2017-10-23 16:08:52,500 - Log_File.Log -INFO - X
+2017-10-23 17:35:30,846 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 17:35:30,914 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 17:35:30,915 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 17:35:32,987 - Log_File.Log -INFO - Signin Button Pressed
+2017-10-23 17:35:38,509 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-10-23 17:35:44,715 - Log_File.Log -INFO - Password entered
+2017-10-23 17:35:46,424 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-23 17:35:46,425 - Log_File.Log -INFO - X
+2017-10-23 17:35:46,425 - Log_File.Log -INFO - X
+2017-10-23 17:35:46,435 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 17:35:46,435 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 17:35:46,435 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 17:38:57,918 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 17:38:57,928 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 17:38:57,928 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 17:40:22,359 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 17:40:22,372 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 17:40:22,372 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 17:40:24,277 - Log_File.Log -INFO - Signin Button Pressed
+2017-10-23 17:40:28,588 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-10-23 17:40:35,229 - Log_File.Log -INFO - Password entered
+2017-10-23 17:40:36,956 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-23 17:40:36,956 - Log_File.Log -INFO - X
+2017-10-23 17:40:36,956 - Log_File.Log -INFO - X
+2017-10-23 17:40:36,974 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 17:40:36,975 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-23 17:40:36,975 - Log_File.Log -INFO - ****************************************************************************************
+2017-10-23 17:40:56,326 - Log_File.Log -INFO - Log button Pressed
+2017-10-23 17:40:58,590 - Log_File.Log -INFO - Food Log button pressed
+2017-10-23 17:41:10,229 - Log_File.Log -INFO - Library option pressed
+2017-10-23 17:41:37,256 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-23 17:41:37,258 - Log_File.Log -INFO - X
+2017-10-23 17:41:37,259 - Log_File.Log -INFO - X

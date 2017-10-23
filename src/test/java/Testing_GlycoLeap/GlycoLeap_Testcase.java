@@ -47,25 +47,26 @@ public static String UserEmail;
     }
 
 
- /*   @Test
+   @Test
     public void Food_Log() throws InterruptedException
     {
 
+        Log.startTestCase("Full Food Log");
         FLR.Taking_One_Full_Food_Log();
         //FLR.View_Edit_Delete();
-        GFLR.Taking_Before_Food_Glucose().click();
+       /* GFLR.Taking_Before_Food_Glucose().click();
         GFLR.taking_Glucose();
         // GFLR.Taking_After_Food_Glucose().click();
         //GFLR.taking_Glucose();
-        APCDER.AddCommentandImage();
-
-    }*/
+        APCDER.AddCommentandImage();*/
+        Log.endTestCase("Full Food Log");
+    }
 
 
   @Test
     public void Left_Menu() {
 
-       Log.startTestCase("Left Menu Navigation");
+      /* Log.startTestCase("Left Menu Navigation");
 
 
        // LeftMenu TestCase
@@ -75,10 +76,10 @@ public static String UserEmail;
        Log.endTestCase("LeftMenu Navigation");
 
 
+*/
 
 
-
-     //LeftMenu - SettingPage Navigation
+    /* //LeftMenu - SettingPage Navigation
        Log.startTestCase("Settings Navigation");
 
 
@@ -87,7 +88,7 @@ public static String UserEmail;
 
         Log.endTestCase("Settings Navigation");
 
-
+*/
     }
 
 
@@ -139,6 +140,14 @@ public static String UserEmail;
     @Test
     public void Profile()
     {
+        /*Log.startTestCase("Profile Page");
+
+
+       PR.Profile_page_validation();
+
+
+        Log.endTestCase("Profile Page");
+*/
 
     }
 

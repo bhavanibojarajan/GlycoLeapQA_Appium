@@ -102,7 +102,7 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
 
 
     //IOSElement cancel button
-    @FindBy(how = How.XPATH, using = "//XCUIElementTypeNavigationBar[@name='Glyco.HGLSideMenuVC']/XCUIElementTypeButton")
+    @FindBy(how = How.XPATH, using = "//*[@name='Glyco.HGLSideMenuVC']/follow-sibling::XCUIElementTypeButton")
     public IOSElement canceltheleftmenu;
 
 
@@ -119,6 +119,9 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
     //IOSElement Glyco
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='About']")
     public IOSElement glycotext;
+
+
+
 
     //==========================================================================================================
 
@@ -210,8 +213,8 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
         Assert.assertEquals(glycotext.getText(),"About","Opened the Dietitian Profile Page");
         Log.info("About Glyco opened properly and asserted with the value "+glycotext.getText());
         backButton.click();
-
         canceltheleftmenu.click();
+
 
 
 
