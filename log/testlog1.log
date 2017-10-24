@@ -128,3 +128,68 @@
 2017-10-23 17:41:37,256 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
 2017-10-23 17:41:37,258 [main] INFO Log_File.Log - X
 2017-10-23 17:41:37,259 [main] INFO Log_File.Log - X
+2017-10-24 10:45:32,086 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 10:45:32,178 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-24 10:45:32,181 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 10:45:34,710 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-24 10:45:40,308 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-24 10:45:46,717 [main] INFO Log_File.Log - Password entered
+2017-10-24 10:45:48,429 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-24 10:45:48,430 [main] INFO Log_File.Log - X
+2017-10-24 10:45:48,430 [main] INFO Log_File.Log - X
+2017-10-24 10:45:48,505 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 10:45:48,505 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-24 10:45:48,506 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 10:46:19,155 [main] INFO Log_File.Log - Log button Pressed
+2017-10-24 10:46:21,507 [main] INFO Log_File.Log - Food Log button pressed
+2017-10-24 10:46:38,910 [main] INFO Log_File.Log - Library option pressed
+2017-10-24 11:04:53,096 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 11:04:53,157 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-24 11:04:53,158 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 11:04:55,354 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-24 11:05:00,645 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-24 11:05:07,734 [main] INFO Log_File.Log - Password entered
+2017-10-24 11:05:09,581 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-24 11:05:09,581 [main] INFO Log_File.Log - X
+2017-10-24 11:05:09,581 [main] INFO Log_File.Log - X
+2017-10-24 11:05:09,590 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 11:05:09,590 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-24 11:05:09,590 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 11:05:31,633 [main] INFO Log_File.Log - Log button Pressed
+2017-10-24 11:05:34,035 [main] INFO Log_File.Log - Food Log button pressed
+2017-10-24 11:05:50,731 [main] INFO Log_File.Log - Library option pressed
+2017-10-24 11:06:06,327 [main] INFO Log_File.Log - Selected all the food photo from 1
+2017-10-24 11:06:24,858 [main] INFO Log_File.Log - Description about the  food typed Write your food descriptions...
+2017-10-24 11:06:28,129 [main] INFO Log_File.Log - Pressed the mood Relaxed
+2017-10-24 11:06:31,522 [main] INFO Log_File.Log - Selecting the Time
+2017-10-24 11:06:42,774 [main] INFO Log_File.Log - Selected the day from the given option Today
+2017-10-24 11:06:53,525 [main] INFO Log_File.Log - Selected the hour from the given option 8 o’clock
+2017-10-24 11:07:04,659 [main] INFO Log_File.Log - Selected the minutes from the given option 45 minutes
+2017-10-24 11:07:15,676 [main] INFO Log_File.Log - Selected the AM/PM from the given option AM
+2017-10-24 17:00:46,501 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 17:00:46,612 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-24 17:00:46,612 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 17:00:51,621 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-24 17:00:56,864 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-10-24 17:01:02,876 [main] INFO Log_File.Log - Password entered
+2017-10-24 17:01:04,631 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-24 17:01:04,631 [main] INFO Log_File.Log - X
+2017-10-24 17:01:04,632 [main] INFO Log_File.Log - X
+2017-10-24 17:01:04,642 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 17:01:04,642 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-24 17:01:04,642 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 17:01:27,365 [main] INFO Log_File.Log - Log button Pressed
+2017-10-24 17:01:29,769 [main] INFO Log_File.Log - Food Log button pressed
+2017-10-24 17:01:45,316 [main] INFO Log_File.Log - Library option pressed
+2017-10-24 17:02:01,906 [main] INFO Log_File.Log - Selected all the food photo from 1
+2017-10-24 17:02:19,835 [main] INFO Log_File.Log - Description about the  food typed Write your food descriptions...
+2017-10-24 17:02:23,174 [main] INFO Log_File.Log - Pressed the mood Relaxed
+2017-10-24 17:02:26,734 [main] INFO Log_File.Log - Selecting the Time
+2017-10-24 17:02:37,854 [main] INFO Log_File.Log - Selected the day from the given option Today
+2017-10-24 17:02:48,727 [main] INFO Log_File.Log - Selected the hour from the given option 5 o’clock
+2017-10-24 17:03:00,124 [main] INFO Log_File.Log - Selected the minutes from the given option 02 minutes
+2017-10-24 17:03:11,170 [main] INFO Log_File.Log - Selected the AM/PM from the given option AM
+2017-10-24 17:37:37,308 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 17:37:37,414 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-24 17:37:37,415 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-24 17:37:39,848 [main] INFO Log_File.Log - Signin Button Pressed

@@ -38,6 +38,10 @@ public class IOS_Food_Log_Repository implements Food_Log_Repository {
 
 
     //IOSElement -- skip
+    @FindBy(how = How.ID, using = "Ok")
+    public IOSElement ok;
+
+    //IOSElement -- skip
     @FindBy(how = How.ID, using = "Skip")
     public IOSElement skip;
 
@@ -119,7 +123,47 @@ public IOSElement submit;
     @FindBy(how = How.ID, using = "iv_photo")
     public IOSElement photos_fordisplay;
 
+//============================================================
 
+    //IOSElement -- FoodTime
+    @FindBy(how = How.XPATH, using = "//*[@name='Food Time']/following-sibling::XCUIElementTypeStaticText[1]")
+    public IOSElement foodtime;
+
+
+    //IOSElement -- Now
+    @FindBy(how = How.ID, using = "Now")
+    public IOSElement currenttime;
+
+    //IOSElement -- Save
+    @FindBy(how = How.ID, using = "Save")
+    public IOSElement save;
+
+    //IOSElement -- Now
+    @FindBy(how = How.XPATH, using = "(//XCUIElementTypeButton[@name='Cancel'])[2])")
+    public IOSElement canceltime;
+
+    //IOSElement -- Day
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeDatePicker/descendant::XCUIElementTypePickerWheel[1]")
+    public IOSElement day;
+
+    //IOSElement -- hours
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeDatePicker/descendant::XCUIElementTypePickerWheel[2]")
+    public IOSElement hours;
+
+    //IOSElement -- Minutes
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeDatePicker/descendant::XCUIElementTypePickerWheel[3]")
+    public IOSElement minutes;
+
+    //IOSElement -- AM/PM
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeDatePicker/descendant::XCUIElementTypePickerWheel[4]")
+    public IOSElement ampm;
+
+
+//============================================================
+
+    //IOSElement -- Location
+    @FindBy(how = How.XPATH, using = "//*[@name='Location']/preceding-sibling::XCUIElementTypeSwitch")
+    public IOSElement locationswitch;
 
 //============================================================
 
@@ -151,7 +195,9 @@ public IOSElement submit;
         photo2.click();
         photo3.click();
         photo4.click();
+        Log.info("Selected all the food photo from "+ libraryoption.getText());
                buttonUse.click();
+
         /*photo3.click();
         camerashutter.click();
         buttonUse.click();
@@ -159,7 +205,25 @@ public IOSElement submit;
         camerashutter.click();
         buttonUse.click();*/
         foodDescription.sendKeys("High calorie food");
+        ok.click();
+        Log.info("Description about the  food typed "+ foodDescription.getText());
         relaxed.click();
+        Log.info("Pressed the mood "+relaxed.getText());
+        foodtime.click();
+        Log.info("Selecting the Time");
+        day.setValue("Oct 20");
+        Log.info("Selected the day from the given option "+day.getText());
+        hours.sendKeys("8");
+        Log.info("Selected the hour from the given option "+hours.getText());
+        minutes.sendKeys("45");
+        Log.info("Selected the minutes from the given option "+minutes.getText());
+
+        ampm.sendKeys("AM");
+        Log.info("Selected the AM/PM from the given option "+ampm.getText());
+        save.click();
+       String value=locationswitch.getText();
+       if(value == "OFF")
+       {locationswitch.click();}
         submit.click();
        // multiphoto.click();
     }
