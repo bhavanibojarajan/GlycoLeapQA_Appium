@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class AppiumController {
 
-    public static OS executionOS = OS.IOS;
+    public static OS executionOS = OS.ANDROID;
 
     public enum OS {
         ANDROID,
@@ -29,7 +29,7 @@ public class AppiumController {
             case ANDROID:
                 File classpathRoot = new File(System.getProperty("user.dir"));
                 File appDir = new File(classpathRoot, "/app/Android");
-                File app = new File (appDir, "app-release.apk");
+                File app = new File (appDir, "Glyco.apk");
                 DesiredCapabilities capabilities = new DesiredCapabilities();
                 capabilities.setCapability("platformName", "Android");
                 capabilities.setCapability("deviceName", "Nexus_4_API_22");

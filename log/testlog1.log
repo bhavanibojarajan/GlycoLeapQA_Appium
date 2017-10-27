@@ -1,195 +1,69 @@
-2017-10-23 14:37:52,637 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 14:37:52,654 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 14:37:52,675 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 14:46:23,535 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 14:46:23,548 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 14:46:23,549 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 14:46:26,090 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-23 14:46:30,978 [main] INFO Log_File.Log - Username  test50@gmail.com entered
-2017-10-23 14:46:37,090 [main] INFO Log_File.Log - Password entered
-2017-10-23 14:46:38,826 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-23 14:46:38,826 [main] INFO Log_File.Log - X
-2017-10-23 14:46:38,826 [main] INFO Log_File.Log - X
-2017-10-23 14:46:38,850 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 14:46:38,850 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 14:46:38,850 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 14:47:01,973 [main] INFO Log_File.Log - Left Menu opened Properly
-2017-10-23 14:47:04,931 [main] INFO Log_File.Log - Settings page opened Properly
-2017-10-23 14:47:07,993 [main] INFO Log_File.Log - Profile menu clicked
-2017-10-23 14:47:18,085 [main] INFO Log_File.Log - User email  displayed properly test50@gmail.com
-2017-10-23 15:23:22,562 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:23:22,576 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 15:23:22,577 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:23:24,764 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-23 15:23:30,011 [main] INFO Log_File.Log - Username  test50@gmail.com entered
-2017-10-23 15:23:35,976 [main] INFO Log_File.Log - Password entered
-2017-10-23 15:23:37,666 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-23 15:23:37,680 [main] INFO Log_File.Log - X
-2017-10-23 15:23:37,681 [main] INFO Log_File.Log - X
-2017-10-23 15:23:37,690 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:23:37,691 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 15:23:37,691 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:24:00,463 [main] INFO Log_File.Log - Left Menu opened Properly
-2017-10-23 15:24:03,064 [main] INFO Log_File.Log - Settings page opened Properly
-2017-10-23 15:24:05,763 [main] INFO Log_File.Log - Profile menu clicked
-2017-10-23 15:24:15,018 [main] INFO Log_File.Log - User email  displayed properly test50@gmail.com
-2017-10-23 15:43:28,871 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:43:28,895 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 15:43:28,895 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:43:31,591 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-23 15:43:37,042 [main] INFO Log_File.Log - Username  test50@gmail.com entered
-2017-10-23 15:43:43,441 [main] INFO Log_File.Log - Password entered
-2017-10-23 15:43:45,291 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-23 15:43:45,292 [main] INFO Log_File.Log - X
-2017-10-23 15:43:45,292 [main] INFO Log_File.Log - X
-2017-10-23 15:43:45,302 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:43:45,302 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 15:43:45,302 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:44:09,593 [main] INFO Log_File.Log - Left Menu opened Properly
-2017-10-23 15:44:12,342 [main] INFO Log_File.Log - Settings page opened Properly
-2017-10-23 15:44:15,292 [main] INFO Log_File.Log - Profile menu clicked
-2017-10-23 15:44:25,313 [main] INFO Log_File.Log - User email  displayed properly test50@gmail.com
-2017-10-23 15:44:34,652 [main] INFO Log_File.Log - User name displayed properly Test50
-2017-10-23 15:44:44,239 [main] INFO Log_File.Log - User date of birth displayed properly Apr 11, 1982
-2017-10-23 15:55:27,747 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:55:27,770 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 15:55:27,771 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:55:30,376 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-23 15:55:35,817 [main] INFO Log_File.Log - Username  test50@gmail.com entered
-2017-10-23 15:55:42,014 [main] INFO Log_File.Log - Password entered
-2017-10-23 15:55:43,764 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-23 15:55:43,764 [main] INFO Log_File.Log - X
-2017-10-23 15:55:43,765 [main] INFO Log_File.Log - X
-2017-10-23 15:55:43,776 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:55:43,776 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 15:55:43,776 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 15:56:07,677 [main] INFO Log_File.Log - Left Menu opened Properly
-2017-10-23 15:56:10,415 [main] INFO Log_File.Log - Settings page opened Properly
-2017-10-23 15:56:13,964 [main] INFO Log_File.Log - Profile menu clicked
-2017-10-23 15:56:23,776 [main] INFO Log_File.Log - User email  displayed properly test50@gmail.com
-2017-10-23 15:56:33,281 [main] INFO Log_File.Log - User name displayed properly Test50
-2017-10-23 15:56:42,678 [main] INFO Log_File.Log - User date of birth displayed properly Apr 11, 1982
-2017-10-23 15:56:52,230 [main] INFO Log_File.Log - User gender displayed properly Female
-2017-10-23 15:57:02,221 [main] INFO Log_File.Log - Start weight unit displayed properly 54.0 kg
-2017-10-23 16:06:54,033 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 16:06:54,068 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 16:06:54,069 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 16:06:57,235 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-23 16:07:03,661 [main] INFO Log_File.Log - Username  test50@gmail.com entered
-2017-10-23 16:07:10,066 [main] INFO Log_File.Log - Password entered
-2017-10-23 16:07:11,920 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-23 16:07:11,922 [main] INFO Log_File.Log - X
-2017-10-23 16:07:11,922 [main] INFO Log_File.Log - X
-2017-10-23 16:07:11,932 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 16:07:11,933 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 16:07:11,933 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 16:07:48,813 [main] INFO Log_File.Log - Left Menu opened Properly
-2017-10-23 16:07:52,263 [main] INFO Log_File.Log - Settings page opened Properly
-2017-10-23 16:07:55,861 [main] INFO Log_File.Log - Profile menu clicked
-2017-10-23 16:08:06,106 [main] INFO Log_File.Log - User email  displayed properly test50@gmail.com
-2017-10-23 16:08:15,506 [main] INFO Log_File.Log - User name displayed properly Test50
-2017-10-23 16:08:24,656 [main] INFO Log_File.Log - User date of birth displayed properly Apr 11, 1982
-2017-10-23 16:08:34,306 [main] INFO Log_File.Log - User gender displayed properly Female
-2017-10-23 16:08:43,505 [main] INFO Log_File.Log - Start weight unit displayed properly 54.0 kg
-2017-10-23 16:08:52,500 [main] INFO Log_File.Log - Start height unit displayed properly 157.5 cm
-2017-10-23 16:08:52,500 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-23 16:08:52,500 [main] INFO Log_File.Log - X
-2017-10-23 16:08:52,500 [main] INFO Log_File.Log - X
-2017-10-23 17:35:30,846 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 17:35:30,914 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 17:35:30,915 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 17:35:32,987 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-23 17:35:38,509 [main] INFO Log_File.Log - Username  test50@gmail.com entered
-2017-10-23 17:35:44,715 [main] INFO Log_File.Log - Password entered
-2017-10-23 17:35:46,424 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-23 17:35:46,425 [main] INFO Log_File.Log - X
-2017-10-23 17:35:46,425 [main] INFO Log_File.Log - X
-2017-10-23 17:35:46,435 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 17:35:46,435 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 17:35:46,435 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 17:38:57,918 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 17:38:57,928 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 17:38:57,928 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 17:40:22,359 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 17:40:22,372 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 17:40:22,372 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 17:40:24,277 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-23 17:40:28,588 [main] INFO Log_File.Log - Username  test50@gmail.com entered
-2017-10-23 17:40:35,229 [main] INFO Log_File.Log - Password entered
-2017-10-23 17:40:36,956 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-23 17:40:36,956 [main] INFO Log_File.Log - X
-2017-10-23 17:40:36,956 [main] INFO Log_File.Log - X
-2017-10-23 17:40:36,974 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 17:40:36,975 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-23 17:40:36,975 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-23 17:40:56,326 [main] INFO Log_File.Log - Log button Pressed
-2017-10-23 17:40:58,590 [main] INFO Log_File.Log - Food Log button pressed
-2017-10-23 17:41:10,229 [main] INFO Log_File.Log - Library option pressed
-2017-10-23 17:41:37,256 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-23 17:41:37,258 [main] INFO Log_File.Log - X
-2017-10-23 17:41:37,259 [main] INFO Log_File.Log - X
-2017-10-24 10:45:32,086 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 10:45:32,178 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-24 10:45:32,181 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 10:45:34,710 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-24 10:45:40,308 [main] INFO Log_File.Log - Username  test50@gmail.com entered
-2017-10-24 10:45:46,717 [main] INFO Log_File.Log - Password entered
-2017-10-24 10:45:48,429 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-24 10:45:48,430 [main] INFO Log_File.Log - X
-2017-10-24 10:45:48,430 [main] INFO Log_File.Log - X
-2017-10-24 10:45:48,505 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 10:45:48,505 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-24 10:45:48,506 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 10:46:19,155 [main] INFO Log_File.Log - Log button Pressed
-2017-10-24 10:46:21,507 [main] INFO Log_File.Log - Food Log button pressed
-2017-10-24 10:46:38,910 [main] INFO Log_File.Log - Library option pressed
-2017-10-24 11:04:53,096 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 11:04:53,157 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-24 11:04:53,158 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 11:04:55,354 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-24 11:05:00,645 [main] INFO Log_File.Log - Username  test50@gmail.com entered
-2017-10-24 11:05:07,734 [main] INFO Log_File.Log - Password entered
-2017-10-24 11:05:09,581 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-24 11:05:09,581 [main] INFO Log_File.Log - X
-2017-10-24 11:05:09,581 [main] INFO Log_File.Log - X
-2017-10-24 11:05:09,590 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 11:05:09,590 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-24 11:05:09,590 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 11:05:31,633 [main] INFO Log_File.Log - Log button Pressed
-2017-10-24 11:05:34,035 [main] INFO Log_File.Log - Food Log button pressed
-2017-10-24 11:05:50,731 [main] INFO Log_File.Log - Library option pressed
-2017-10-24 11:06:06,327 [main] INFO Log_File.Log - Selected all the food photo from 1
-2017-10-24 11:06:24,858 [main] INFO Log_File.Log - Description about the  food typed Write your food descriptions...
-2017-10-24 11:06:28,129 [main] INFO Log_File.Log - Pressed the mood Relaxed
-2017-10-24 11:06:31,522 [main] INFO Log_File.Log - Selecting the Time
-2017-10-24 11:06:42,774 [main] INFO Log_File.Log - Selected the day from the given option Today
-2017-10-24 11:06:53,525 [main] INFO Log_File.Log - Selected the hour from the given option 8 o’clock
-2017-10-24 11:07:04,659 [main] INFO Log_File.Log - Selected the minutes from the given option 45 minutes
-2017-10-24 11:07:15,676 [main] INFO Log_File.Log - Selected the AM/PM from the given option AM
-2017-10-24 17:00:46,501 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 17:00:46,612 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-24 17:00:46,612 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 17:00:51,621 [main] INFO Log_File.Log - Signin Button Pressed
-2017-10-24 17:00:56,864 [main] INFO Log_File.Log - Username  test50@gmail.com entered
-2017-10-24 17:01:02,876 [main] INFO Log_File.Log - Password entered
-2017-10-24 17:01:04,631 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2017-10-24 17:01:04,631 [main] INFO Log_File.Log - X
-2017-10-24 17:01:04,632 [main] INFO Log_File.Log - X
-2017-10-24 17:01:04,642 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 17:01:04,642 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-24 17:01:04,642 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 17:01:27,365 [main] INFO Log_File.Log - Log button Pressed
-2017-10-24 17:01:29,769 [main] INFO Log_File.Log - Food Log button pressed
-2017-10-24 17:01:45,316 [main] INFO Log_File.Log - Library option pressed
-2017-10-24 17:02:01,906 [main] INFO Log_File.Log - Selected all the food photo from 1
-2017-10-24 17:02:19,835 [main] INFO Log_File.Log - Description about the  food typed Write your food descriptions...
-2017-10-24 17:02:23,174 [main] INFO Log_File.Log - Pressed the mood Relaxed
-2017-10-24 17:02:26,734 [main] INFO Log_File.Log - Selecting the Time
-2017-10-24 17:02:37,854 [main] INFO Log_File.Log - Selected the day from the given option Today
-2017-10-24 17:02:48,727 [main] INFO Log_File.Log - Selected the hour from the given option 5 o’clock
-2017-10-24 17:03:00,124 [main] INFO Log_File.Log - Selected the minutes from the given option 02 minutes
-2017-10-24 17:03:11,170 [main] INFO Log_File.Log - Selected the AM/PM from the given option AM
-2017-10-24 17:37:37,308 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 17:37:37,414 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2017-10-24 17:37:37,415 [main] INFO Log_File.Log - ****************************************************************************************
-2017-10-24 17:37:39,848 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-27 15:07:52,093 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:07:52,098 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-27 15:07:52,099 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:07:56,183 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-27 15:08:01,946 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-10-27 15:08:08,389 [main] INFO Log_File.Log - Password entered
+2017-10-27 15:08:09,729 [main] INFO Log_File.Log - Login button Pressed
+2017-10-27 15:08:09,729 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-27 15:08:09,729 [main] INFO Log_File.Log - X
+2017-10-27 15:08:09,730 [main] INFO Log_File.Log - X
+2017-10-27 15:08:09,750 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:08:09,750 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-27 15:08:09,751 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:08:16,493 [main] INFO Log_File.Log - Plus Button Pressed
+2017-10-27 15:08:17,082 [main] INFO Log_File.Log - FoodLogIcon Button Pressed
+2017-10-27 15:08:19,375 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-10-27 15:08:23,062 [main] INFO Log_File.Log - Use button Pressed
+2017-10-27 15:08:23,593 [main] INFO Log_File.Log - Thumbnail icon Pressed to take picture
+2017-10-27 15:08:24,745 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-10-27 15:08:28,431 [main] INFO Log_File.Log - Use button Pressed
+2017-10-27 15:08:33,085 [main] INFO Log_File.Log - Food Description Entered
+2017-10-27 15:08:33,789 [main] INFO Log_File.Log - Select the Food time
+2017-10-27 15:13:08,254 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:13:08,257 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-27 15:13:08,257 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:13:12,338 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-27 15:13:18,079 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-10-27 15:13:23,393 [main] INFO Log_File.Log - Password entered
+2017-10-27 15:13:25,048 [main] INFO Log_File.Log - Login button Pressed
+2017-10-27 15:13:25,048 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-27 15:13:25,050 [main] INFO Log_File.Log - X
+2017-10-27 15:13:25,051 [main] INFO Log_File.Log - X
+2017-10-27 15:13:25,065 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:13:25,065 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-27 15:13:25,065 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:13:31,158 [main] INFO Log_File.Log - Plus Button Pressed
+2017-10-27 15:13:31,826 [main] INFO Log_File.Log - FoodLogIcon Button Pressed
+2017-10-27 15:13:33,467 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-10-27 15:13:37,165 [main] INFO Log_File.Log - Use button Pressed
+2017-10-27 15:13:38,218 [main] INFO Log_File.Log - Thumbnail icon Pressed to take picture
+2017-10-27 15:13:39,436 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-10-27 15:13:43,115 [main] INFO Log_File.Log - Use button Pressed
+2017-10-27 15:13:47,979 [main] INFO Log_File.Log - Food Description Entered
+2017-10-27 15:13:48,628 [main] INFO Log_File.Log - Select the Food time
+2017-10-27 15:16:11,883 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:16:11,900 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-27 15:16:11,900 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:16:16,006 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-27 15:17:03,266 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:17:03,299 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-27 15:17:03,299 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:17:04,438 [main] INFO Log_File.Log - Signin Button Pressed
+2017-10-27 15:17:10,261 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-10-27 15:17:15,577 [main] INFO Log_File.Log - Password entered
+2017-10-27 15:17:18,098 [main] INFO Log_File.Log - Login button Pressed
+2017-10-27 15:17:18,099 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-10-27 15:17:18,099 [main] INFO Log_File.Log - X
+2017-10-27 15:17:18,099 [main] INFO Log_File.Log - X
+2017-10-27 15:17:18,122 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:17:18,123 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-10-27 15:17:18,123 [main] INFO Log_File.Log - ****************************************************************************************
+2017-10-27 15:17:22,981 [main] INFO Log_File.Log - Plus Button Pressed
+2017-10-27 15:17:23,689 [main] INFO Log_File.Log - FoodLogIcon Button Pressed
+2017-10-27 15:17:25,185 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-10-27 15:17:28,838 [main] INFO Log_File.Log - Use button Pressed
+2017-10-27 15:17:29,669 [main] INFO Log_File.Log - Thumbnail icon Pressed to take picture
+2017-10-27 15:17:30,776 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-10-27 15:17:34,453 [main] INFO Log_File.Log - Use button Pressed
+2017-10-27 15:17:39,114 [main] INFO Log_File.Log - Food Description Entered

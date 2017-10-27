@@ -1,14 +1,17 @@
 package PAOBFactory.FoodLog;
 
+import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-
+import java.util.List;
 import java.util.concurrent.TimeUnit;
+
 
 public class Android_Food_Log_Repository implements Food_Log_Repository {
 
@@ -110,6 +113,20 @@ public AndroidElement submit;
     @FindBy(how = How.ID, using = "iv_photo")
     public AndroidElement photos_fordisplay;
 
+//============================================================
+
+    //AndroidElement -- time to find
+    @FindBy(how = How.ID, using = "tv_logfood_time")
+    public AndroidElement settime;
+
+    //AndroidElement --Set Current Time
+    @FindBy(how = How.ID, using = "btn_SetCurrent")
+    public AndroidElement setcurrenttime;
+
+    //AndroidElement -- select the time
+    @FindBy(how = How.XPATH, using = "//android.widget.EditText[@id='numberpicker_input']")
+    public  List<WebElement> inputtime;
+
 
 
 //============================================================
@@ -128,22 +145,42 @@ public AndroidElement submit;
     //Taking full food log process
     public void Taking_One_Full_Food_Log()
     {
+
         plusicon.click();
+        Log.info("Plus Button Pressed");
         foodLogIcon.click();
+        Log.info("FoodLogIcon Button Pressed");
         camerashutter.click();
+        Log.info("Camera Shutter button Pressed");
         buttonUse.click();
+        Log.info("Use button Pressed");
         photo2.click();
+        Log.info("Thumbnail icon Pressed to take picture");
         camerashutter.click();
+        Log.info("Camera Shutter button Pressed");
         buttonUse.click();
+        Log.info("Use button Pressed");
         /*photo3.click();
         camerashutter.click();
         buttonUse.click();
         photo4.click();
         camerashutter.click();
         buttonUse.click();*/
-        foodDescription.sendKeys("food");
+        foodDescription.sendKeys("crab");
+        Log.info("Food Description Entered");
+        settime.click();
+
+
+        inputtime.get(0).sendKeys("Sep 27");
+        inputtime.get(1).sendKeys("10");
+        inputtime.get(2).sendKeys("31");
+
+        settime.click();
+        Log.info("Food time set");
         relaxed.click();
+        Log.info("Mood selected");
         submit.click();
+        Log.info("Submit Button Pressed");
         multiphoto.click();
     }
 //============================================================

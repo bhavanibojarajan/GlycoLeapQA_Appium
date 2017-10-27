@@ -39,6 +39,7 @@ public static String UserEmail;
         login = LR.Enter_Username_Password();
 
         login.click();
+        Log.info("Login button Pressed");
 
         //LR.Verify_Proper_Login();
 

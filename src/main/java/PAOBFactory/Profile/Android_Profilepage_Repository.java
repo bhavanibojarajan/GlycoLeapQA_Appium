@@ -4,6 +4,7 @@ package PAOBFactory.Profile;
 import FindUnits.FindUnits;
 import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.FindBy;
@@ -15,81 +16,81 @@ import java.util.concurrent.TimeUnit;
 
 public class Android_Profilepage_Repository implements Profilepage_Repository {
 
-    //IOSElement BackButton
-    @FindBy(how = How.ID, using = "button hamburger menu")
-    public IOSElement leftmenuopener;
+    //AndroidElement BackButton
+    @FindBy(how = How.XPATH, using = "//*[@class='android.widget.ImageButton']" )
+    public AndroidElement leftmenuopener;
 
-    //IOSElement Settings
-    @FindBy(how = How.ID, using = "Settings")
-    public IOSElement settings;
+    //AndroidElement Settings
+    @FindBy(how = How.XPATH, using = "//*[@text='Settings']")
+    public AndroidElement settings;
 
-    //IOSElement Profile
-    @FindBy(how = How.ID, using = "Profile")
-    public IOSElement profile;
+    //AndroidElement Profile
+    @FindBy(how = How.ID, using ="//*[@text='Profile']")
+    public AndroidElement profile;
 
-    //IOSELement Close icon
+    //AndroidELement Close icon
     @FindBy(how = How.ID, using = "icon close")
-    public IOSElement iconclose;
+    public AndroidElement iconclose;
 
-    //IOSElement BACK BUTTON
+    //AndroidElement BACK BUTTON
 
     @FindBy(how = How.ID, using = "button back")
-    public IOSElement backbutton;
+    public AndroidElement backbutton;
 
-    //IOSElement email
+    //AndroidElement email
 
     @FindBy(how = How.XPATH, using = "//*[@name='Email']/following-sibling::XCUIElementTypeStaticText[1]")
-    public IOSElement email;
+    public AndroidElement email;
 
 
-    //IOSElement name
+    //AndroidElement name
 
     @FindBy(how = How.XPATH, using = "//*[@name='Name']/following-sibling::XCUIElementTypeTextField[1]")
-    public IOSElement name;
+    public AndroidElement name;
 
-    //IOSElement dob
+    //AndroidElement dob
 
     @FindBy(how = How.XPATH, using = "//*[@name='Date of Birth']/following-sibling::XCUIElementTypeStaticText[1]")
-    public IOSElement dob;
+    public AndroidElement dob;
 
 
 
-    //IOSElement gender
+    //AndroidElement gender
 
     @FindBy(how = How.XPATH, using = "//*[@name='Gender']/following-sibling::XCUIElementTypeTextField[1]")
-    public IOSElement gender;
+    public AndroidElement gender;
 
 
-    //IOSElement startweight
+    //AndroidElement startweight
 
     @FindBy(how = How.XPATH, using = "//*[@name='Start Weight']/following-sibling::XCUIElementTypeTextField[1]")
-    public IOSElement startweight;
+    public AndroidElement startweight;
 
 
-    //IOSElement startheight
+    //AndroidElement startheight
 
     @FindBy(how = How.XPATH, using = "//*[@name='Start Height']/following-sibling::XCUIElementTypeTextField[1]")
-    public IOSElement startheight;
+    public AndroidElement startheight;
 
-//IOSElement Health Condition
+//AndroidElement Health Condition
 
     @FindBy(how = How.XPATH, using = "//*[@name='Health Condition']/following-sibling::XCUIElementTypeStaticText[1]")
-    public IOSElement healthcondition;
+    public AndroidElement healthcondition;
 
 
-    //IOSElement Food Preference
+    //IAndroidElement Food Preference
 
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeStaticText/following-sibling::XCUIElementTypeStaticText[@name='Food Preference'][1]")
-    public IOSElement foodpreference;
+    public AndroidElement foodpreference;
 
-    //IOSElement change pasword
+    //AndroidElement change pasword
 
     @FindBy(how = How.ID, using = "Change Password")
-    public IOSElement changepassword;
+    public AndroidElement changepassword;
 
-    //IOSElement Allow button
+    //AndroidElement Allow button
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='Allow']")
-    public IOSElement allow;
+    public AndroidElement allow;
 
     //==========================================================================================================
     //Constructor for the IOS_LeftMenu_Repository
@@ -102,7 +103,7 @@ public class Android_Profilepage_Repository implements Profilepage_Repository {
 
     //==========================================================================================================
     public void Profile_page_validation()
-    {  allow.click();
+    {
         leftmenuopener.click();
         Log.info("Left Menu opened Properly");
         settings.click();
