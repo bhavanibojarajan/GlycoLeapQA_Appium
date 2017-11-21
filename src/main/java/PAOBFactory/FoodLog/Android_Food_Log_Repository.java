@@ -2,12 +2,15 @@ package PAOBFactory.FoodLog;
 
 import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.interactions.*;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -15,6 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Android_Food_Log_Repository implements Food_Log_Repository {
 
+AndroidDriver driver;
 
     //AndroidElement -- plusicon in the home page
     @FindBy(how = How.ID, using = "fabMain")
@@ -124,10 +128,11 @@ public AndroidElement submit;
     public AndroidElement setcurrenttime;
 
     //AndroidElement -- select the time
-    @FindBy(how = How.XPATH, using = "//android.widget.EditText[@id='numberpicker_input']")
-    public  List<WebElement> inputtime;
+    @FindBy(how = How.CLASS_NAME, using = "android.widget.EditText")
+    public AndroidElement inputtime;
 
-
+    /*@AndroidFindBy(uiAutomator = "new UiSelector().resourceId(\"android:id/numberpicker_input\")")
+    public AndroidElement inputtime;*/
 
 //============================================================
 
@@ -167,13 +172,17 @@ public AndroidElement submit;
         camerashutter.click();
         buttonUse.click();*/
         foodDescription.sendKeys("crab");
+
         Log.info("Food Description Entered");
+        driver.hideKeyboard();
+
         settime.click();
 
+        Log.info("Select the Time");
 
-        inputtime.get(0).sendKeys("Sep 27");
-        inputtime.get(1).sendKeys("10");
-        inputtime.get(2).sendKeys("31");
+
+        inputtime.sendKeys("Wed, Nov 01 10 31");
+
 
         settime.click();
         Log.info("Food time set");
@@ -217,5 +226,8 @@ public AndroidElement submit;
 
 
 //============================================================
+
+
+// ============================================================
 
 }

@@ -4,7 +4,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import org.junit.Assert;
+import org.testng.Assert;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;

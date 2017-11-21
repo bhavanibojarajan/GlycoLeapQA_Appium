@@ -4,6 +4,7 @@ import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
@@ -40,7 +41,10 @@ public class IOS_DashBoard_Weight_Repository implements DashBoard_Weight_Reposit
     }
     //=========================================================================
 
-
+    public WebElement CurrentWeightUnit()
+    {
+        return currentweightunits;
+    }
     public void Check_units_DashBoard(String units)
     {
 

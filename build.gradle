@@ -19,9 +19,15 @@ repositories {
 }
 
 dependencies {
-     compile project(':XTestKit')
+    compile project(':XTestKit')
     compile project(':XTestKitComponents')
     compile project(':JavaUtilities')
     compile 'log4j:log4j:1.2.17'
     compile 'org.slf4j:slf4j-log4j12:1.7.18'
+    testCompile group: 'org.hamcrest', name: 'hamcrest-core', version: '1.3'
+
+    testCompile group: 'org.hamcrest', name: 'hamcrest-library', version: '1.3'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '1.9.+'
+    testImplementation 'org.hamcrest:hamcrest-library:1.3'
+
 }

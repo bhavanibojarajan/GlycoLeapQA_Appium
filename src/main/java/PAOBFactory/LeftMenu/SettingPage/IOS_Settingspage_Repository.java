@@ -216,12 +216,17 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
     }
 */
 
-    public String  CheckUnits_glucose() {return glucoseunitsmg.getText();
+    public String  CheckUnits_glucose() { units.click();
+        Log.info("Unit System menu clicked");return glucoseunitsmg.getText();
     }
 
-    public String  CheckUnits_weight(){return weightunitkg.getText();
+    public String  CheckUnits_weight(){ units.click();
+        Log.info("Unit System menu clicked");return weightunitkg.getText();
 
     }
 
-
+    public void Reach_to_Home_Page(){
+        backbutton.click();
+        backbutton.click();
+    }
 }

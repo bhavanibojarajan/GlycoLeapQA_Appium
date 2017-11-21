@@ -11,7 +11,7 @@ import Log_File.Log;
 import java.io.File;
 
 import static org.apache.log4j.PropertyConfigurator.configure;
-
+import org.openqa.selenium.support.ui.ExpectedCondition;
 public class GlycoLeap_Testcase extends BaseTestClass {
 
 public static String UserEmail;
@@ -48,7 +48,7 @@ public static String UserEmail;
     }
 
 
-   @Test
+   /*@Test
     public void Food_Log() throws InterruptedException
     {
 
@@ -60,8 +60,8 @@ public static String UserEmail;
         // GFLR.Taking_After_Food_Glucose().click();
         //GFLR.taking_Glucose();
         APCDER.AddCommentandImage();*/
-        Log.endTestCase("Full Food Log");
-    }
+      /*  Log.endTestCase("Full Food Log");
+    }*/
 
 
   @Test
@@ -93,17 +93,16 @@ public static String UserEmail;
     }
 
 
-   /* @Test
-    public void Units()
-    {
+    @Test
+    public void Units() throws InterruptedException {
         Log.startTestCase("Unit System - Weight Unit");
 
         String weightunit;
 
-        LMR.leftmenuopner.click();
-        Log.info("Left Menu opened Properly");
-        LMR.settings.click();
-        Log.info("Settings page opened Properly");
+
+       //Opening the Left menu and setting the Units
+        LMR.Left_Menu_and_setting_Opener();
+
 
 
 
@@ -111,15 +110,14 @@ public static String UserEmail;
         weightunit=SR.CheckUnits_weight();
         Log.info("In Units Page the weight units set to "+ weightunit);
 
-        SR.backbutton.click();
-        SR.backbutton.click();
-
-       /* //Checking the units in the DashBoard
+        SR.Reach_to_Home_Page();
+     Thread.sleep(10000);
+       //Checking the units in the DashBoard
         Log.info("Check same unit displayed in the DashBoard Page");
         DWR.Check_units_DashBoard(weightunit);
 
 
-        //Checking the units in the Timeline
+       /* //Checking the units in the Timeline
         Log.info("Check same unit displayed in the TimeLine");
         WTR.weightbuttontimeline.click();
         Log.info("Pressed the Weight button to display all the Logged weight cards");
@@ -135,10 +133,10 @@ public static String UserEmail;
 
         Log.endTestCase("Unit System - Weight Unit");
 
+*/
+    }
 
-    }*/
-
-    @Test
+   /* @Test
     public void Profile()
     {
         /*Log.startTestCase("Profile Page");
@@ -148,8 +146,7 @@ public static String UserEmail;
 
 
         Log.endTestCase("Profile Page");
-*/
 
-    }
+    }*/
 
 }

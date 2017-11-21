@@ -4,12 +4,18 @@ import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import org.junit.Assert;
+
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
+
+import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class Android_DashBoard_Weight_Repository implements DashBoard_Weight_Repository{
@@ -41,16 +47,25 @@ public class Android_DashBoard_Weight_Repository implements DashBoard_Weight_Rep
     }
     //=========================================================================
 
+  public WebElement CurrentWeightUnit() {
+        return currentweightunits;
+  }
+
 
     public void Check_units_DashBoard(String units)
-    {
+        {
 
-        s_assert.assertEquals(currentweightunits.getText(),units,"Units matches with current weight in the DashBoard");
+
+        assertThat(units, containsString(currentweightunits.getText()));
+
         Log.info("The Units displayed for the current weight same as in the settings "+currentweightunits.getText());
-        s_assert.assertEquals(startweightunits.getText(),units,"Units matches with start weight in the DashBoard");
+
+
+        assertThat(units,containsString(startweightunits.getText()));
 
         Log.info("The Units displayed for the start weight same as in the settings "+startweightunits.getText());
-        s_assert.assertEquals(goalweightunits.getText(),units,"Units matches with goal weight in the DashBoard");
+        assertThat(units,containsString(goalweightunits.getText()));
+
         Log.info("The Units displayed for the goal weight same as in the settings "+goalweightunits.getText());
 
 

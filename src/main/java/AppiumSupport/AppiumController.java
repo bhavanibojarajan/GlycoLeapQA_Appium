@@ -57,7 +57,7 @@ public class AppiumController {
            // capabilities.setCapability("udid","8DE40AF5-3280-4ACF-B8CD-1507F6C305");
 
         }
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
     }
 
     public void stop() {

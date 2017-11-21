@@ -234,6 +234,14 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
     }   // isAlertPresent()
 
 
+   public void  Left_Menu_and_setting_Opener()
+   {
+       leftmenuopner.click();
+       Log.info("Left Menu Opened Properly");
+       settings.click();
+       Log.info("Setting menu clicked");
+   }
+
 
 
 }

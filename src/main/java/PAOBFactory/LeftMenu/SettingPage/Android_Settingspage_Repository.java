@@ -160,17 +160,25 @@ public void Setting_Navigation() {
 
 
 public String  CheckUnits_glucose() {
+
     units.click();
     Log.info("Unit System menu clicked");
+    glucoseunit.click();
     return glucoseunit.getText();
       }
 public String  CheckUnits_weight() {
     units.click();
     Log.info("Unit System menu clicked");
+    weightunit.click();
         return weightunit.getText();
 
 }
 
+public void Reach_to_Home_Page()
+{
+    backbutton.click();
+    backbutton.click();
+}
 
 
 }
