@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "LocationLabel"; ObjectID = "3X4-Ga-ryS"; */
+"3X4-Ga-ryS.text" = "LocationLabel";
+
+/* Class = "UITabBarItem"; title = "Feed"; ObjectID = "Bb5-hK-keb"; */
+"Bb5-hK-keb.title" = "Feed";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Eh2-ms-sfh"; */
+"Eh2-ms-sfh.text" = "Detail";
+
+/* Class = "UILabel"; text = "example header text"; ObjectID = "Ery-sB-38j"; */
+"Ery-sB-38j.text" = "example header text";
+
+/* Class = "UIViewController"; title = "Feed"; ObjectID = "FAz-q4-YcS"; */
+"FAz-q4-YcS.title" = "Feed";
+
+/* Class = "UIButton"; normalTitle = "Reply"; ObjectID = "U9u-fh-FIG"; */
+"U9u-fh-FIG.normalTitle" = "Reply";
+
+/* Class = "UILabel"; text = "example content text"; ObjectID = "USJ-ug-m15"; */
+"USJ-ug-m15.text" = "example content text";
+
+/* Class = "UILabel"; text = "ValueLbl"; ObjectID = "Ud9-eq-CTZ"; */
+"Ud9-eq-CTZ.text" = "ValueLbl";
+
+/* Class = "UILabel"; text = "infoLbl"; ObjectID = "Vgf-bN-1yx"; */
+"Vgf-bN-1yx.text" = "infoLbl";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "kAU-RM-mhX"; */
+"kAU-RM-mhX.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "phd-xP-jAY"; */
+"phd-xP-jAY.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qS8-yF-hb2"; */
+"qS8-yF-hb2.text" = "Label";

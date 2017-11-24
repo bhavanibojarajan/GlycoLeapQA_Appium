@@ -173,6 +173,12 @@ public String  CheckUnits_weight() {
         return weightunit.getText();
 
 }
+    public void Reach_Goal_Page()
+    {
+        backbutton.click();
+        goal.click();
+
+    }
 
 public void Reach_to_Home_Page()
 {

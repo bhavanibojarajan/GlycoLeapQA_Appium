@@ -12,6 +12,8 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
 public class Android_Notification_Weight_Repository implements Notification_Weight_Repository{
 
 
@@ -44,12 +46,16 @@ public class Android_Notification_Weight_Repository implements Notification_Weig
     public void Check_units_Notification(String units)
         {
             alertbutton.click();
+            Log.info("--------------------Notification Page -----------------------");
             Log.info("Pressed the Notification Button");
-        s_assert.assertEquals(weightvalueunits.getText(),units,"Units matches with weight in the Notification");
+
+
+            assertThat(units, containsString(weightvalueunits.getText().toLowerCase()));
+
         Log.info("The Units displayed for the current weight same as in the settings "+weightvalueunits.getText());
 
 
-        cardiconnonfood.click();
+       // cardiconnonfood.click();
 
 
 

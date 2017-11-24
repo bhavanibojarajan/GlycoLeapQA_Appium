@@ -1,0 +1,30 @@
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "2s6-dL-5ev"; */
+"2s6-dL-5ev.title" = "Next";
+
+/* Class = "UILabel"; text = "Tag"; ObjectID = "J5r-KE-u8d"; */
+"J5r-KE-u8d.text" = "Tag";
+
+/* Class = "UILabel"; text = "TimeLbl"; ObjectID = "KCc-cq-xs4"; */
+"KCc-cq-xs4.text" = "TimeLbl";
+
+/* Class = "UILabel"; text = "Period"; ObjectID = "T3f-el-gMQ"; */
+"T3f-el-gMQ.text" = "Period";
+
+/* Class = "UILabel"; text = "Blood Glucose"; ObjectID = "Xp5-cZ-CMN"; */
+"Xp5-cZ-CMN.text" = "Blood Glucose";
+
+/* Class = "UILabel"; text = "Select Time"; ObjectID = "Z4V-Vu-9m1"; */
+"Z4V-Vu-9m1.text" = "Select Time";
+
+/* Class = "UIButton"; normalTitle = "Set to Current Date & Time"; ObjectID = "axN-UG-uhe"; */
+"axN-UG-uhe.normalTitle" = "Set to Current Date & Time";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "fLg-xY-MLD"; */
+"fLg-xY-MLD.text" = "Location";
+
+/* Class = "UILabel"; text = "LocationLbl"; ObjectID = "kIG-9S-dVK"; */
+"kIG-9S-dVK.text" = "LocationLbl";
+
+/* Class = "UILabel"; text = "Mood"; ObjectID = "sEd-47-rhC"; */
+"sEd-47-rhC.text" = "Mood";

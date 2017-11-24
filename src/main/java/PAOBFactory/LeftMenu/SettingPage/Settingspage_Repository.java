@@ -5,4 +5,5 @@ public interface Settingspage_Repository {
     public String  CheckUnits_glucose();
     public String  CheckUnits_weight();
     public void Reach_to_Home_Page();
+    public void Reach_Goal_Page();
 }

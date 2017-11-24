@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "TimeRangeLbl"; ObjectID = "1Kz-Ls-Ldk"; */
+"1Kz-Ls-Ldk.text" = "TimeRangeLbl";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "2Qk-ur-hlr"; */
+"2Qk-ur-hlr.text" = "Title";
+
+/* Class = "UILabel"; text = "DescLbl"; ObjectID = "8xb-ij-Pym"; */
+"8xb-ij-Pym.text" = "DescLbl";
+
+/* Class = "UILabel"; text = "TimeRangeLbl"; ObjectID = "BJP-Jl-DvM"; */
+"BJP-Jl-DvM.text" = "TimeRangeLbl";
+
+/* Class = "UIButton"; normalTitle = "CANCEL SUBSCRIPTION"; ObjectID = "GKn-aj-AAZ"; */
+"GKn-aj-AAZ.normalTitle" = "CANCEL SUBSCRIPTION";
+
+/* Class = "UIButton"; normalTitle = "UPGRADE"; ObjectID = "GnD-yG-ybU"; */
+"GnD-yG-ybU.normalTitle" = "UPGRADE";
+
+/* Class = "UIButton"; normalTitle = "RESTORE SUBSCRIPTION"; ObjectID = "LZu-U9-4AL"; */
+"LZu-U9-4AL.normalTitle" = "RESTORE SUBSCRIPTION";
+
+/* Class = "UILabel"; text = "RECOMMENDED"; ObjectID = "O0z-Am-I9A"; */
+"O0z-Am-I9A.text" = "RECOMMENDED";
+
+/* Class = "UILabel"; text = "RECOMMENDED"; ObjectID = "PHS-ep-cLh"; */
+"PHS-ep-cLh.text" = "RECOMMENDED";
+
+/* Class = "UILabel"; text = "DescLbl"; ObjectID = "SfL-gG-Ofa"; */
+"SfL-gG-Ofa.text" = "DescLbl";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Z3i-om-Osh"; */
+"Z3i-om-Osh.text" = "Title";
+
+/* Class = "UILabel"; text = "Your current\nsubscription plan"; ObjectID = "p5J-8w-5WD"; */
+"p5J-8w-5WD.text" = "Your current\nsubscription plan";
+
+/* Class = "UILabel"; text = "DescLbl"; ObjectID = "vlo-Rl-1Z0"; */
+"vlo-Rl-1Z0.text" = "DescLbl";

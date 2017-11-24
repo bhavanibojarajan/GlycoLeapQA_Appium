@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = " Here’s where magic happens"; ObjectID = "1OB-aZ-C5O"; */
+"1OB-aZ-C5O.text" = " Here’s where magic happens";
+
+/* Class = "UIButton"; normalTitle = "support@glycoleap.com"; ObjectID = "ACK-0a-wTe"; */
+"ACK-0a-wTe.normalTitle" = "support@glycoleap.com";
+
+/* Class = "UIButton"; normalTitle = "Upgrade"; ObjectID = "Ifg-7E-EWf"; */
+"Ifg-7E-EWf.normalTitle" = "Upgrade";
+
+/* Class = "UIButton"; normalTitle = "GOT IT!"; ObjectID = "Ny3-jf-8dO"; */
+"Ny3-jf-8dO.normalTitle" = "GOT IT!";
+
+/* Class = "UILabel"; text = "Please verify your Email."; ObjectID = "Udl-UV-h2Z"; */
+"Udl-UV-h2Z.text" = "Please verify your Email.";
+
+/* Class = "UILabel"; text = "Having problems verifying your email?\nPlease contact us at"; ObjectID = "XeH-WW-X7c"; */
+"XeH-WW-X7c.text" = "Having problems verifying your email?\nPlease contact us at";
+
+/* Class = "UILabel"; text = "Your Trial has ended"; ObjectID = "ieb-XW-D9h"; */
+"ieb-XW-D9h.text" = "Your Trial has ended";
+
+/* Class = "UITextField"; placeholder = "EMAIL@ADDRESS.COM"; ObjectID = "p9w-ek-r8k"; */
+"p9w-ek-r8k.placeholder" = "EMAIL@ADDRESS.COM";
+
+/* Class = "UIButton"; normalTitle = "Resend"; ObjectID = "v44-xW-zsB"; */
+"v44-xW-zsB.normalTitle" = "Resend";
+
+/* Class = "UILabel"; text = "We've sent an email to"; ObjectID = "yE8-Zs-Bqx"; */
+"yE8-Zs-Bqx.text" = "We've sent an email to";

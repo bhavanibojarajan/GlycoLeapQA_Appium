@@ -1,0 +1,129 @@
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "16E-XO-SSt"; */
+"16E-XO-SSt.normalTitle" = "SIGN IN";
+
+/* Class = "UILabel"; text = "Register"; ObjectID = "248-rg-MvU"; */
+"248-rg-MvU.text" = "Register";
+
+/* Class = "UILabel"; text = "What's your Unique Program ID?"; ObjectID = "2Dx-pN-myi"; */
+"2Dx-pN-myi.text" = "What's your Unique Program ID?";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "3Rz-Vg-bbX"; */
+"3Rz-Vg-bbX.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "SIGN UP WITH UNIQUE PROGRAM ID"; ObjectID = "4A8-PV-EvG"; */
+"4A8-PV-EvG.text" = "SIGN UP WITH UNIQUE PROGRAM ID";
+
+/* Class = "UILabel"; text = "Sign up"; ObjectID = "4Dl-ap-yaY"; */
+"4Dl-ap-yaY.text" = "Sign up";
+
+/* Class = "UIButton"; normalTitle = "CLOSE"; ObjectID = "6W6-5i-3tR"; */
+"6W6-5i-3tR.normalTitle" = "CLOSE";
+
+/* Class = "UITextField"; placeholder = "Placeholder"; ObjectID = "BQr-dF-l1k"; */
+"BQr-dF-l1k.placeholder" = "Placeholder";
+
+/* Class = "UIBarButtonItem"; title = "Agree"; ObjectID = "D8v-ey-J7y"; */
+"D8v-ey-J7y.title" = "Agree";
+
+/* Class = "UILabel"; text = "Do you have any of these health conditions?"; ObjectID = "FLc-DL-vEO"; */
+"FLc-DL-vEO.text" = "Do you have any of these health conditions?";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "FRk-q8-Aj4"; */
+"FRk-q8-Aj4.text" = "Title";
+
+/* Class = "UILabel"; text = "You should have received your Unique Program ID (UPID) by mail, email, or sms. If you're having trouble finding it and need help, contact us at"; ObjectID = "HFD-l3-yzb"; */
+"HFD-l3-yzb.text" = "You should have received your Unique Program ID (UPID) by mail, email, or sms. If you're having trouble finding it and need help, contact us at";
+
+/* Class = "UILabel"; text = "TITLE"; ObjectID = "I3L-LT-Otf"; */
+"I3L-LT-Otf.text" = "TITLE";
+
+/* Class = "UILabel"; text = "A Smart Coach for Type 2 Diabetes"; ObjectID = "JOf-mW-WGm"; */
+"JOf-mW-WGm.text" = "A Smart Coach for Type 2 Diabetes";
+
+/* Class = "UILabel"; text = "1 of 2"; ObjectID = "JzA-kr-ZVC"; */
+"JzA-kr-ZVC.text" = "1 of 2";
+
+/* Class = "UILabel"; text = "How do I know if I have a Unique Program ID?"; ObjectID = "LWH-0S-t8Q"; */
+"LWH-0S-t8Q.text" = "How do I know if I have a Unique Program ID?";
+
+/* Class = "UILabel"; text = "Bonnie Lau"; ObjectID = "Leb-qi-w1k"; */
+"Leb-qi-w1k.text" = "Bonnie Lau";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "NpY-Qz-rjA"; */
+"NpY-Qz-rjA.text" = "OR";
+
+/* Class = "UILabel"; text = "By clicking 'Submit' you agree to our Terms & Conditions"; ObjectID = "PvL-XK-1cB"; */
+"PvL-XK-1cB.text" = "By clicking 'Submit' you agree to our Terms & Conditions";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "QpQ-BO-SXQ"; */
+"QpQ-BO-SXQ.normalTitle" = "SUBMIT";
+
+/* Class = "UIButton"; normalTitle = "CLOSE"; ObjectID = "Qxp-Np-WH7"; */
+"Qxp-Np-WH7.normalTitle" = "CLOSE";
+
+/* Class = "UILabel"; text = "You are subscribed to this program under Unique Program ID"; ObjectID = "SQ6-Gv-wOT"; */
+"SQ6-Gv-wOT.text" = "You are subscribed to this program under Unique Program ID";
+
+/* Class = "UILabel"; text = "If GlycoLeap was recommended by your doctor, insurance provider, or employer, you may have one."; ObjectID = "Scr-qK-frq"; */
+"Scr-qK-frq.text" = "If GlycoLeap was recommended by your doctor, insurance provider, or employer, you may have one.";
+
+/* Class = "UILabel"; text = "A few essentials to help me get to know you better."; ObjectID = "WIh-RQ-cL3"; */
+"WIh-RQ-cL3.text" = "A few essentials to help me get to know you better.";
+
+/* Class = "UILabel"; text = "Hi, Username"; ObjectID = "bOb-Ne-n79"; */
+"bOb-Ne-n79.text" = "Hi, Username";
+
+/* Class = "UILabel"; text = "Your Account is ready to use!"; ObjectID = "cax-Ja-6du"; */
+"cax-Ja-6du.text" = "Your Account is ready to use!";
+
+/* Class = "UIBarButtonItem"; title = "Disagree"; ObjectID = "e9T-z8-9fP"; */
+"e9T-z8-9fP.title" = "Disagree";
+
+/* Class = "UIButton"; normalTitle = "USE APP NOW"; ObjectID = "fJH-VC-Ysy"; */
+"fJH-VC-Ysy.normalTitle" = "USE APP NOW";
+
+/* Class = "UILabel"; text = "Where would I find it?"; ObjectID = "hCM-TP-Obo"; */
+"hCM-TP-Obo.text" = "Where would I find it?";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "hL1-2P-U1g"; */
+"hL1-2P-U1g.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "SIGN UP WITH EMAIL"; ObjectID = "iep-Kj-duP"; */
+"iep-Kj-duP.text" = "SIGN UP WITH EMAIL";
+
+/* Class = "UILabel"; text = "Remember to check your email to do a verification!"; ObjectID = "kKj-Lv-C6Q"; */
+"kKj-Lv-C6Q.text" = "Remember to check your email to do a verification!";
+
+/* Class = "UIButton"; normalTitle = "REGISTER"; ObjectID = "mCj-6f-lNm"; */
+"mCj-6f-lNm.normalTitle" = "REGISTER";
+
+/* Class = "UILabel"; text = "You have successfully registered with GlycoLeap with this email address: your email address"; ObjectID = "nM0-aZ-7bh"; */
+"nM0-aZ-7bh.text" = "You have successfully registered with GlycoLeap with this email address: your email address";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "nWV-g3-EX4"; */
+"nWV-g3-EX4.normalTitle" = "NEXT";
+
+/* Class = "UITextField"; placeholder = "Enter Unique Program ID"; ObjectID = "oL6-eY-Gr4"; */
+"oL6-eY-Gr4.placeholder" = "Enter Unique Program ID";
+
+/* Class = "UILabel"; text = "Oops something went wrong!"; ObjectID = "ojN-FG-9ta"; */
+"ojN-FG-9ta.text" = "Oops something went wrong!";
+
+/* Class = "UILabel"; text = "Welcome to GlycoLeap, I'm looking forward to get to know and support you in achieving your health goals."; ObjectID = "pcT-7V-xX3"; */
+"pcT-7V-xX3.text" = "Welcome to GlycoLeap, I'm looking forward to get to know and support you in achieving your health goals.";
+
+/* Class = "UIButton"; normalTitle = "Don’t have an account? Register."; ObjectID = "wY1-ws-zHp"; */
+"wY1-ws-zHp.normalTitle" = "Don’t have an account? Register.";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "wYy-8W-Wai"; */
+"wYy-8W-Wai.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "Lead Health Coach"; ObjectID = "xdD-I7-arg"; */
+"xdD-I7-arg.text" = "Lead Health Coach";
+
+/* Class = "UILabel"; text = "If GlycoLeap was recommended by your doctor, insurance provider, or employee health portal, you may have one."; ObjectID = "ym5-qZ-6wi"; */
+"ym5-qZ-6wi.text" = "If GlycoLeap was recommended by your doctor, insurance provider, or employee health portal, you may have one.";
+
+/* Class = "UILabel"; text = "2 of 2"; ObjectID = "zJa-bk-igb"; */
+"zJa-bk-igb.text" = "2 of 2";

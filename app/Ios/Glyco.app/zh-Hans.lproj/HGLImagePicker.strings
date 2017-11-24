@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "5dd-gg-6je"; */
+"5dd-gg-6je.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "CROP"; ObjectID = "71I-Un-9zB"; */
+"71I-Un-9zB.normalTitle" = "CROP";
+
+/* Class = "UILabel"; text = "1/4"; ObjectID = "EJX-7Y-S3k"; */
+"EJX-7Y-S3k.text" = "1/4";
+
+/* Class = "UILabel"; text = "Camera permissions denied, please allow APP to use camera in the phone setting"; ObjectID = "KeV-tU-5ag"; */
+"KeV-tU-5ag.text" = "Camera permissions denied, please allow APP to use camera in the phone setting";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "NWZ-cu-eVB"; */
+"NWZ-cu-eVB.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "pinch image to zoom in or out "; ObjectID = "Uy7-1o-z43"; */
+"Uy7-1o-z43.text" = "pinch image to zoom in or out ";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "dC3-kV-wqP"; */
+"dC3-kV-wqP.normalTitle" = "SAVE";
+
+/* Class = "UISegmentedControl"; lmu-eF-gLt.segmentTitles[0] = "Camera"; ObjectID = "lmu-eF-gLt"; */
+"lmu-eF-gLt.segmentTitles[0]" = "Camera";
+
+/* Class = "UISegmentedControl"; lmu-eF-gLt.segmentTitles[1] = "Library"; ObjectID = "lmu-eF-gLt"; */
+"lmu-eF-gLt.segmentTitles[1]" = "Library";
+
+/* Class = "UISegmentedControl"; lmu-eF-gLt.segmentTitles[2] = "Recent"; ObjectID = "lmu-eF-gLt"; */
+"lmu-eF-gLt.segmentTitles[2]" = "Recent";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mcF-ER-n89"; */
+"mcF-ER-n89.text" = "Label";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "sEs-HI-1fc"; */
+"sEs-HI-1fc.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "tmv-mm-adt"; */
+"tmv-mm-adt.normalTitle" = "Skip";

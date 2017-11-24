@@ -224,6 +224,14 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
         Log.info("Unit System menu clicked");return weightunitkg.getText();
 
     }
+    public void Reach_Goal_Page()
+    {
+        backbutton.click();
+        goal.click();
+
+    }
+
+
 
     public void Reach_to_Home_Page(){
         backbutton.click();

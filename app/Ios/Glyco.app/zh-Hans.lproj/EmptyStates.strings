@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Welcome!"; ObjectID = "5lG-yU-rxa"; */
+"5lG-yU-rxa.text" = "Welcome!";
+
+/* Class = "UILabel"; text = "You have not redeemed anything"; ObjectID = "BLD-t8-chi"; */
+"BLD-t8-chi.text" = "You have not redeemed anything";
+
+/* Class = "UILabel"; text = "No Notifications"; ObjectID = "L3H-If-d34"; */
+"L3H-If-d34.text" = "No Notifications";
+
+/* Class = "UILabel"; text = "Sorry, there is no conversation yet. Start your first conversation."; ObjectID = "LL5-Hw-HuR"; */
+"LL5-Hw-HuR.text" = "Sorry, there is no conversation yet. Start your first conversation.";
+
+/* Class = "UILabel"; text = "Find anything about your food"; ObjectID = "paF-wf-P81"; */
+"paF-wf-P81.text" = "Find anything about your food";

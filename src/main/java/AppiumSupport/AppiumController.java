@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class AppiumController {
 
-    public static OS executionOS = OS.ANDROID;
+    public static OS executionOS = OS.IOS;
 
     public enum OS {
         ANDROID,
@@ -55,8 +55,8 @@ public class AppiumController {
                 break;
 
            // capabilities.setCapability("udid","8DE40AF5-3280-4ACF-B8CD-1507F6C305");
-
         }
+
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
     }
 

@@ -11,6 +11,9 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
+
 public class Android_Weight_Timeline_Repository implements Weight_Timeline_Repository {
 
     //AndroidElement currentweightunits
@@ -29,6 +32,11 @@ public class Android_Weight_Timeline_Repository implements Weight_Timeline_Repos
     @FindBy(how = How.ID, using = "card_name")
     public AndroidElement weightvalue;
 
+
+    //AndroidElement currentweightunits
+    @FindBy(how = How.ID, using = "cv_item")
+    public AndroidElement weightcarditem;
+
     //Created object of testng SoftAssert class to use It's Properties.
     SoftAssert s_assert = new SoftAssert();
 
@@ -44,11 +52,20 @@ public class Android_Weight_Timeline_Repository implements Weight_Timeline_Repos
 
 
     public void Check_units_Timeline(String units)
-    {
-        s_assert.assertEquals(weightunits.getText(),units,"Units matches with current Weight in the DashBoard");
 
+    {
+
+       //Press the Weight button in the TimeLine to check the units in the time line page
+        weightbuttontimeline.click();
+        Log.info("Pressed the Weight button in the TimeLine to check the units in the time line page");
+        Log.info("--------------------TIMELINE WEIGHT -----------------------");
+
+        //Assert the unit of the weight value.
+        assertThat(units, containsString(weightunits.getText().toLowerCase()));
         Log.info("The Units displayed for the weight log  same as in the settings "+weightunits.getText());
 
-
+        //Press the Weight card icon to check the unit in the weight detail page
+        weightcarditem.click();
+        Log.info("Pressed weight Log card to check the unit in the weight detail page");
     }
 }

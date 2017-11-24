@@ -1,0 +1,30 @@
+
+/* Class = "UINavigationItem"; title = "Recent Food"; ObjectID = "8b1-Iq-dAn"; */
+"8b1-Iq-dAn.title" = "Recent Food";
+
+/* Class = "UIBarButtonItem"; title = "Send"; ObjectID = "Mfw-mk-6MJ"; */
+"Mfw-mk-6MJ.title" = "Send";
+
+/* Class = "UILabel"; text = "3. Switch Camera On"; ObjectID = "RU7-vm-J0r"; */
+"RU7-vm-J0r.text" = "3. Switch Camera On";
+
+/* Class = "UIButton"; normalTitle = "Allow Access"; ObjectID = "T5H-gT-HdS"; */
+"T5H-gT-HdS.normalTitle" = "Allow Access";
+
+/* Class = "UILabel"; text = "2. Switch Photos On"; ObjectID = "Xy6-Fe-5lO"; */
+"Xy6-Fe-5lO.text" = "2. Switch Photos On";
+
+/* Class = "UILabel"; text = "This allows you to post photographs of your food and get tailored feedback for your meals"; ObjectID = "gJp-0x-Ytm"; */
+"gJp-0x-Ytm.text" = "This allows you to post photographs of your food and get tailored feedback for your meals";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "hvu-Nr-6tx"; */
+"hvu-Nr-6tx.title" = "Cancel";
+
+/* Class = "UILabel"; text = "Please Allow Camera Access"; ObjectID = "rtn-1l-0In"; */
+"rtn-1l-0In.text" = "Please Allow Camera Access";
+
+/* Class = "UILabel"; text = "1. Tap Privacy"; ObjectID = "vRm-id-6pg"; */
+"vRm-id-6pg.text" = "1. Tap Privacy";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "wXA-FE-zHB"; */
+"wXA-FE-zHB.title" = "Done";

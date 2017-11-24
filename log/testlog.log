@@ -589,3 +589,491 @@
 2017-11-21 17:48:41,013 - Log_File.Log -INFO - Unit System menu clicked
 2017-11-21 17:48:42,268 - Log_File.Log -INFO - In Units Page the weight units set to Weight lbs/ft
 2017-11-21 17:48:56,424 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 10:07:12,488 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:07:12,593 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:07:12,594 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:07:16,660 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 10:07:22,307 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 10:07:28,122 - Log_File.Log -INFO - Password entered
+2017-11-22 10:07:30,460 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 10:07:30,461 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 10:07:30,461 - Log_File.Log -INFO - X
+2017-11-22 10:07:30,461 - Log_File.Log -INFO - X
+2017-11-22 10:07:30,511 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:07:30,512 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:07:30,513 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:07:34,513 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 10:07:35,750 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 10:07:36,728 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 10:07:37,984 - Log_File.Log -INFO - In Units Page the weight units set to Weight kg/cm
+2017-11-22 10:07:41,608 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 10:07:42,873 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 10:11:00,883 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:11:00,943 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:11:00,943 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:11:04,516 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 10:11:10,222 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 10:11:15,637 - Log_File.Log -INFO - Password entered
+2017-11-22 10:11:17,463 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 10:11:17,463 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 10:11:17,463 - Log_File.Log -INFO - X
+2017-11-22 10:11:17,464 - Log_File.Log -INFO - X
+2017-11-22 10:11:17,492 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:11:17,493 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:11:17,493 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:11:24,062 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 10:11:24,578 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 10:11:26,368 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 10:11:27,655 - Log_File.Log -INFO - In Units Page the weight units set to Weight lbs/ft
+2017-11-22 10:11:31,298 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 10:11:32,575 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 10:11:33,543 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings LBS
+2017-11-22 10:11:43,546 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 10:31:04,705 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:31:04,754 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:31:04,755 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:31:08,685 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 10:31:14,551 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 10:31:20,280 - Log_File.Log -INFO - Password entered
+2017-11-22 10:31:23,563 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 10:31:23,588 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 10:31:23,589 - Log_File.Log -INFO - X
+2017-11-22 10:31:23,589 - Log_File.Log -INFO - X
+2017-11-22 10:31:23,622 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:31:23,623 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:31:23,625 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:31:28,449 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 10:31:29,904 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 10:31:31,653 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 10:31:32,858 - Log_File.Log -INFO - In Units Page the weight units set to Weight kg/cm
+2017-11-22 10:31:36,440 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 10:31:37,734 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 10:31:38,877 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings KG
+2017-11-22 10:31:48,881 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 10:31:58,750 - Log_File.Log -INFO - Press the home Page button to check the weight unt in the Dashboard 
+2017-11-22 10:32:00,593 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings kg
+2017-11-22 10:32:00,859 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings kg
+2017-11-22 10:32:01,114 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings kg
+2017-11-22 10:43:12,012 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:43:12,064 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:43:12,073 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:43:15,497 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 10:43:21,177 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 10:43:27,064 - Log_File.Log -INFO - Password entered
+2017-11-22 10:43:28,382 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 10:43:28,383 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 10:43:28,383 - Log_File.Log -INFO - X
+2017-11-22 10:43:28,383 - Log_File.Log -INFO - X
+2017-11-22 10:43:28,418 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:43:28,419 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:43:28,419 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:43:34,991 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 10:43:35,525 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 10:43:36,728 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 10:43:37,968 - Log_File.Log -INFO - In Units Page the weight units set to weight lbs/ft
+2017-11-22 10:43:41,569 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 10:43:42,723 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 10:43:43,631 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings LBS
+2017-11-22 10:43:53,633 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 10:43:54,184 - Log_File.Log -INFO - Press the home Page button to check the weight unt in the Dashboard 
+2017-11-22 10:43:54,975 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings lbs
+2017-11-22 10:43:55,634 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings lbs
+2017-11-22 10:43:56,440 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings lbs
+2017-11-22 10:43:56,440 - Log_File.Log -INFO - Pressed the Weight button to display all the Logged weight cards
+2017-11-22 10:43:57,878 - Log_File.Log -INFO - Press the Weight button in the TimeLine to check the units in the time line page
+2017-11-22 10:43:58,070 - Log_File.Log -INFO - The Units displayed for the weight log  same as in the settings lbs
+2017-11-22 10:47:07,088 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:47:07,133 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:47:07,133 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:47:10,541 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 10:47:16,618 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 10:47:21,933 - Log_File.Log -INFO - Password entered
+2017-11-22 10:47:24,290 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 10:47:24,291 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 10:47:24,291 - Log_File.Log -INFO - X
+2017-11-22 10:47:24,291 - Log_File.Log -INFO - X
+2017-11-22 10:47:24,326 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:47:24,327 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:47:24,327 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:47:28,480 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 10:47:30,108 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 10:47:31,068 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 10:47:32,324 - Log_File.Log -INFO - In Units Page the weight units set to weight kg/cm
+2017-11-22 10:47:35,966 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 10:47:37,085 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 10:47:38,031 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings KG
+2017-11-22 10:47:48,036 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 10:47:48,770 - Log_File.Log -INFO - Press the home Page button to check the weight unt in the Dashboard 
+2017-11-22 10:47:49,758 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings kg
+2017-11-22 10:47:50,355 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings kg
+2017-11-22 10:47:50,646 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings kg
+2017-11-22 10:47:50,646 - Log_File.Log -INFO - Pressed the Weight button to display all the Logged weight cards
+2017-11-22 10:47:51,814 - Log_File.Log -INFO - Pressed the Weight button in the TimeLine to check the units in the time line page
+2017-11-22 10:47:52,762 - Log_File.Log -INFO - The Units displayed for the weight log  same as in the settings kg
+2017-11-22 10:47:52,964 - Log_File.Log -INFO - Pressed weight Log card to check the unit inthe weight detail page
+2017-11-22 10:57:33,245 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:57:33,297 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:57:33,297 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:57:37,186 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 10:57:42,865 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 10:57:48,679 - Log_File.Log -INFO - Password entered
+2017-11-22 10:57:49,762 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 10:57:49,762 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 10:57:49,763 - Log_File.Log -INFO - X
+2017-11-22 10:57:49,763 - Log_File.Log -INFO - X
+2017-11-22 10:57:49,802 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:57:49,802 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 10:57:49,802 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 10:57:56,180 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 10:57:57,333 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 10:57:58,462 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 10:57:59,678 - Log_File.Log -INFO - In Units Page the weight units set to weight lbs/ft
+2017-11-22 10:58:03,285 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 10:58:04,248 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 10:58:05,195 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings LBS
+2017-11-22 10:58:15,201 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 10:58:16,239 - Log_File.Log -INFO - Press the home Page button to check the weight unt in the Dashboard 
+2017-11-22 10:58:17,083 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings lbs
+2017-11-22 10:58:17,622 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings lbs
+2017-11-22 10:58:18,484 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings lbs
+2017-11-22 10:58:18,485 - Log_File.Log -INFO - Pressed the Weight button to display all the Logged weight cards
+2017-11-22 10:58:19,824 - Log_File.Log -INFO - Pressed the Weight button in the TimeLine to check the units in the time line page
+2017-11-22 10:58:20,023 - Log_File.Log -INFO - The Units displayed for the weight log  same as in the settings lbs
+2017-11-22 10:58:20,242 - Log_File.Log -INFO - Pressed weight Log card to check the unit in the weight detail page
+2017-11-22 11:13:02,967 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:13:03,009 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 11:13:03,011 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:13:07,084 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 11:13:12,810 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 11:13:18,139 - Log_File.Log -INFO - Password entered
+2017-11-22 11:13:20,532 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 11:13:20,533 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 11:13:20,533 - Log_File.Log -INFO - X
+2017-11-22 11:13:20,534 - Log_File.Log -INFO - X
+2017-11-22 11:13:20,560 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:13:20,561 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 11:13:20,561 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:13:24,856 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 11:13:26,406 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 11:13:28,225 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 11:13:29,450 - Log_File.Log -INFO - In Units Page the weight units set to weight kg/cm
+2017-11-22 11:13:33,398 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 11:13:34,436 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 11:13:35,367 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings KG
+2017-11-22 11:13:45,372 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 11:13:45,886 - Log_File.Log -INFO - Press the home Page button to check the weight unt in the Dashboard 
+2017-11-22 11:13:46,748 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings kg
+2017-11-22 11:13:47,617 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings kg
+2017-11-22 11:13:47,886 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings kg
+2017-11-22 11:13:47,886 - Log_File.Log -INFO - Pressed the Weight button to display all the Logged weight cards
+2017-11-22 11:13:48,567 - Log_File.Log -INFO - Pressed the Weight button in the TimeLine to check the units in the time line page
+2017-11-22 11:13:49,039 - Log_File.Log -INFO - The Units displayed for the weight log  same as in the settings kg
+2017-11-22 11:13:49,216 - Log_File.Log -INFO - Pressed weight Log card to check the unit in the weight detail page
+2017-11-22 11:13:50,223 - Log_File.Log -INFO - The Units displayed for the previous  weight same as in the settings kg
+2017-11-22 11:13:50,389 - Log_File.Log -INFO - The Units displayed for the Change weight same as in the settings kg
+2017-11-22 11:13:50,544 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings 
+2017-11-22 11:13:50,943 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings 
+2017-11-22 11:13:51,082 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings 
+2017-11-22 11:13:51,082 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 11:13:51,083 - Log_File.Log -INFO - X
+2017-11-22 11:13:51,083 - Log_File.Log -INFO - X
+2017-11-22 11:31:14,687 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:31:14,713 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 11:31:14,713 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:31:18,518 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 11:31:24,264 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 11:31:29,565 - Log_File.Log -INFO - Password entered
+2017-11-22 11:31:31,949 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 11:31:31,950 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 11:31:31,950 - Log_File.Log -INFO - X
+2017-11-22 11:31:31,951 - Log_File.Log -INFO - X
+2017-11-22 11:31:31,977 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:31:31,977 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 11:31:31,978 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:31:36,422 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 11:31:37,540 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 11:31:38,699 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 11:31:39,919 - Log_File.Log -INFO - In Units Page the weight units set to weight lbs/ft
+2017-11-22 11:31:43,530 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 11:31:44,586 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 11:31:44,587 - Log_File.Log -INFO - --------------------Notification Page -----------------------
+2017-11-22 11:31:45,548 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings LBS
+2017-11-22 11:31:55,554 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 11:31:56,047 - Log_File.Log -INFO - Press the home Page button to check the weight unt in the Dashboard 
+2017-11-22 11:31:56,048 - Log_File.Log -INFO - -------------------- DashBoard Page -----------------------
+2017-11-22 11:31:57,055 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings lbs
+2017-11-22 11:31:57,586 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings lbs
+2017-11-22 11:31:58,347 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings lbs
+2017-11-22 11:31:58,348 - Log_File.Log -INFO - Pressed the Weight button to display all the Logged weight cards
+2017-11-22 11:31:58,762 - Log_File.Log -INFO - Pressed the Weight button in the TimeLine to check the units in the time line page
+2017-11-22 11:31:58,762 - Log_File.Log -INFO - --------------------TIMELINE WEIGHT -----------------------
+2017-11-22 11:31:59,711 - Log_File.Log -INFO - The Units displayed for the weight log  same as in the settings lbs
+2017-11-22 11:31:59,889 - Log_File.Log -INFO - Pressed weight Log card to check the unit in the weight detail page
+2017-11-22 11:31:59,889 - Log_File.Log -INFO - -------------WEIGHT DETAIL PAGE------------------------------
+2017-11-22 11:32:00,865 - Log_File.Log -INFO - The Units displayed for the previous  weight same as in the settings lbs
+2017-11-22 11:32:01,009 - Log_File.Log -INFO - The Units displayed for the Change weight same as in the settings lbs
+2017-11-22 11:32:01,246 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings 
+2017-11-22 11:32:02,470 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings 
+2017-11-22 11:32:02,601 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings 
+2017-11-22 11:32:02,601 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 11:32:02,602 - Log_File.Log -INFO - X
+2017-11-22 11:32:02,602 - Log_File.Log -INFO - X
+2017-11-22 11:40:41,972 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:40:42,062 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 11:40:42,062 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:40:45,663 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 11:40:51,362 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 11:40:57,181 - Log_File.Log -INFO - Password entered
+2017-11-22 11:40:59,570 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 11:40:59,571 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 11:40:59,620 - Log_File.Log -INFO - X
+2017-11-22 11:40:59,634 - Log_File.Log -INFO - X
+2017-11-22 11:41:04,215 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 11:41:05,641 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 11:41:06,899 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 11:41:08,143 - Log_File.Log -INFO - In Units Page the weight units set to weight kg/cm
+2017-11-22 11:41:08,143 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:41:08,144 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  weight kg/cm       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 11:41:08,147 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 11:41:11,800 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 11:41:12,875 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 11:41:12,877 - Log_File.Log -INFO - --------------------Notification Page -----------------------
+2017-11-22 11:41:13,863 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings KG
+2017-11-22 11:41:23,869 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 11:41:24,636 - Log_File.Log -INFO - Press the home Page button to check the weight unt in the Dashboard 
+2017-11-22 11:41:24,637 - Log_File.Log -INFO - -------------------- DashBoard Page -----------------------
+2017-11-22 11:41:25,417 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings kg
+2017-11-22 11:41:25,939 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings kg
+2017-11-22 11:41:26,398 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings kg
+2017-11-22 11:41:26,399 - Log_File.Log -INFO - Pressed the Weight button to display all the Logged weight cards
+2017-11-22 11:41:26,636 - Log_File.Log -INFO - Pressed the Weight button in the TimeLine to check the units in the time line page
+2017-11-22 11:41:26,637 - Log_File.Log -INFO - --------------------TIMELINE WEIGHT -----------------------
+2017-11-22 11:41:27,540 - Log_File.Log -INFO - The Units displayed for the weight log  same as in the settings kg
+2017-11-22 11:41:27,716 - Log_File.Log -INFO - Pressed weight Log card to check the unit in the weight detail page
+2017-11-22 11:41:27,716 - Log_File.Log -INFO - -------------WEIGHT DETAIL PAGE------------------------------
+2017-11-22 11:41:28,681 - Log_File.Log -INFO - The Units displayed for the previous  weight same as in the settings kg
+2017-11-22 11:41:28,830 - Log_File.Log -INFO - The Units displayed for the Change weight same as in the settings kg
+2017-11-22 11:41:28,972 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings 
+2017-11-22 11:41:29,287 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings 
+2017-11-22 11:41:29,473 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings 
+2017-11-22 11:41:29,473 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 11:41:29,474 - Log_File.Log -INFO - X
+2017-11-22 11:41:29,474 - Log_File.Log -INFO - X
+2017-11-22 13:53:04,927 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 13:53:05,041 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 13:53:05,045 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 13:53:08,939 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 13:53:14,686 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 13:53:22,785 - Log_File.Log -INFO - Password entered
+2017-11-22 13:53:23,941 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 13:53:23,941 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 13:53:23,942 - Log_File.Log -INFO - X
+2017-11-22 13:53:23,942 - Log_File.Log -INFO - X
+2017-11-22 13:53:31,466 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 13:53:32,605 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 13:53:33,820 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 13:53:35,044 - Log_File.Log -INFO - In Units Page the weight units set to weight lbs/ft
+2017-11-22 13:53:35,045 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 13:53:35,045 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  weight lbs/ft       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 13:53:35,047 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 13:53:35,047 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 13:53:38,837 - Log_File.Log -INFO - ----------------------------- Goal PAGE ------------------------------
+2017-11-22 13:53:39,478 - Log_File.Log -INFO - The Units displayed goal page weight is same as in the settings lbs
+2017-11-22 13:53:43,124 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 13:53:44,208 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 13:53:44,208 - Log_File.Log -INFO - --------------------Notification Page -----------------------
+2017-11-22 13:53:45,161 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings LBS
+2017-11-22 13:53:55,166 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 13:53:55,817 - Log_File.Log -INFO - Press the home Page button to check the weight unt in the Dashboard 
+2017-11-22 13:53:55,818 - Log_File.Log -INFO - -------------------- DashBoard Page -----------------------
+2017-11-22 13:53:57,404 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings lbs
+2017-11-22 13:53:58,022 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings lbs
+2017-11-22 13:53:58,480 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings lbs
+2017-11-22 13:53:58,481 - Log_File.Log -INFO - Pressed the Weight button to display all the Logged weight cards
+2017-11-22 13:53:59,002 - Log_File.Log -INFO - Pressed the Weight button in the TimeLine to check the units in the time line page
+2017-11-22 13:53:59,002 - Log_File.Log -INFO - --------------------TIMELINE WEIGHT -----------------------
+2017-11-22 13:54:00,104 - Log_File.Log -INFO - The Units displayed for the weight log  same as in the settings lbs
+2017-11-22 13:54:00,306 - Log_File.Log -INFO - Pressed weight Log card to check the unit in the weight detail page
+2017-11-22 13:54:00,306 - Log_File.Log -INFO - -------------WEIGHT DETAIL PAGE------------------------------
+2017-11-22 13:54:01,390 - Log_File.Log -INFO - The Units displayed for the previous  weight same as in the settings lbs
+2017-11-22 13:54:01,551 - Log_File.Log -INFO - The Units displayed for the Change weight same as in the settings lbs
+2017-11-22 13:54:01,788 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings 
+2017-11-22 13:54:02,118 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings 
+2017-11-22 13:54:02,284 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings 
+2017-11-22 13:54:03,157 - Log_File.Log -INFO - Pressed back Button to reach the home page
+2017-11-22 13:54:03,157 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 13:54:03,158 - Log_File.Log -INFO - X
+2017-11-22 13:54:03,158 - Log_File.Log -INFO - X
+2017-11-22 13:56:16,000 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 13:56:16,022 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 13:56:16,023 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 13:56:19,359 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 13:56:25,062 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 13:56:30,946 - Log_File.Log -INFO - Password entered
+2017-11-22 13:56:33,565 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 13:56:33,566 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 13:56:33,566 - Log_File.Log -INFO - X
+2017-11-22 13:56:33,567 - Log_File.Log -INFO - X
+2017-11-22 13:56:38,759 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 13:56:39,802 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 13:56:41,260 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 13:56:42,696 - Log_File.Log -INFO - In Units Page the weight units set to weight kg/cm
+2017-11-22 13:56:42,697 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 13:56:42,697 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  weight kg/cm       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 13:56:42,700 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 13:56:42,701 - Log_File.Log -INFO - Check the same unit dislayed in the Goal Page
+2017-11-22 13:56:46,247 - Log_File.Log -INFO - ----------------------------- Goal PAGE ------------------------------
+2017-11-22 13:56:46,979 - Log_File.Log -INFO - The Units displayed goal page weight is same as in the settings kg
+2017-11-22 13:56:51,821 - Log_File.Log -INFO - --------------------Notification Page -----------------------
+2017-11-22 13:56:51,821 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 13:56:53,416 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings KG
+2017-11-22 13:56:53,457 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 13:57:03,460 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 13:57:04,993 - Log_File.Log -INFO - Press the home Page button to check the weight unt in the Dashboard 
+2017-11-22 13:57:05,047 - Log_File.Log -INFO - -------------------- DashBoard Page -----------------------
+2017-11-22 13:57:05,883 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings kg
+2017-11-22 13:57:06,316 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings kg
+2017-11-22 13:57:06,737 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings kg
+2017-11-22 13:57:06,738 - Log_File.Log -INFO - Pressed the Weight button to display all the Logged weight cards
+2017-11-22 13:57:07,331 - Log_File.Log -INFO - Pressed the Weight button in the TimeLine to check the units in the time line page
+2017-11-22 13:57:07,332 - Log_File.Log -INFO - --------------------TIMELINE WEIGHT -----------------------
+2017-11-22 13:57:07,946 - Log_File.Log -INFO - The Units displayed for the weight log  same as in the settings kg
+2017-11-22 13:57:08,107 - Log_File.Log -INFO - Pressed weight Log card to check the unit in the weight detail page
+2017-11-22 13:57:08,108 - Log_File.Log -INFO - -------------WEIGHT DETAIL PAGE------------------------------
+2017-11-22 13:57:09,083 - Log_File.Log -INFO - The Units displayed for the previous  weight same as in the settings kg
+2017-11-22 13:57:09,220 - Log_File.Log -INFO - The Units displayed for the Change weight same as in the settings kg
+2017-11-22 13:57:09,360 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings 
+2017-11-22 13:57:09,679 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings 
+2017-11-22 13:57:09,854 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings 
+2017-11-22 13:57:10,618 - Log_File.Log -INFO - Pressed back Button to reach the home page
+2017-11-22 13:57:10,648 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 13:57:10,649 - Log_File.Log -INFO - X
+2017-11-22 13:57:10,649 - Log_File.Log -INFO - X
+2017-11-22 15:13:14,302 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 15:13:14,336 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 15:13:14,337 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 15:13:16,780 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 15:13:22,878 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-11-22 15:13:29,684 - Log_File.Log -INFO - Password entered
+2017-11-22 15:13:31,605 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 15:13:31,606 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 15:13:31,606 - Log_File.Log -INFO - X
+2017-11-22 15:13:31,606 - Log_File.Log -INFO - X
+2017-11-22 17:35:39,194 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 17:35:39,238 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 17:35:39,238 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 17:37:50,514 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 17:37:50,554 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 17:37:50,555 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 17:37:54,657 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 17:38:00,600 - Log_File.Log -INFO - Username  bhavani.bose@gmail.com entered
+2017-11-22 17:38:06,443 - Log_File.Log -INFO - Password entered
+2017-11-22 17:38:09,091 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 17:38:09,133 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 17:38:09,133 - Log_File.Log -INFO - X
+2017-11-22 17:38:09,134 - Log_File.Log -INFO - X
+2017-11-22 17:38:16,949 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-22 17:38:18,240 - Log_File.Log -INFO - Setting menu clicked
+2017-11-22 17:38:19,218 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-22 17:38:20,438 - Log_File.Log -INFO - In Units Page the weight units set to weight lbs/ft
+2017-11-22 17:38:20,438 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 17:38:20,439 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  weight lbs/ft       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 17:38:20,440 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 17:38:20,441 - Log_File.Log -INFO - Check the same unit dislayed in the Goal Page
+2017-11-22 17:38:24,002 - Log_File.Log -INFO - ----------------------------- Goal PAGE ------------------------------
+2017-11-22 17:38:24,804 - Log_File.Log -INFO - The Units displayed goal page weight is same as in the settings lbs
+2017-11-22 17:38:29,457 - Log_File.Log -INFO - --------------------Notification Page -----------------------
+2017-11-22 17:38:29,458 - Log_File.Log -INFO - Pressed the Notification Button
+2017-11-22 17:38:30,621 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings LBS
+2017-11-22 17:38:30,622 - Log_File.Log -INFO - Check the same unit dislayed in the Notification
+2017-11-22 17:38:40,628 - Log_File.Log -INFO - Check same unit displayed in the DashBoard Page
+2017-11-22 17:38:40,914 - Log_File.Log -INFO - Press the home Page button to check the weight unt in the Dashboard 
+2017-11-22 17:38:40,914 - Log_File.Log -INFO - -------------------- DashBoard Page -----------------------
+2017-11-22 17:38:42,252 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings lbs
+2017-11-22 17:38:42,706 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings lbs
+2017-11-22 17:38:43,221 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings lbs
+2017-11-22 17:38:43,222 - Log_File.Log -INFO - Pressed the Weight button to display all the Logged weight cards
+2017-11-22 17:38:43,612 - Log_File.Log -INFO - Pressed the Weight button in the TimeLine to check the units in the time line page
+2017-11-22 17:38:43,612 - Log_File.Log -INFO - --------------------TIMELINE WEIGHT -----------------------
+2017-11-22 17:38:44,831 - Log_File.Log -INFO - The Units displayed for the weight log  same as in the settings lbs
+2017-11-22 17:38:45,009 - Log_File.Log -INFO - Pressed weight Log card to check the unit in the weight detail page
+2017-11-22 17:38:45,009 - Log_File.Log -INFO - -------------WEIGHT DETAIL PAGE------------------------------
+2017-11-22 17:38:46,080 - Log_File.Log -INFO - The Units displayed for the previous  weight same as in the settings lbs
+2017-11-22 17:38:46,240 - Log_File.Log -INFO - The Units displayed for the Change weight same as in the settings lbs
+2017-11-22 17:38:46,421 - Log_File.Log -INFO - The Units displayed for the start weight same as in the settings 
+2017-11-22 17:38:46,782 - Log_File.Log -INFO - The Units displayed for the current weight same as in the settings 
+2017-11-22 17:38:46,969 - Log_File.Log -INFO - The Units displayed for the goal weight same as in the settings 
+2017-11-22 17:38:47,734 - Log_File.Log -INFO - Pressed back Button to reach the home page
+2017-11-22 17:38:47,734 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 17:38:47,735 - Log_File.Log -INFO - X
+2017-11-22 17:38:47,735 - Log_File.Log -INFO - X
+2017-11-22 18:02:57,727 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 18:02:57,846 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-22 18:02:57,847 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-22 18:03:01,485 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-22 18:03:34,824 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-11-22 18:03:42,628 - Log_File.Log -INFO - Password entered
+2017-11-22 18:03:44,653 - Log_File.Log -INFO - Login button Pressed
+2017-11-22 18:03:44,653 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-22 18:03:44,653 - Log_File.Log -INFO - X
+2017-11-22 18:03:44,654 - Log_File.Log -INFO - X
+2017-11-23 10:04:38,372 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-23 10:04:38,462 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-23 10:04:38,462 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-23 10:53:13,995 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-23 10:53:14,074 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-23 10:53:14,075 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-23 13:27:14,539 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-23 13:27:14,629 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-23 13:27:14,631 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-23 13:27:42,403 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-23 13:27:47,359 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-11-23 13:27:52,920 - Log_File.Log -INFO - Password entered
+2017-11-23 13:27:54,655 - Log_File.Log -INFO - Login button Pressed
+2017-11-23 13:27:54,655 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-23 13:27:54,655 - Log_File.Log -INFO - X
+2017-11-23 13:27:54,656 - Log_File.Log -INFO - X
+2017-11-23 13:44:19,105 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-23 13:44:19,196 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-23 13:44:19,197 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-23 13:44:45,694 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-23 13:44:50,173 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-11-23 13:44:55,574 - Log_File.Log -INFO - Password entered
+2017-11-23 13:44:57,240 - Log_File.Log -INFO - Login button Pressed
+2017-11-23 13:44:57,241 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-23 13:44:57,241 - Log_File.Log -INFO - X
+2017-11-23 13:44:57,241 - Log_File.Log -INFO - X
+2017-11-24 14:06:43,459 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-24 14:06:43,538 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-24 14:06:43,538 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-24 14:27:33,783 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-24 14:27:33,928 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-24 14:27:33,928 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-24 14:27:37,023 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-24 14:27:52,673 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-11-24 14:27:58,522 - Log_File.Log -INFO - Password entered
+2017-11-24 14:28:00,237 - Log_File.Log -INFO - Login button Pressed
+2017-11-24 14:28:00,238 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-24 14:28:00,238 - Log_File.Log -INFO - X
+2017-11-24 14:28:00,238 - Log_File.Log -INFO - X
+2017-11-24 14:37:48,877 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-24 14:37:48,945 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-24 14:37:48,945 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-24 15:05:29,252 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-24 15:05:29,309 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-24 15:05:29,309 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-24 15:05:52,995 - Log_File.Log -INFO - Signin Button Pressed
+2017-11-24 15:05:57,978 - Log_File.Log -INFO - Username  test50@gmail.com entered
+2017-11-24 15:06:03,587 - Log_File.Log -INFO - Password entered
+2017-11-24 15:06:05,346 - Log_File.Log -INFO - Login button Pressed
+2017-11-24 15:06:05,346 - Log_File.Log -INFO - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-24 15:06:05,347 - Log_File.Log -INFO - X
+2017-11-24 15:06:05,347 - Log_File.Log -INFO - X
+2017-11-24 15:06:20,228 - Log_File.Log -INFO - Left Menu Opened Properly
+2017-11-24 15:06:23,198 - Log_File.Log -INFO - Setting menu clicked
+2017-11-24 15:06:26,229 - Log_File.Log -INFO - Unit System menu clicked
+2017-11-24 15:06:28,929 - Log_File.Log -INFO - In Units Page the weight units set to 1
+2017-11-24 15:06:28,930 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-24 15:06:28,930 - Log_File.Log -INFO - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  1       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-24 15:06:28,931 - Log_File.Log -INFO - ****************************************************************************************
+2017-11-24 15:06:28,931 - Log_File.Log -INFO - Check the same unit dislayed in the Goal Page

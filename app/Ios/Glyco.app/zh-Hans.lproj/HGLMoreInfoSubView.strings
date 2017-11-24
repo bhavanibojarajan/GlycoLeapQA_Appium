@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "UnitLbl"; ObjectID = "DzF-Wz-W39"; */
+"DzF-Wz-W39.text" = "UnitLbl";
+
+/* Class = "UILabel"; text = "TitleLbl"; ObjectID = "dzP-9n-WxV"; */
+"dzP-9n-WxV.text" = "TitleLbl";
+
+/* Class = "UILabel"; text = "ValueLabel"; ObjectID = "mc8-eK-QWp"; */
+"mc8-eK-QWp.text" = "ValueLabel";

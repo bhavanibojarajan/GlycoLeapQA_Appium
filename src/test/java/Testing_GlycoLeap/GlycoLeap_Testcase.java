@@ -95,7 +95,7 @@ public static String UserEmail;
 
     @Test
     public void Units() throws InterruptedException {
-        Log.startTestCase("Unit System - Weight Unit");
+
 
         String weightunit;
 
@@ -107,25 +107,38 @@ public static String UserEmail;
 
 
         //Weight Checking
-        weightunit=SR.CheckUnits_weight();
+        weightunit=SR.CheckUnits_weight().toLowerCase();
         Log.info("In Units Page the weight units set to "+ weightunit);
 
+        Log.startTestCase("Unit System - Weight Unit  "+weightunit);
+
+
+        //WEight check in the GoalPage
+        Log.info("Check the same unit dislayed in the Goal Page");
+       SR.Reach_Goal_Page();
+        GR.Check_units_Goal_Page(weightunit);
+
+
+
+        // Reach home page
         SR.Reach_to_Home_Page();
-     Thread.sleep(10000);
+
+        //Checking the units in the notification page
+
+        NWR.Check_units_Notification(weightunit);
+        Log.info("Check the same unit dislayed in the Notification");
+
+        Thread.sleep(10000);
        //Checking the units in the DashBoard
         Log.info("Check same unit displayed in the DashBoard Page");
         DWR.Check_units_DashBoard(weightunit);
 
 
-       /* //Checking the units in the Timeline
-        Log.info("Check same unit displayed in the TimeLine");
-        WTR.weightbuttontimeline.click();
+       //Checking the units in the Timeline
+
         Log.info("Pressed the Weight button to display all the Logged weight cards");
         WTR.Check_units_Timeline(weightunit);
 
-        //Checking the units in the notification
-        Log.info("Check the same unit dislayed in the Notification");
-        NWR.Check_units_Notification(weightunit);
 
 
         //Checking the units in the Weight Detail page
@@ -133,7 +146,11 @@ public static String UserEmail;
 
         Log.endTestCase("Unit System - Weight Unit");
 
-*/
+
+        //Checking the units in the Goal Page
+
+
+
     }
 
    /* @Test

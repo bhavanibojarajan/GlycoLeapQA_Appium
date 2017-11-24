@@ -1,0 +1,108 @@
+
+/* Class = "UILabel"; text = "Weight"; ObjectID = "1iq-Bf-ew5"; */
+"1iq-Bf-ew5.text" = "Weight";
+
+/* Class = "UILabel"; text = "Measurement"; ObjectID = "3BL-2F-mhZ"; */
+"3BL-2F-mhZ.text" = "Measurement";
+
+/* Class = "UILabel"; text = "support@getsuperleap.com"; ObjectID = "56Y-iE-G1h"; */
+"56Y-iE-G1h.text" = "support@getsuperleap.com";
+
+/* Class = "UILabel"; text = "Last sync on Date, TIme"; ObjectID = "6tA-sX-Bmf"; */
+"6tA-sX-Bmf.text" = "Last sync on Date, TIme";
+
+/* Class = "UILabel"; text = "Change profile picture"; ObjectID = "8UF-p5-CtK"; */
+"8UF-p5-CtK.text" = "Change profile picture";
+
+/* Class = "UILabel"; text = "Unique Program ID"; ObjectID = "8We-l6-3tB"; */
+"8We-l6-3tB.text" = "Unique Program ID";
+
+/* Class = "UILabel"; text = "support@getsuperleap.com"; ObjectID = "8fd-sz-Akf"; */
+"8fd-sz-Akf.text" = "support@getsuperleap.com";
+
+/* Class = "UILabel"; text = "support@getsuperleap.com"; ObjectID = "DVG-ZW-fTk"; */
+"DVG-ZW-fTk.text" = "support@getsuperleap.com";
+
+/* Class = "UISegmentedControl"; IQG-kJ-jFr.segmentTitles[0] = "kg/cm"; ObjectID = "IQG-kJ-jFr"; */
+"IQG-kJ-jFr.segmentTitles[0]" = "kg/cm";
+
+/* Class = "UISegmentedControl"; IQG-kJ-jFr.segmentTitles[1] = "lbs/ft"; ObjectID = "IQG-kJ-jFr"; */
+"IQG-kJ-jFr.segmentTitles[1]" = "lbs/ft";
+
+/* Class = "UILabel"; text = "Unique Program ID"; ObjectID = "Kml-Yk-Tx3"; */
+"Kml-Yk-Tx3.text" = "Unique Program ID";
+
+/* Class = "UILabel"; text = "Joko Wow"; ObjectID = "Lkv-Is-mXq"; */
+"Lkv-Is-mXq.text" = "Joko Wow";
+
+/* Class = "UILabel"; text = "support@getsuperleap.com"; ObjectID = "MkI-ly-sYZ"; */
+"MkI-ly-sYZ.text" = "support@getsuperleap.com";
+
+/* Class = "UILabel"; text = "Actxa Tracker"; ObjectID = "N1j-zF-32R"; */
+"N1j-zF-32R.text" = "Actxa Tracker";
+
+/* Class = "UITextField"; text = "Jokowow"; ObjectID = "NUE-y5-EwS"; */
+"NUE-y5-EwS.text" = "Jokowow";
+
+/* Class = "UILabel"; text = "Choose this option if you have received the wearable Actxa Activity Tracker."; ObjectID = "NWj-y0-xum"; */
+"NWj-y0-xum.text" = "Choose this option if you have received the wearable Actxa Activity Tracker.";
+
+/* Class = "UILabel"; text = "Oops! No device found"; ObjectID = "P3C-W5-iLw"; */
+"P3C-W5-iLw.text" = "Oops! No device found";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "P5o-5o-Cfz"; */
+"P5o-5o-Cfz.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "support@getsuperleap.com"; ObjectID = "PtN-Yo-8sM"; */
+"PtN-Yo-8sM.text" = "support@getsuperleap.com";
+
+/* Class = "UILabel"; text = "Parent's name"; ObjectID = "RZ0-4O-cnM"; */
+"RZ0-4O-cnM.text" = "Parent's name";
+
+/* Class = "UILabel"; text = "Track on Phone"; ObjectID = "Swn-yt-Vcv"; */
+"Swn-yt-Vcv.text" = "Track on Phone";
+
+/* Class = "UILabel"; text = "PREMIUM"; ObjectID = "Xpo-ad-0EJ"; */
+"Xpo-ad-0EJ.text" = "PREMIUM";
+
+/* Class = "UILabel"; text = "Unique Program ID"; ObjectID = "Yl6-9B-KBk"; */
+"Yl6-9B-KBk.text" = "Unique Program ID";
+
+/* Class = "UILabel"; text = "titleLbl"; ObjectID = "YlX-bs-PSM"; */
+"YlX-bs-PSM.text" = "titleLbl";
+
+/* Class = "UILabel"; text = "This account is logging activity data from a previously signed in device. Choose one of the above options to log using this device instead."; ObjectID = "ajM-b6-11T"; */
+"ajM-b6-11T.text" = "This account is logging activity data from a previously signed in device. Choose one of the above options to log using this device instead.";
+
+/* Class = "UILabel"; text = "support@getsuperleap.com"; ObjectID = "b7o-ey-LWY"; */
+"b7o-ey-LWY.text" = "support@getsuperleap.com";
+
+/* Class = "UILabel"; text = "Choose this to use your phone as a step counter. Tracks steps whether your phone is in your hand, pocket or bag."; ObjectID = "dGO-AY-2sz"; */
+"dGO-AY-2sz.text" = "Choose this to use your phone as a step counter. Tracks steps whether your phone is in your hand, pocket or bag.";
+
+/* Class = "UILabel"; text = "Unique Program ID"; ObjectID = "fEt-Cf-BLW"; */
+"fEt-Cf-BLW.text" = "Unique Program ID";
+
+/* Class = "UILabel"; text = "jokowow@gmail.com"; ObjectID = "lUF-0A-SwW"; */
+"lUF-0A-SwW.text" = "jokowow@gmail.com";
+
+/* Class = "UIButton"; normalTitle = "SIGN OUT ACTXA"; ObjectID = "rbr-DH-KrT"; */
+"rbr-DH-KrT.normalTitle" = "SIGN OUT ACTXA";
+
+/* Class = "UILabel"; text = "Food"; ObjectID = "rcW-gf-bT4"; */
+"rcW-gf-bT4.text" = "Food";
+
+/* Class = "UILabel"; text = "We didn’t find an Acxta Tracker associated with this account. Please use the Actxa App to add a new tracker and try again. For any question contact us at support@getsuperleap.com"; ObjectID = "s2N-0q-sOC"; */
+"s2N-0q-sOC.text" = "We didn’t find an Acxta Tracker associated with this account. Please use the Actxa App to add a new tracker and try again. For any question contact us at support@getsuperleap.com";
+
+/* Class = "UILabel"; text = "Unique Program ID"; ObjectID = "uSl-Fu-ANV"; */
+"uSl-Fu-ANV.text" = "Unique Program ID";
+
+/* Class = "UIButton"; normalTitle = "SYNC NOW"; ObjectID = "uUD-pN-x6J"; */
+"uUD-pN-x6J.normalTitle" = "SYNC NOW";
+
+/* Class = "UILabel"; text = "Unique Program ID"; ObjectID = "wsN-q9-Kid"; */
+"wsN-q9-Kid.text" = "Unique Program ID";
+
+/* Class = "UILabel"; text = "NameLbl"; ObjectID = "xeO-od-fPQ"; */
+"xeO-od-fPQ.text" = "NameLbl";

@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "ADD GLUCOSE"; ObjectID = "00o-LL-6VD"; */
+"00o-LL-6VD.text" = "ADD GLUCOSE";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "1JE-8J-Qsz"; */
+"1JE-8J-Qsz.normalTitle" = "Save";
+
+/* Class = "UITextView"; text = "Write your food descriptions..."; ObjectID = "E5I-ms-u5O"; */
+"E5I-ms-u5O.text" = "Write your food descriptions...";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "Lpe-LE-pE7"; */
+"Lpe-LE-pE7.text" = "Location";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "QXO-OS-9Lq"; */
+"QXO-OS-9Lq.text" = "0.0";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "Qk4-4p-ZjP"; */
+"Qk4-4p-ZjP.text" = "0.0";
+
+/* Class = "UILabel"; text = "1:21 PM"; ObjectID = "Su3-ce-CgB"; */
+"Su3-ce-CgB.text" = "1:21 PM";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "YTZ-Z0-Lo3"; */
+"YTZ-Z0-Lo3.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "ADD GLUCOSE"; ObjectID = "ZHP-ON-5po"; */
+"ZHP-ON-5po.text" = "ADD GLUCOSE";
+
+/* Class = "UILabel"; text = "AFTER"; ObjectID = "ZsD-y2-wDQ"; */
+"ZsD-y2-wDQ.text" = "AFTER";
+
+/* Class = "UILabel"; text = "Location is turned off"; ObjectID = "dkx-LJ-vwT"; */
+"dkx-LJ-vwT.text" = "Location is turned off";
+
+/* Class = "UILabel"; text = "Mood"; ObjectID = "hFf-bi-IPq"; */
+"hFf-bi-IPq.text" = "Mood";
+
+/* Class = "UIButton"; normalTitle = "Now"; ObjectID = "hRP-FV-hHN"; */
+"hRP-FV-hHN.normalTitle" = "Now";
+
+/* Class = "UILabel"; text = "BEFORE"; ObjectID = "k7Q-UW-3la"; */
+"k7Q-UW-3la.text" = "BEFORE";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "n6U-aj-Di2"; */
+"n6U-aj-Di2.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "nameLabel"; ObjectID = "pId-AS-Htx"; */
+"pId-AS-Htx.text" = "nameLabel";
+
+/* Class = "UILabel"; text = "timeLocationLabel"; ObjectID = "s7t-1z-nq9"; */
+"s7t-1z-nq9.text" = "timeLocationLabel";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "vi0-QW-tDV"; */
+"vi0-QW-tDV.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Food Time"; ObjectID = "vmR-Fa-b8Z"; */
+"vmR-Fa-b8Z.text" = "Food Time";

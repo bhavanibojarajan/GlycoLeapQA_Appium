@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "TimeLbl"; ObjectID = "6zA-mJ-QFj"; */
+"6zA-mJ-QFj.text" = "TimeLbl";
+
+/* Class = "UIButton"; normalTitle = "Set to Current Date & Time"; ObjectID = "Ghy-sy-QgR"; */
+"Ghy-sy-QgR.normalTitle" = "Set to Current Date & Time";
+
+/* Class = "UILabel"; text = "Weight"; ObjectID = "M6k-G9-qG1"; */
+"M6k-G9-qG1.text" = "Weight";
+
+/* Class = "UILabel"; text = "Height"; ObjectID = "QiS-lD-5Dy"; */
+"QiS-lD-5Dy.text" = "Height";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "WI1-sj-MQH"; */
+"WI1-sj-MQH.text" = "Location";
+
+/* Class = "UILabel"; text = "Height - 150cm"; ObjectID = "Xs3-fh-ZNw"; */
+"Xs3-fh-ZNw.text" = "Height - 150cm";
+
+/* Class = "UILabel"; text = "LocationLbl"; ObjectID = "aWX-vi-Kg1"; */
+"aWX-vi-Kg1.text" = "LocationLbl";
+
+/* Class = "UILabel"; text = "Apple inc 1 infinite loop What is your child's date of birth? What is your child's date of birth?"; ObjectID = "n49-BU-PVo"; */
+"n49-BU-PVo.text" = "Apple inc 1 infinite loop What is your child's date of birth? What is your child's date of birth?";
+
+/* Class = "UILabel"; text = "Date & Time"; ObjectID = "nxi-mR-J6d"; */
+"nxi-mR-J6d.text" = "Date & Time";
+
+/* Class = "UILabel"; text = "TimeLbl"; ObjectID = "s5y-fw-YLr"; */
+"s5y-fw-YLr.text" = "TimeLbl";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "sjF-Ad-80h"; */
+"sjF-Ad-80h.title" = "Next";

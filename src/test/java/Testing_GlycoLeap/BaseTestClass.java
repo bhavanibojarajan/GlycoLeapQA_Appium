@@ -7,6 +7,7 @@ import PAOBFactory.Comment_Edit_Delete.Add_Photo_Comment_Delete_Edit_Repository;
 import PAOBFactory.Comment_Edit_Delete.Android_Add_Photo_Comment_Delete_Edit_Repository;
 import PAOBFactory.DashBoard.DashBoard_Weight_Repository;
 import PAOBFactory.FoodLog.*;
+import PAOBFactory.Goal.Android_Goal_Repository;
 import PAOBFactory.LeftMenu.Android_LeftMenu_Repository;
 import PAOBFactory.LeftMenu.IOS_LeftMenu_Repository;
 import PAOBFactory.LeftMenu.LeftMenu_Repository;
@@ -30,6 +31,7 @@ import PAOBFactory.TimeLine.Android_Weight_Timeline_Repository;
 import PAOBFactory.TimeLine.Weight_Timeline_Repository;
 import PAOBFactory.WeightDetailPage.Android_Weight_Detail_Repository;
 import PAOBFactory.WeightDetailPage.Weight_Detail_Repository;
+import PAOBFactory.Goal.Goal_Repository;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -51,6 +53,7 @@ public class BaseTestClass extends AppiumBaseClass{
     protected Notification_Weight_Repository NWR;
     protected Weight_Detail_Repository WDR;
     protected Profilepage_Repository PR;
+    protected Goal_Repository GR;
 
     protected IOS_Login_Repository ILR;
 
@@ -74,6 +77,7 @@ public class BaseTestClass extends AppiumBaseClass{
                 NWR = new Android_Notification_Weight_Repository(driver());
                 WDR= new Android_Weight_Detail_Repository(driver());
                 PR=new Android_Profilepage_Repository(driver());
+                GR=new Android_Goal_Repository(driver());
                 break;
             case IOS:
                 LR = new IOS_Login_Repository(driver());

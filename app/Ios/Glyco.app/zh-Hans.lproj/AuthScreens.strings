@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "7D0-x7-xby"; */
+"7D0-x7-xby.normalTitle" = "CANCEL";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "7X6-Qg-gdT"; */
+"7X6-Qg-gdT.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "Forgot Password"; ObjectID = "DTA-Ie-fGN"; */
+"DTA-Ie-fGN.text" = "Forgot Password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ESz-l9-T8n"; */
+"ESz-l9-T8n.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "Tyk-u5-deE"; */
+"Tyk-u5-deE.normalTitle" = "Forgot password?";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "VUn-WJ-hrV"; */
+"VUn-WJ-hrV.normalTitle" = "SIGN IN";
+
+/* Class = "UILabel"; text = "Sign in"; ObjectID = "VfP-jD-B8f"; */
+"VfP-jD-B8f.text" = "Sign in";
+
+/* Class = "UIButton"; normalTitle = "RESET PASSWORD"; ObjectID = "WmM-3C-WSP"; */
+"WmM-3C-WSP.normalTitle" = "RESET PASSWORD";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "j8h-qS-4Fs"; */
+"j8h-qS-4Fs.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Create an account. Sign up."; ObjectID = "zDd-dB-heM"; */
+"zDd-dB-heM.normalTitle" = "Create an account. Sign up.";

@@ -12,6 +12,9 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
+
 public class Android_Weight_Detail_Repository implements Weight_Detail_Repository
 {
 
@@ -37,6 +40,11 @@ public class Android_Weight_Detail_Repository implements Weight_Detail_Repositor
 
 
 
+    //AndroidElement BackButton
+    @FindBy(how = How.XPATH, using = "//*[@content-desc='Navigate up']")
+    public AndroidElement backButton;
+
+
     //Created object of testng SoftAssert class to use It's Properties.
     SoftAssert s_assert = new SoftAssert();
 
@@ -53,24 +61,26 @@ public class Android_Weight_Detail_Repository implements Weight_Detail_Repositor
 
     public void Check_units_Weight_Detail(String units)
     {
+        Log.info("-------------WEIGHT DETAIL PAGE------------------------------");
 
-       Assert.assertEquals(previousweight.getText(),units,"Units matches with Previous weight in the weight Detail page");
+        assertThat(units, containsString(previousweight.getText().toLowerCase()));
         Log.info("The Units displayed for the previous  weight same as in the settings "+previousweight.getText());
 
-        Assert.assertEquals(changeinweight.getText(),units,"Units matches with Change in weight in the weight Detail page");
+        assertThat(units, containsString(changeinweight.getText().toLowerCase()));
         Log.info("The Units displayed for the Change weight same as in the settings "+changeinweight.getText());
 
-
-        Assert.assertEquals(startweight.getText(),units,"Units matches with start weight in the weight Detail page");
+        assertThat(units, containsString(startweight.getText().toLowerCase()));
         Log.info("The Units displayed for the start weight same as in the settings "+startweight.getText());
 
-        Assert.assertEquals(currentweight.getText(),units,"Units matches with Current weight in the weight Detail page");
-
+        assertThat(units, containsString(currentweight.getText().toLowerCase()));
         Log.info("The Units displayed for the current weight same as in the settings "+currentweight.getText());
 
-        Assert.assertEquals(goalweight.getText(),units,"Units matches with goal weight in the weight Detail page");
-
+        assertThat(units, containsString(goalweight.getText().toLowerCase()));
         Log.info("The Units displayed for the goal weight same as in the settings "+goalweight.getText());
+
+        //back to the home page
+        backButton.click();
+        Log.info("Pressed back Button to reach the home page");
 
     }
 }

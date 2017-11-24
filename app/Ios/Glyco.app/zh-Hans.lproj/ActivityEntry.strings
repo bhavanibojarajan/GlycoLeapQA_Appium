@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "TimeLbl"; ObjectID = "8gr-Sd-ldn"; */
+"8gr-Sd-ldn.text" = "TimeLbl";
+
+/* Class = "UILabel"; text = "12:30 pm"; ObjectID = "Aob-yI-6t6"; */
+"Aob-yI-6t6.text" = "12:30 pm";
+
+/* Class = "UILabel"; text = "30 mins"; ObjectID = "PcB-Nq-RjG"; */
+"PcB-Nq-RjG.text" = "30 mins";
+
+/* Class = "UILabel"; text = "Weight"; ObjectID = "Q8z-WL-4YA"; */
+"Q8z-WL-4YA.text" = "Weight";
+
+/* Class = "UILabel"; text = "DistanceCount"; ObjectID = "Vw2-w0-iWF"; */
+"Vw2-w0-iWF.text" = "DistanceCount";
+
+/* Class = "UILabel"; text = "Select Time"; ObjectID = "Xc7-Ig-o7e"; */
+"Xc7-Ig-o7e.text" = "Select Time";
+
+/* Class = "UIButton"; normalTitle = "Other Activities"; ObjectID = "Xri-Q6-CCz"; */
+"Xri-Q6-CCz.normalTitle" = "Other Activities";
+
+/* Class = "UIButton"; normalTitle = "Set to Current Date & Time"; ObjectID = "caa-GJ-T8g"; */
+"caa-GJ-T8g.normalTitle" = "Set to Current Date & Time";
+
+/* Class = "UILabel"; text = "TimeLbl"; ObjectID = "cp5-xV-sPL"; */
+"cp5-xV-sPL.text" = "TimeLbl";
+
+/* Class = "UILabel"; text = "1 minute ~ 130 steps"; ObjectID = "hjz-KD-rNo"; */
+"hjz-KD-rNo.text" = "1 minute ~ 130 steps";
+
+/* Class = "UILabel"; text = "Other Activities/Sports"; ObjectID = "k2B-z3-KX6"; */
+"k2B-z3-KX6.text" = "Other Activities/Sports";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "oMG-ky-7oD"; */
+"oMG-ky-7oD.title" = "Next";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "zqi-QE-tD5"; */
+"zqi-QE-tD5.text" = "Type";
