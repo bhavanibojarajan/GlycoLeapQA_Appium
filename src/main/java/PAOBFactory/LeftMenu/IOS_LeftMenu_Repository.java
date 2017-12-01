@@ -125,6 +125,9 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
 
     //==========================================================================================================
 
+    //Alert pop handling
+
+
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='Don't Allow']")
     public IOSElement dontallow;
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='Allow']")
@@ -150,11 +153,10 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
     @Override
     public void LeftMenu_Navigation(String useremail) {
 
-        /*if(isAlertPresent())
-        {
-          allow.click();}*/
 
-            allow.click();
+
+         if(isAlertPresent()==1)
+         {allow.click();}
 
 
         leftmenuopner.click();
@@ -220,27 +222,32 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
 
 
     }
-    public boolean isAlertPresent()
-    {
-        try
-        {
-            driver.switchTo().alert();
-            return true;
-        }   // try
-        catch (NoAlertPresentException Ex)
-        {
-            return false;
-        }   // catch
-    }   // isAlertPresent()
+
+    public void Left_Menu_and_setting_Opener() {
+           allow.click();
+        leftmenuopner.click();
+        Log.info("Left Menu Opened Properly");
+        settings.click();
+        Log.info("Setting menu clicked");
+
+    }
 
 
-   public void  Left_Menu_and_setting_Opener()
-   {
-       leftmenuopner.click();
-       Log.info("Left Menu Opened Properly");
-       settings.click();
-       Log.info("Setting menu clicked");
-   }
+
+
+    public int isAlertPresent() {
+        if (allow.isDisplayed()) {
+            return 1;
+
+        }else
+        {
+            return 0;
+        }
+    }
+
+      // isAlertPresent()
+
+
 
 
 

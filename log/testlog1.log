@@ -1077,3 +1077,88 @@
 2017-11-24 15:06:28,930 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  1       $$$$$$$$$$$$$$$$$$$$$$$$$
 2017-11-24 15:06:28,931 [main] INFO Log_File.Log - ****************************************************************************************
 2017-11-24 15:06:28,931 [main] INFO Log_File.Log - Check the same unit dislayed in the Goal Page
+2017-11-30 12:21:40,460 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 12:21:40,517 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 12:21:40,518 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:01:00,083 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:01:00,162 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 14:01:00,163 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:01:02,777 [main] INFO Log_File.Log - Signin Button Pressed
+2017-11-30 14:01:17,579 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-11-30 14:01:21,980 [main] INFO Log_File.Log - Password entered
+2017-11-30 14:01:23,774 [main] INFO Log_File.Log - Login button Pressed
+2017-11-30 14:01:23,774 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-30 14:01:23,774 [main] INFO Log_File.Log - X
+2017-11-30 14:01:23,786 [main] INFO Log_File.Log - X
+2017-11-30 14:12:23,860 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:12:23,937 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 14:12:23,938 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:12:26,537 [main] INFO Log_File.Log - Signin Button Pressed
+2017-11-30 14:12:32,672 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-11-30 14:12:39,722 [main] INFO Log_File.Log - Password entered
+2017-11-30 14:12:41,522 [main] INFO Log_File.Log - Login button Pressed
+2017-11-30 14:12:41,522 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-30 14:12:41,522 [main] INFO Log_File.Log - X
+2017-11-30 14:12:41,523 [main] INFO Log_File.Log - X
+2017-11-30 14:13:11,391 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-11-30 14:13:14,424 [main] INFO Log_File.Log - Setting menu clicked
+2017-11-30 14:13:17,573 [main] INFO Log_File.Log - Unit System menu clicked
+2017-11-30 14:13:20,324 [main] INFO Log_File.Log - In Units Page the weight units set to 1
+2017-11-30 14:13:20,324 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:13:20,324 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  1       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 14:13:20,326 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:13:20,326 [main] INFO Log_File.Log - Check the same unit dislayed in the Goal Page
+2017-11-30 14:42:49,087 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:42:49,255 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 14:42:49,255 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:42:51,713 [main] INFO Log_File.Log - Signin Button Pressed
+2017-11-30 14:42:57,161 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-11-30 14:43:03,560 [main] INFO Log_File.Log - Password entered
+2017-11-30 14:43:05,360 [main] INFO Log_File.Log - Login button Pressed
+2017-11-30 14:43:05,361 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-30 14:43:05,361 [main] INFO Log_File.Log - X
+2017-11-30 14:43:05,361 [main] INFO Log_File.Log - X
+2017-11-30 14:43:50,959 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-11-30 14:43:53,858 [main] INFO Log_File.Log - Setting menu clicked
+2017-11-30 14:43:56,969 [main] INFO Log_File.Log - Unit System menu clicked
+2017-11-30 14:44:00,160 [main] INFO Log_File.Log - In Units Page the weight units set to 1
+2017-11-30 14:44:00,161 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:44:00,161 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  1       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 14:44:00,162 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:44:00,163 [main] INFO Log_File.Log - Check the same unit dislayed in the Goal Page
+2017-11-30 14:54:02,451 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:54:02,572 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 14:54:02,573 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:54:09,143 [main] INFO Log_File.Log - Signin Button Pressed
+2017-11-30 14:54:15,103 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-11-30 14:54:21,884 [main] INFO Log_File.Log - Password entered
+2017-11-30 14:54:23,690 [main] INFO Log_File.Log - Login button Pressed
+2017-11-30 14:54:23,708 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-11-30 14:54:23,709 [main] INFO Log_File.Log - X
+2017-11-30 14:54:23,709 [main] INFO Log_File.Log - X
+2017-11-30 14:54:46,888 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-11-30 14:54:49,635 [main] INFO Log_File.Log - Setting menu clicked
+2017-11-30 14:54:52,785 [main] INFO Log_File.Log - Unit System menu clicked
+2017-11-30 14:54:55,686 [main] INFO Log_File.Log - In Units Page the weight units set to 1
+2017-11-30 14:54:55,687 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:54:55,687 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  1       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 14:54:55,689 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 14:54:55,689 [main] INFO Log_File.Log - Check the same unit dislayed in the Goal Page
+2017-11-30 16:40:03,333 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 16:40:03,390 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 16:40:03,391 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 16:49:25,181 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 16:49:25,238 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 16:49:25,238 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 16:56:39,331 [main] INFO Log_File.Log - ****************************************************************************************
+2017-11-30 16:56:39,390 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-11-30 16:56:39,391 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-01 10:17:53,219 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-01 10:17:53,313 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-01 10:17:53,313 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-01 15:08:43,075 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-01 15:08:43,135 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-01 15:08:43,135 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-01 15:17:20,763 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-01 15:17:20,856 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-01 15:17:20,856 [main] INFO Log_File.Log - ****************************************************************************************

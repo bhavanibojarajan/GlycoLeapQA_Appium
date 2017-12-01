@@ -70,7 +70,7 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
 
     //IOSElement BACK BUTTON
 
-    @FindBy(how = How.ID, using = "back button")
+    @FindBy(how = How.ID, using = "button back")
     public IOSElement backbutton;
 
 
@@ -217,11 +217,22 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
 */
 
     public String  CheckUnits_glucose() { units.click();
+
         Log.info("Unit System menu clicked");return glucoseunitsmg.getText();
     }
 
     public String  CheckUnits_weight(){ units.click();
-        Log.info("Unit System menu clicked");return weightunitkg.getText();
+    if(weightunitkg.isSelected()) {
+        weightunitlbs.click();
+        Log.info("Unit System menu clicked");
+        return weightunitlbs.getId();
+    }
+    else
+    {
+        weightunitkg.click();
+        Log.info("Unit System menu clicked");
+        return weightunitlbs.getId();
+    }
 
     }
     public void Reach_Goal_Page()

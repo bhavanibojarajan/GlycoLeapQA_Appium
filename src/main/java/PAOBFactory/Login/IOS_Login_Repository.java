@@ -35,13 +35,23 @@ public class IOS_Login_Repository implements Login_Repository {
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='Weight']")
     public IOSElement HomeTitle;
 
+    //==========================================================================================================
+
+    //Alert pop handling
+
+
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='Don't Allow']")
     public IOSElement dontallow;
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='Allow']")
     public IOSElement allow;
 
-    @FindBy(how = How.XPATH, using = "//XCUIElementTypeAlert[@name='\"Glyco\" Would ike to Send You Notifications ']")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeAlert[@name='\"Glyco\" Would Like to Send You Notifications']")
     public IOSElement alertnotification;
+
+
+
+
+    //==========================================================================================================
 
 
     public IOS_Login_Repository(AppiumDriver driver2) {
@@ -52,7 +62,12 @@ public class IOS_Login_Repository implements Login_Repository {
     }
 
     public void Press_Signin_Button() {
-        allow.click();
+        //allow.click();
+      if(isAlertPresent()==1)
+      {
+          allow.click();
+      }
+
         Signin.click();
     }
     public MobileElement Enter_Username_Password()
@@ -74,18 +89,14 @@ public class IOS_Login_Repository implements Login_Repository {
         Assert.assertEquals(HomeTitle.getText(),"Weight","The Login Failed");
     }
 
-    public boolean isAlertPresent()
-    {
-        try
+    public int isAlertPresent() {
+        if (allow.isDisplayed()) {
+            return 1;
+        }
+        else
         {
-            driver.switchTo().alert();
-            return true;
-        }   // try
-        catch (NoAlertPresentException Ex)
-        {
-            return false;
-        }   // catch
-    }   // isAlertPresent()
-
+            return 0;
+        }
+    }
 
 }
