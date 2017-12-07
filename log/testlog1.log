@@ -1162,3 +1162,273 @@
 2017-12-01 15:17:20,763 [main] INFO Log_File.Log - ****************************************************************************************
 2017-12-01 15:17:20,856 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
 2017-12-01 15:17:20,856 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 11:47:11,099 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 11:47:11,161 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-04 11:47:11,161 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 11:57:46,286 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 11:57:46,378 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-04 11:57:46,379 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 13:12:39,575 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 13:12:39,646 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-04 13:12:39,646 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 13:12:42,647 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-04 13:12:56,792 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-12-04 13:13:03,136 [main] INFO Log_File.Log - Password entered
+2017-12-04 13:13:04,991 [main] INFO Log_File.Log - Login button Pressed
+2017-12-04 13:13:04,991 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-04 13:13:04,991 [main] INFO Log_File.Log - X
+2017-12-04 13:13:04,992 [main] INFO Log_File.Log - X
+2017-12-04 13:13:41,601 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-12-04 13:13:44,581 [main] INFO Log_File.Log - Setting menu clicked
+2017-12-04 13:24:48,309 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 13:24:48,346 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-04 13:24:48,347 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 13:24:51,031 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-04 13:24:56,421 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-12-04 13:25:03,039 [main] INFO Log_File.Log - Password entered
+2017-12-04 13:25:04,922 [main] INFO Log_File.Log - Login button Pressed
+2017-12-04 13:25:04,922 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-04 13:25:04,922 [main] INFO Log_File.Log - X
+2017-12-04 13:25:04,923 [main] INFO Log_File.Log - X
+2017-12-04 13:25:36,322 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-12-04 13:25:38,993 [main] INFO Log_File.Log - Setting menu clicked
+2017-12-04 13:58:30,258 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 13:58:30,335 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-04 13:58:30,335 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 13:58:32,482 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-04 13:58:37,876 [main] INFO Log_File.Log - Username  test50@gmail.com entered
+2017-12-04 13:58:44,477 [main] INFO Log_File.Log - Password entered
+2017-12-04 13:58:46,228 [main] INFO Log_File.Log - Login button Pressed
+2017-12-04 13:58:46,229 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-04 13:58:46,229 [main] INFO Log_File.Log - X
+2017-12-04 13:58:46,229 [main] INFO Log_File.Log - X
+2017-12-04 13:59:07,411 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-12-04 13:59:10,086 [main] INFO Log_File.Log - Setting menu clicked
+2017-12-04 13:59:15,883 [main] INFO Log_File.Log - Unit System menu clicked
+2017-12-04 13:59:17,882 [main] INFO Log_File.Log - In Units Page the weight units set to 5511dec4-3559-40cb-8e2f-60612cf2f16b
+2017-12-04 13:59:17,883 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 13:59:17,883 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  5511dec4-3559-40cb-8e2f-60612cf2f16b       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-04 13:59:17,884 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-04 13:59:17,884 [main] INFO Log_File.Log - Check the same unit dislayed in the Goal Page
+2017-12-07 10:40:34,623 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 10:40:34,704 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 10:40:34,704 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 10:40:44,116 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-07 10:40:49,691 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-12-07 10:40:55,042 [main] INFO Log_File.Log - Password entered
+2017-12-07 10:40:56,181 [main] INFO Log_File.Log - Login button Pressed
+2017-12-07 10:40:56,181 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 10:40:56,182 [main] INFO Log_File.Log - X
+2017-12-07 10:40:56,184 [main] INFO Log_File.Log - X
+2017-12-07 10:42:32,367 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-12-07 10:42:33,565 [main] INFO Log_File.Log - Setting menu clicked
+2017-12-07 10:42:34,664 [main] INFO Log_File.Log - Unit System menu clicked
+2017-12-07 10:42:36,033 [main] INFO Log_File.Log - In Units Page the weight units set to weight kg/cm
+2017-12-07 10:42:36,034 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 10:42:36,034 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  weight kg/cm       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 10:42:36,036 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 10:42:36,037 [main] INFO Log_File.Log - Check the same unit dislayed in the Goal Page
+2017-12-07 10:42:39,651 [main] INFO Log_File.Log - ----------------------------- Goal PAGE ------------------------------
+2017-12-07 10:42:40,356 [main] INFO Log_File.Log - The Units displayed goal page weight is same as in the settings kg
+2017-12-07 10:42:45,059 [main] INFO Log_File.Log - --------------------Notification Page -----------------------
+2017-12-07 10:42:45,060 [main] INFO Log_File.Log - Pressed the Notification Button
+2017-12-07 10:44:25,889 [main] INFO Log_File.Log - The Units displayed for the current weight same as in the settings KG
+2017-12-07 10:44:25,911 [main] INFO Log_File.Log - Check the same unit dislayed in the Notification
+2017-12-07 10:44:35,915 [main] INFO Log_File.Log - Check same unit displayed in the DashBoard Page
+2017-12-07 10:44:37,741 [main] INFO Log_File.Log - Press the home Page button to check the weight unt in the Dashboard 
+2017-12-07 10:44:37,741 [main] INFO Log_File.Log - -------------------- DashBoard Page -----------------------
+2017-12-07 10:44:39,141 [main] INFO Log_File.Log - The Units displayed for the current weight same as in the settings kg
+2017-12-07 10:44:39,472 [main] INFO Log_File.Log - The Units displayed for the start weight same as in the settings kg
+2017-12-07 10:44:39,650 [main] INFO Log_File.Log - The Units displayed for the goal weight same as in the settings kg
+2017-12-07 10:44:39,651 [main] INFO Log_File.Log - Pressed the Weight button to display all the Logged weight cards
+2017-12-07 10:44:39,926 [main] INFO Log_File.Log - Pressed the Weight button in the TimeLine to check the units in the time line page
+2017-12-07 10:44:39,926 [main] INFO Log_File.Log - --------------------TIMELINE WEIGHT -----------------------
+2017-12-07 10:44:40,943 [main] INFO Log_File.Log - The Units displayed for the weight log  same as in the settings kg
+2017-12-07 10:44:41,587 [main] INFO Log_File.Log - Pressed weight Log card to check the unit in the weight detail page
+2017-12-07 10:44:41,588 [main] INFO Log_File.Log - -------------WEIGHT DETAIL PAGE------------------------------
+2017-12-07 10:44:42,352 [main] INFO Log_File.Log - The Units displayed for the previous  weight same as in the settings kg
+2017-12-07 10:44:42,591 [main] INFO Log_File.Log - The Units displayed for the Change weight same as in the settings kg
+2017-12-07 10:44:42,917 [main] INFO Log_File.Log - The Units displayed for the start weight same as in the settings 
+2017-12-07 10:44:43,181 [main] INFO Log_File.Log - The Units displayed for the current weight same as in the settings 
+2017-12-07 10:44:43,458 [main] INFO Log_File.Log - The Units displayed for the goal weight same as in the settings 
+2017-12-07 10:44:44,494 [main] INFO Log_File.Log - Pressed back Button to reach the home page
+2017-12-07 10:44:44,495 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 10:44:44,495 [main] INFO Log_File.Log - X
+2017-12-07 10:44:44,495 [main] INFO Log_File.Log - X
+2017-12-07 15:02:11,888 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:02:11,939 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:02:11,939 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:02:15,583 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-07 15:02:21,330 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-12-07 15:02:26,644 [main] INFO Log_File.Log - Password entered
+2017-12-07 15:02:27,668 [main] INFO Log_File.Log - Login button Pressed
+2017-12-07 15:02:27,669 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 15:02:27,669 [main] INFO Log_File.Log - X
+2017-12-07 15:02:27,670 [main] INFO Log_File.Log - X
+2017-12-07 15:02:27,724 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:02:27,724 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:02:27,724 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:02:56,863 [main] INFO Log_File.Log - Plus Button Pressed
+2017-12-07 15:02:57,358 [main] INFO Log_File.Log - FoodLogIcon Button Pressed
+2017-12-07 15:02:59,112 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-12-07 15:03:02,775 [main] INFO Log_File.Log - Use button Pressed
+2017-12-07 15:03:03,754 [main] INFO Log_File.Log - Thumbnail icon Pressed to take picture
+2017-12-07 15:03:04,665 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-12-07 15:03:08,402 [main] INFO Log_File.Log - Use button Pressed
+2017-12-07 15:03:13,154 [main] INFO Log_File.Log - Food Description Entered
+2017-12-07 15:03:14,416 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-12-07 15:05:28,118 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:05:28,121 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:05:28,121 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:05:30,929 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-07 15:05:36,632 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-12-07 15:05:42,431 [main] INFO Log_File.Log - Password entered
+2017-12-07 15:05:44,919 [main] INFO Log_File.Log - Login button Pressed
+2017-12-07 15:05:44,919 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 15:05:44,920 [main] INFO Log_File.Log - X
+2017-12-07 15:05:44,921 [main] INFO Log_File.Log - X
+2017-12-07 15:05:44,952 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:05:44,954 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:05:44,955 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:05:49,767 [main] INFO Log_File.Log - Plus Button Pressed
+2017-12-07 15:05:50,166 [main] INFO Log_File.Log - FoodLogIcon Button Pressed
+2017-12-07 15:05:51,847 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-12-07 15:05:55,506 [main] INFO Log_File.Log - Use button Pressed
+2017-12-07 15:05:56,160 [main] INFO Log_File.Log - Thumbnail icon Pressed to take picture
+2017-12-07 15:05:57,533 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-12-07 15:06:01,224 [main] INFO Log_File.Log - Use button Pressed
+2017-12-07 15:06:05,948 [main] INFO Log_File.Log - Food Description Entered
+2017-12-07 15:06:07,317 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-12-07 15:10:23,377 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:10:23,401 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:10:23,403 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:10:28,016 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-07 15:10:33,782 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-12-07 15:10:39,082 [main] INFO Log_File.Log - Password entered
+2017-12-07 15:10:41,619 [main] INFO Log_File.Log - Login button Pressed
+2017-12-07 15:10:41,619 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 15:10:41,620 [main] INFO Log_File.Log - X
+2017-12-07 15:10:41,620 [main] INFO Log_File.Log - X
+2017-12-07 15:10:41,657 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:10:41,658 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Full Food Log       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:10:41,660 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:10:46,524 [main] INFO Log_File.Log - Plus Button Pressed
+2017-12-07 15:10:46,970 [main] INFO Log_File.Log - FoodLogIcon Button Pressed
+2017-12-07 15:10:48,591 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-12-07 15:10:52,265 [main] INFO Log_File.Log - Use button Pressed
+2017-12-07 15:10:53,253 [main] INFO Log_File.Log - Thumbnail icon Pressed to take picture
+2017-12-07 15:10:54,313 [main] INFO Log_File.Log - Camera Shutter button Pressed
+2017-12-07 15:10:58,034 [main] INFO Log_File.Log - Use button Pressed
+2017-12-07 15:11:02,699 [main] INFO Log_File.Log - Food Description Entered
+2017-12-07 15:11:04,017 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-12-07 15:12:50,626 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:12:50,639 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:12:50,639 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:12:54,252 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-07 15:12:59,981 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-12-07 15:13:05,282 [main] INFO Log_File.Log - Password entered
+2017-12-07 15:13:06,404 [main] INFO Log_File.Log - Login button Pressed
+2017-12-07 15:13:06,404 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 15:13:06,405 [main] INFO Log_File.Log - X
+2017-12-07 15:13:06,405 [main] INFO Log_File.Log - X
+2017-12-07 15:13:12,689 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-12-07 15:13:13,815 [main] INFO Log_File.Log - Setting menu clicked
+2017-12-07 15:13:15,567 [main] INFO Log_File.Log - Unit System menu clicked
+2017-12-07 15:13:16,776 [main] INFO Log_File.Log - In Units Page the weight units set to weight lbs/ft
+2017-12-07 15:13:16,776 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:13:16,776 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  weight lbs/ft       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:13:16,778 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:13:16,778 [main] INFO Log_File.Log - Check the same unit dislayed in the Goal Page
+2017-12-07 15:13:20,297 [main] INFO Log_File.Log - ----------------------------- Goal PAGE ------------------------------
+2017-12-07 15:13:21,018 [main] INFO Log_File.Log - The Units displayed goal page weight is same as in the settings lbs
+2017-12-07 15:13:21,018 [main] INFO Log_File.Log - Check the same unit dislayed in the Profile Page
+2017-12-07 15:13:24,558 [main] INFO Log_File.Log - ----------------------------- Profile PAGE ------------------------------
+2017-12-07 15:24:08,260 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:24:08,310 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:24:08,310 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:24:11,971 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-07 15:24:17,665 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-12-07 15:24:23,015 [main] INFO Log_File.Log - Password entered
+2017-12-07 15:24:24,097 [main] INFO Log_File.Log - Login button Pressed
+2017-12-07 15:24:24,097 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 15:24:24,098 [main] INFO Log_File.Log - X
+2017-12-07 15:24:24,098 [main] INFO Log_File.Log - X
+2017-12-07 15:24:24,128 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:24:24,128 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:24:24,128 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:24:31,182 [main] INFO Log_File.Log - Left Menu opened Properly
+2017-12-07 15:24:32,605 [main] INFO Log_File.Log - Settings page opened Properly
+2017-12-07 15:28:36,258 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:28:36,297 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:28:36,298 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:28:40,499 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-07 15:28:46,215 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-12-07 15:28:51,512 [main] INFO Log_File.Log - Password entered
+2017-12-07 15:28:53,400 [main] INFO Log_File.Log - Login button Pressed
+2017-12-07 15:28:53,400 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 15:28:53,400 [main] INFO Log_File.Log - X
+2017-12-07 15:28:53,401 [main] INFO Log_File.Log - X
+2017-12-07 15:28:53,422 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:28:53,422 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 15:28:53,422 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 15:29:03,214 [main] INFO Log_File.Log - Left Menu opened Properly
+2017-12-07 16:35:54,403 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:35:54,465 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 16:35:54,466 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:35:57,770 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-07 16:36:03,466 [main] INFO Log_File.Log - Username  bhavani.bose@gmail.com entered
+2017-12-07 16:36:09,283 [main] INFO Log_File.Log - Password entered
+2017-12-07 16:36:10,992 [main] INFO Log_File.Log - Login button Pressed
+2017-12-07 16:36:10,994 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 16:36:10,996 [main] INFO Log_File.Log - X
+2017-12-07 16:36:10,996 [main] INFO Log_File.Log - X
+2017-12-07 16:36:11,037 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:36:11,037 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 16:36:11,037 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:36:17,103 [main] INFO Log_File.Log - Left Menu opened Properly
+2017-12-07 16:36:18,528 [main] INFO Log_File.Log - Settings page opened Properly
+2017-12-07 16:36:19,715 [main] INFO Log_File.Log - Profile menu clicked
+2017-12-07 16:50:20,218 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:50:20,314 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 16:50:20,314 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:52:21,879 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:52:21,952 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 16:52:21,953 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:52:26,055 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-07 16:52:31,868 [main] INFO Log_File.Log - Username  Test50@gmail.com entered
+2017-12-07 16:52:37,281 [main] INFO Log_File.Log - Password entered
+2017-12-07 16:52:38,915 [main] INFO Log_File.Log - Login button Pressed
+2017-12-07 16:52:38,916 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 16:52:38,916 [main] INFO Log_File.Log - X
+2017-12-07 16:52:38,916 [main] INFO Log_File.Log - X
+2017-12-07 16:52:38,944 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:52:38,944 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Profile Page       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 16:52:38,944 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:52:45,972 [main] INFO Log_File.Log - Left Menu opened Properly
+2017-12-07 16:52:47,248 [main] INFO Log_File.Log - Settings page opened Properly
+2017-12-07 16:52:48,342 [main] INFO Log_File.Log - Profile menu clicked
+2017-12-07 16:56:23,181 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:56:23,230 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 16:56:23,230 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:56:57,314 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:56:57,531 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 16:56:57,532 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:57:01,167 [main] INFO Log_File.Log - Signin Button Pressed
+2017-12-07 16:57:06,797 [main] INFO Log_File.Log - Username  Test50@gmail.com entered
+2017-12-07 16:57:12,131 [main] INFO Log_File.Log - Password entered
+2017-12-07 16:57:14,773 [main] INFO Log_File.Log - Login button Pressed
+2017-12-07 16:57:14,774 [main] INFO Log_File.Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2017-12-07 16:57:14,774 [main] INFO Log_File.Log - X
+2017-12-07 16:57:14,774 [main] INFO Log_File.Log - X
+2017-12-07 16:57:19,766 [main] INFO Log_File.Log - Left Menu Opened Properly
+2017-12-07 16:57:20,957 [main] INFO Log_File.Log - Setting menu clicked
+2017-12-07 16:57:22,131 [main] INFO Log_File.Log - Unit System menu clicked
+2017-12-07 16:57:23,365 [main] INFO Log_File.Log - In Units Page the weight units set to weight lbs/ft
+2017-12-07 16:57:23,366 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:57:23,366 [main] INFO Log_File.Log - $$$$$$$$$$$$$$$$$$$$$                 Unit System - Weight Unit  weight lbs/ft       $$$$$$$$$$$$$$$$$$$$$$$$$
+2017-12-07 16:57:23,368 [main] INFO Log_File.Log - ****************************************************************************************
+2017-12-07 16:57:23,368 [main] INFO Log_File.Log - Check the same unit dislayed in the Goal Page
+2017-12-07 16:57:26,918 [main] INFO Log_File.Log - ----------------------------- Goal PAGE ------------------------------
+2017-12-07 16:57:27,708 [main] INFO Log_File.Log - The Units displayed goal page weight is same as in the settings lbs
+2017-12-07 16:57:27,710 [main] INFO Log_File.Log - Check the same unit dislayed in the Profile Page
+2017-12-07 16:57:31,245 [main] INFO Log_File.Log - ----------------------------- Profile PAGE ------------------------------

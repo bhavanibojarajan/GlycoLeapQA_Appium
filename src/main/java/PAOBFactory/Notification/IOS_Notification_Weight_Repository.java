@@ -12,10 +12,13 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
+
 public class IOS_Notification_Weight_Repository implements Notification_Weight_Repository{
 
 
-    //AndroidElement bell Symbol - alert Button
+    //IOSElement bell Symbol - alert Button
     @FindBy(how = How.ID, using = "button notification")
     public IOSElement alertbutton;
 
@@ -44,12 +47,16 @@ public class IOS_Notification_Weight_Repository implements Notification_Weight_R
     public void Check_units_Notification(String units)
         {
             alertbutton.click();
+
+            Log.info("--------------------Notification Page -----------------------");
             Log.info("Pressed the Notification Button");
-        s_assert.assertEquals(weightvalueunits.getText(),units,"Units matches with weight in the Notification");
-        Log.info("The Units displayed for the current weight same as in the settings "+weightvalueunits.getText());
 
 
-        cardiconnonfood.click();
+            assertThat(units, containsString(weightvalueunits.getText().toLowerCase()));
+
+            Log.info("The Units displayed for the current weight same as in the settings "+weightvalueunits.getText());
+
+
 
 
 

@@ -155,8 +155,7 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
 
 
 
-         if(isAlertPresent()==1)
-         {allow.click();}
+        allow.click();
 
 
         leftmenuopner.click();

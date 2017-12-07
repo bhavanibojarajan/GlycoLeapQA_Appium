@@ -14,6 +14,9 @@ import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
+
 public class Android_Profilepage_Repository implements Profilepage_Repository {
 
     //AndroidElement BackButton
@@ -25,7 +28,7 @@ public class Android_Profilepage_Repository implements Profilepage_Repository {
     public AndroidElement settings;
 
     //AndroidElement Profile
-    @FindBy(how = How.ID, using ="//*[@text='Profile']")
+    @FindBy(how = How.XPATH, using ="//*[@text='Profile']")
     public AndroidElement profile;
 
     //AndroidELement Close icon
@@ -151,6 +154,26 @@ public class Android_Profilepage_Repository implements Profilepage_Repository {
         }Log.info("Start height unit displayed properly "+startheight.getText());
 
 
+    }
+    public void Check_units_Profile_Page(String units)
+    {
+        Log.info("----------------------------- Profile PAGE ------------------------------");
+
+        assertThat(units, containsString(startweight.getText().toLowerCase()));
+        Log.info("The Units displayed goal page weight is same as in the settings "+startweight.getText());
+
+        if(units== "kg")
+        {
+            assertThat("cm", containsString(startheight.getText().toLowerCase()));
+
+
+        }
+        else
+        {
+            assertThat("ft", containsString(startheight.getText().toLowerCase()));
+        }
+
+        Log.info("The Units displayed goal page weight is same as in the settings "+startheight.getText());
     }
 
 

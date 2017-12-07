@@ -57,11 +57,11 @@ public class Android_Login_Repository implements Login_Repository {
 
 public MobileElement Enter_Username_Password()
 {
-    String sUserName = "bhavani.bose@gmail.com";
+    String sUserName = "Test50@gmail.com";
 
-    Username.sendKeys("bhavani.bose@gmail.com");
+    Username.sendKeys("Test50@gmail.com");
     Log.info("Username  "+ sUserName +" entered");
-    Password.sendKeys("Test4test");
+    Password.sendKeys("Test50test");
     Log.info("Password entered");
     return Signin;
     }

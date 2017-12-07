@@ -190,39 +190,19 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
     }
 
 
-/*
-    public String  CheckUnits_glucose_mg() {
-        units.click();
-        Log.info("Unit System menu clicked");
-        return glucoseunitsmg.getText();
-    }
-
-    public String  CheckUnits_glucose_mmol() {
-        units.click();
-        Log.info("Unit System menu clicked");
-        return glucoseunitsmmol.getText();
-    }
-    public String  CheckUnits_weight_kg() {
-        units.click();
-        Log.info("Unit System menu clicked");
-        return weightunitkg.getText();
-
-    }
-    public String  CheckUnits_weight_lbs() {
-        units.click();
-        Log.info("Unit System menu clicked");
-        return weightunitlbs.getText();
-
-    }
-*/
 
     public String  CheckUnits_glucose() { units.click();
 
         Log.info("Unit System menu clicked");return glucoseunitsmg.getText();
     }
 
-    public String  CheckUnits_weight(){ units.click();
-    if(weightunitkg.isSelected()) {
+    public String  CheckUnits_weight(){
+        units.click();
+    weightunitlbs.click();
+        Log.info("Unit System menu clicked");
+        return "lbs";
+
+    /*if(weightunitkg.isSelected()) {
         weightunitlbs.click();
         Log.info("Unit System menu clicked");
         return weightunitlbs.getId();
@@ -232,7 +212,7 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
         weightunitkg.click();
         Log.info("Unit System menu clicked");
         return weightunitlbs.getId();
-    }
+    }*/
 
     }
     public void Reach_Goal_Page()
@@ -241,7 +221,11 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
         goal.click();
 
     }
-
+    public void Reach_Profile_Page()
+    {
+        backbutton.click();
+        profile.click();
+    }
 
 
     public void Reach_to_Home_Page(){

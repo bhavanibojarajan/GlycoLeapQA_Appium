@@ -63,12 +63,10 @@ public class IOS_Login_Repository implements Login_Repository {
 
     public void Press_Signin_Button() {
         //allow.click();
-      if(isAlertPresent()==1)
-      {
-          allow.click();
-      }
 
-        Signin.click();
+         // allow.click();
+
+Signin.click();
     }
     public MobileElement Enter_Username_Password()
     {

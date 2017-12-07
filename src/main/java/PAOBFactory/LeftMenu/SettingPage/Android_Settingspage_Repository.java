@@ -187,6 +187,11 @@ public void Reach_to_Home_Page()
 }
 
 
+    public void Reach_Profile_Page()
+    {
+        backbutton.click();
+        profile.click();
+    }
 }
 
 

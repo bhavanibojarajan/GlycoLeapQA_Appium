@@ -48,20 +48,6 @@ public static String UserEmail;
     }
 
 
-   /*@Test
-    public void Food_Log() throws InterruptedException
-    {
-
-        Log.startTestCase("Full Food Log");
-        FLR.Taking_One_Full_Food_Log();
-        //FLR.View_Edit_Delete();
-       /* GFLR.Taking_Before_Food_Glucose().click();
-        GFLR.taking_Glucose();
-        // GFLR.Taking_After_Food_Glucose().click();
-        //GFLR.taking_Glucose();
-        APCDER.AddCommentandImage();*/
-      /*  Log.endTestCase("Full Food Log");
-    }*/
 
 
   @Test
@@ -93,7 +79,7 @@ public static String UserEmail;
     }
 
 
-    @Test
+   @Test
     public void Units() throws InterruptedException {
 
 
@@ -118,6 +104,12 @@ public static String UserEmail;
        SR.Reach_Goal_Page();
         GR.Check_units_Goal_Page(weightunit);
 
+
+
+        //Weight check in  the  Profile page
+        Log.info("Check the same unit dislayed in the Profile Page");
+        SR.Reach_Profile_Page();
+        PR.Check_units_Profile_Page(weightunit);
 
 
         // Reach home page
@@ -154,9 +146,25 @@ public static String UserEmail;
     }
 
    /* @Test
+    public void Food_Log() throws InterruptedException
+    {
+
+       Log.startTestCase("Full Food Log");
+        FLR.Taking_One_Full_Food_Log();
+        //FLR.View_Edit_Delete();
+        GFLR.Taking_Before_Food_Glucose().click();
+        GFLR.taking_Glucose();
+        // GFLR.Taking_After_Food_Glucose().click();
+        //GFLR.taking_Glucose();
+       // APCDER.AddCommentandImage();
+        Log.endTestCase("Full Food Log");
+    }
+*/
+
+    /*@Test
     public void Profile()
     {
-        /*Log.startTestCase("Profile Page");
+        Log.startTestCase("Profile Page");
 
 
        PR.Profile_page_validation();

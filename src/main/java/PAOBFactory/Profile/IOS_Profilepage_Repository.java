@@ -13,6 +13,9 @@ package PAOBFactory.Profile;
         import java.util.concurrent.TimeUnit;
         import FindUnits.FindUnits;
 
+        import static org.hamcrest.MatcherAssert.assertThat;
+        import static org.hamcrest.Matchers.containsString;
+
 public class IOS_Profilepage_Repository implements Profilepage_Repository {
 
     //IOSElement BackButton
@@ -153,6 +156,25 @@ public class IOS_Profilepage_Repository implements Profilepage_Repository {
     }
 
 
+    public void Check_units_Profile_Page(String units)
+    {
+        Log.info("----------------------------- Profile PAGE ------------------------------");
 
+        assertThat(units, containsString(startweight.getText().toLowerCase()));
+        Log.info("The Units displayed goal page weight is same as in the settings "+startweight.getText());
+
+        if(units== "kg")
+        {
+            assertThat("cm", containsString(startheight.getText().toLowerCase()));
+
+
+        }
+        else
+        {
+            assertThat("ft", containsString(startheight.getText().toLowerCase()));
+        }
+
+        Log.info("The Units displayed goal page weight is same as in the settings "+startheight.getText());
+    }
 
 }

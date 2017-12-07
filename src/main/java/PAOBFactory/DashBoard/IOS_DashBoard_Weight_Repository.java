@@ -12,6 +12,9 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
+
 public class IOS_DashBoard_Weight_Repository implements DashBoard_Weight_Repository{
 
 
@@ -48,14 +51,23 @@ public class IOS_DashBoard_Weight_Repository implements DashBoard_Weight_Reposit
     public void Check_units_DashBoard(String units)
     {
 
-        s_assert.assertEquals(currentweightunits.getText(),units,"Units matches with current weight in the DashBoard");
+
+
+        Log.info("Press the home Page button to check the weight unt in the Dashboard ");
+        Log.info("-------------------- DashBoard Page -----------------------");
+
+        //Check the unit value with the  current weight unit vaule
+        assertThat(units, containsString(currentweightunits.getText().toLowerCase()));
         Log.info("The Units displayed for the current weight same as in the settings "+currentweightunits.getText());
-        s_assert.assertEquals(startweightunits.getText(),units,"Units matches with start weight in the DashBoard");
 
+        //Check the unit value with the  start weight unit vaule
+        assertThat(units,containsString(startweightunits.getText().toLowerCase()));
         Log.info("The Units displayed for the start weight same as in the settings "+startweightunits.getText());
-        s_assert.assertEquals(goalweightunits.getText(),units,"Units matches with goal weight in the DashBoard");
-        Log.info("The Units displayed for the goal weight same as in the settings "+goalweightunits.getText());
 
+
+        //Check the unit value with the  start weight unit vaule
+        assertThat(units,containsString(goalweightunits.getText().toLowerCase()));
+        Log.info("The Units displayed for the goal weight same as in the settings "+goalweightunits.getText());
 
     }
 }
