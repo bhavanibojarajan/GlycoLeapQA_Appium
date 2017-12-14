@@ -3,6 +3,7 @@ package PAOBFactory.DashBoard;
 import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,17 +19,17 @@ import static org.hamcrest.Matchers.containsString;
 public class IOS_DashBoard_Weight_Repository implements DashBoard_Weight_Repository{
 
 
-    //AndroidElement currentweightunits
-    @FindBy(how = How.ID, using = "uom_weight")
-    public AndroidElement currentweightunits;
+    //IOSElement currentweightunits
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeStaticText[@name='CURRENT']/following-sibling::XCUIElementTypeStaticText[2]")
+    public IOSElement currentweightunits;
 
-    //AndroidElement goalweightunits
-    @FindBy(how = How.ID, using = "goalUOM_weight")
-    public AndroidElement goalweightunits;
+    //IOSElement goalweightunits
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeStaticText[@name='GOAL']/following-sibling::XCUIElementTypeStaticText[2]")
+    public IOSElement goalweightunits;
 
-    //AndroidElement currentweightunits
-    @FindBy(how = How.ID, using = "startUOM_weight")
-    public AndroidElement startweightunits;
+    //IOSElement currentweightunits
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeStaticText[@name='START']/following-sibling::XCUIElementTypeStaticText[2]")
+    public IOSElement startweightunits;
 
 
     //Created object of testng SoftAssert class to use It's Properties.
@@ -57,16 +58,16 @@ public class IOS_DashBoard_Weight_Repository implements DashBoard_Weight_Reposit
         Log.info("-------------------- DashBoard Page -----------------------");
 
         //Check the unit value with the  current weight unit vaule
-        assertThat(units, containsString(currentweightunits.getText().toLowerCase()));
+        assertThat(currentweightunits.getText().toLowerCase(), containsString(units));
         Log.info("The Units displayed for the current weight same as in the settings "+currentweightunits.getText());
 
         //Check the unit value with the  start weight unit vaule
-        assertThat(units,containsString(startweightunits.getText().toLowerCase()));
+        assertThat(startweightunits.getText().toLowerCase(),containsString(units));
         Log.info("The Units displayed for the start weight same as in the settings "+startweightunits.getText());
 
 
         //Check the unit value with the  start weight unit vaule
-        assertThat(units,containsString(goalweightunits.getText().toLowerCase()));
+        assertThat(goalweightunits.getText().toLowerCase(),containsString(units));
         Log.info("The Units displayed for the goal weight same as in the settings "+goalweightunits.getText());
 
     }

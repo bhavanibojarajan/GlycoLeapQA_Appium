@@ -53,20 +53,20 @@ public static String UserEmail;
   @Test
     public void Left_Menu() {
 
-      /* Log.startTestCase("Left Menu Navigation");
+   Log.startTestCase("Left Menu Navigation");
 
 
        // LeftMenu TestCase
-      LMR.LeftMenu_Navigation(UserEmail);
+      LMR.LeftMenu_Navigation();
 
 
        Log.endTestCase("LeftMenu Navigation");
 
 
-*/
 
 
-    /* //LeftMenu - SettingPage Navigation
+
+    //LeftMenu - SettingPage Navigation
        Log.startTestCase("Settings Navigation");
 
 
@@ -75,41 +75,54 @@ public static String UserEmail;
 
         Log.endTestCase("Settings Navigation");
 
-*/
+
     }
 
 
-   @Test
-    public void Units() throws InterruptedException {
+  @Test
+    public void Units_weight() throws InterruptedException {
 
 
-        String weightunit;
-
-
-       //Opening the Left menu and setting the Units
-        LMR.Left_Menu_and_setting_Opener();
+     String weightunit ;
 
 
 
+     // Opening the Left menu and setting the Units
 
-        //Weight Checking
-        weightunit=SR.CheckUnits_weight().toLowerCase();
+       LMR.Left_Menu_and_setting_Opener();
+
+
+
+
+
+       if(SR.CheckUnits_weight().toLowerCase().contains("lbs"))
+       {
+        weightunit="lbs";}
+        else
+       {
+         weightunit="kg";
+       }
+
+
+
+
         Log.info("In Units Page the weight units set to "+ weightunit);
 
         Log.startTestCase("Unit System - Weight Unit  "+weightunit);
 
 
         //WEight check in the GoalPage
-        Log.info("Check the same unit dislayed in the Goal Page");
+      Log.info("Check the same unit dislayed in the Goal Page");
        SR.Reach_Goal_Page();
+       Log.info("Goal page displayed - unit "+weightunit);
         GR.Check_units_Goal_Page(weightunit);
 
 
 
-        //Weight check in  the  Profile page
+        //Weight check in  the  Profile page --- have to check
         Log.info("Check the same unit dislayed in the Profile Page");
         SR.Reach_Profile_Page();
-        PR.Check_units_Profile_Page(weightunit);
+       PR.Check_units_Profile_Page(weightunit);
 
 
         // Reach home page
@@ -120,7 +133,7 @@ public static String UserEmail;
         NWR.Check_units_Notification(weightunit);
         Log.info("Check the same unit dislayed in the Notification");
 
-        Thread.sleep(10000);
+
        //Checking the units in the DashBoard
         Log.info("Check same unit displayed in the DashBoard Page");
         DWR.Check_units_DashBoard(weightunit);
@@ -145,7 +158,55 @@ public static String UserEmail;
 
     }
 
-   /* @Test
+
+
+    @Test
+    public void Units_Glucose()
+    {
+        String glucoseunit;
+
+
+        // Opening the Left menu and setting the Units
+
+        LMR.Left_Menu_and_setting_Opener();
+
+
+        if(SR.CheckUnits_glucose().toLowerCase().contains("mmol/l"))
+        {
+            glucoseunit="mmol/l";}
+        else
+        {
+            glucoseunit="mg/dl";
+        }
+
+        Log.info("In Units Page the glucose units set to "+ glucoseunit);
+
+        Log.startTestCase("Unit System - glucose Unit  "+glucoseunit);
+
+
+        //Checking the units in the notification page
+
+        NWR.Check_units_Notification(glucoseunit);
+        Log.info("Check the same unit dislayed in the Notification");
+
+        //Checking the units in the Timeline
+
+        Log.info("Pressed the Weight button to display all the Logged weight cards");
+        WTR.Check_units_Timeline(glucoseunit);
+
+
+
+        //Checking the units in the Weight Detail page
+        WDR.Check_units_Weight_Detail(glucoseunit);
+
+        Log.endTestCase("Unit System - Weight Unit");
+
+
+
+    }
+
+
+   @Test
     public void Food_Log() throws InterruptedException
     {
 
@@ -153,15 +214,18 @@ public static String UserEmail;
         FLR.Taking_One_Full_Food_Log();
         //FLR.View_Edit_Delete();
         GFLR.Taking_Before_Food_Glucose().click();
+        Log.info("Before Food Glucose button Pressed");
         GFLR.taking_Glucose();
-        // GFLR.Taking_After_Food_Glucose().click();
-        //GFLR.taking_Glucose();
-       // APCDER.AddCommentandImage();
-        Log.endTestCase("Full Food Log");
-    }
-*/
+        Log.info("Before Food Glucose reading taken");
 
-    /*@Test
+         //GFLR.Taking_After_Food_Glucose().click();
+        //GFLR.taking_Glucose();
+     /*APCDER.AddCommentandImage();
+        Log.endTestCase("Full Food Log");*/
+    }
+
+
+    @Test
     public void Profile()
     {
         Log.startTestCase("Profile Page");
@@ -172,6 +236,6 @@ public static String UserEmail;
 
         Log.endTestCase("Profile Page");
 
-    }*/
+    }
 
 }

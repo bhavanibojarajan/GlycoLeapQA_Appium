@@ -1,5 +1,6 @@
 package PAOBFactory.FoodLog;
 
+import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidElement;
@@ -81,6 +82,7 @@ public class Android_Glucose_Food_Log_Repository implements Glucose_Food_Log_Rep
 
 
     public MobileElement Taking_Before_Food_Glucose()  {
+        Log.info("----------------------------- Premeal Glucose Log Page ------------------------------");
         return premealadd;}
 
         //driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"6.8\"));");
@@ -91,9 +93,13 @@ public class Android_Glucose_Food_Log_Repository implements Glucose_Food_Log_Rep
 
             // have to add the drag function and time
         tickactionnext.click();
+        Log.info("Drag and selected the Glucose value");
         OKforglucose.click();
+
         morning.click();
+        Log.info("Selected the timing");
         relax.click();
+            Log.info("Selected the mood");
         tickactionnext.click();
 
     }
@@ -101,6 +107,7 @@ public class Android_Glucose_Food_Log_Repository implements Glucose_Food_Log_Rep
 
     public  MobileElement Taking_After_Food_Glucose()
     {
+        Log.info("----------------------------- Postmeal Glucose Log Page ------------------------------");
         return postmealadd;
     }
 

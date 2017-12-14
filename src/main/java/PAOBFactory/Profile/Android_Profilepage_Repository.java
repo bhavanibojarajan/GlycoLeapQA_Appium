@@ -4,6 +4,7 @@ package PAOBFactory.Profile;
 import FindUnits.FindUnits;
 import Log_File.Log;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -16,9 +17,9 @@ import java.util.concurrent.TimeUnit;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
-
+import org.openqa.selenium.interactions.Actions;
 public class Android_Profilepage_Repository implements Profilepage_Repository {
-
+AndroidDriver driver;
     //AndroidElement BackButton
     @FindBy(how = How.XPATH, using = "//*[@class='android.widget.ImageButton']" )
     public AndroidElement leftmenuopener;
@@ -42,48 +43,48 @@ public class Android_Profilepage_Repository implements Profilepage_Repository {
 
     //AndroidElement email
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Email']/following-sibling::XCUIElementTypeStaticText[1]")
+    @FindBy(how = How.ID, using = "tv_email")
     public AndroidElement email;
 
 
     //AndroidElement name
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Name']/following-sibling::XCUIElementTypeTextField[1]")
+    @FindBy(how = How.ID, using = "tv_name")
     public AndroidElement name;
 
     //AndroidElement dob
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Date of Birth']/following-sibling::XCUIElementTypeStaticText[1]")
+    @FindBy(how = How.ID, using = "tv_dob")
     public AndroidElement dob;
 
 
 
     //AndroidElement gender
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Gender']/following-sibling::XCUIElementTypeTextField[1]")
+    @FindBy(how = How.ID, using = "tv_gender")
     public AndroidElement gender;
 
 
     //AndroidElement startweight
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Start Weight']/following-sibling::XCUIElementTypeTextField[1]")
+    @FindBy(how = How.ID, using = "tv_start_weight")
     public AndroidElement startweight;
 
 
     //AndroidElement startheight
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Start Height']/following-sibling::XCUIElementTypeTextField[1]")
+    @FindBy(how = How.ID, using = "tv_height")
     public AndroidElement startheight;
 
 //AndroidElement Health Condition
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Health Condition']/following-sibling::XCUIElementTypeStaticText[1]")
+    @FindBy(how = How.ID, using = "tv_health_condition")
     public AndroidElement healthcondition;
 
 
     //IAndroidElement Food Preference
 
-    @FindBy(how = How.XPATH, using = "//XCUIElementTypeStaticText/following-sibling::XCUIElementTypeStaticText[@name='Food Preference'][1]")
+    @FindBy(how = How.ID, using = "tv_food_pref")
     public AndroidElement foodpreference;
 
     //AndroidElement change pasword
@@ -128,7 +129,7 @@ public class Android_Profilepage_Repository implements Profilepage_Repository {
 
 
         //Check the date of birth
-        Assert.assertEquals(dob.getText(),"Apr 10, 1982","Date of birth displayed is wrong ");
+        Assert.assertEquals(dob.getText(),"11 Apr 1982","Date of birth displayed is wrong ");
         Log.info("User date of birth displayed properly "+dob.getText());
 
 
@@ -148,32 +149,34 @@ public class Android_Profilepage_Repository implements Profilepage_Repository {
         //Check the start height
         String startheightvalue = FindUnits.HeightUnit(startheight.getText());
         if(startheightvalue.equals("cm")) {
-            Assert.assertEquals(startweightvalue, "cm", "Displayed height unit is not in cm");
-        }else {
-            Assert.assertEquals(startweightvalue, "ft", "Displayed height unit is not in ft");
-        }Log.info("Start height unit displayed properly "+startheight.getText());
+            Assert.assertEquals(startheight.getText(), "cm", "Displayed height unit is not in cm");
+        }
+//        else {
+//            Assert.assertEquals(startheight.getText(), "ft", "Displayed height unit is not in ft");
+//        }
+       Log.info("Start height unit displayed properly "+startheight.getText());
 
+//        Actions actions = new Actions(driver);
+//        actions.moveToElement(healthcondition);
+//         actions.click();
+//        actions.perform();
+//
+ /*       //check the foodpreference
+        Assert.assertEquals(foodpreference.getText(),"I eat everything","The user food preference is wrong");
+        Log.info("User email  displayed properly "+foodpreference.getText());
 
+        //check the Healthcondition
+        Assert.assertEquals(healthcondition.getText(),"","The user food preference is wrong");
+  */      Log.info("User email  displayed properly "+healthcondition.getText());
     }
     public void Check_units_Profile_Page(String units)
     {
         Log.info("----------------------------- Profile PAGE ------------------------------");
 
-        assertThat(units, containsString(startweight.getText().toLowerCase()));
+        assertThat(startweight.getText().toLowerCase(), containsString(units));
         Log.info("The Units displayed goal page weight is same as in the settings "+startweight.getText());
 
-        if(units== "kg")
-        {
-            assertThat("cm", containsString(startheight.getText().toLowerCase()));
 
-
-        }
-        else
-        {
-            assertThat("ft", containsString(startheight.getText().toLowerCase()));
-        }
-
-        Log.info("The Units displayed goal page weight is same as in the settings "+startheight.getText());
     }
 
 

@@ -99,15 +99,15 @@ public class Android_LeftMenu_Repository implements LeftMenu_Repository {
     //==========================================================================================================
 
     @Override
-    public void LeftMenu_Navigation(String useremail) {
+    public void LeftMenu_Navigation() {
 
         leftmenuopner.click();
 
         Log.info("Left Menu Opened Properly");
-        Assert.assertEquals(username.getText(),"Bhavani","UserName Displayed in the LeftMenu");
+        Assert.assertEquals(username.getText(),"Test50","UserName Displayed in the LeftMenu");
         Log.info("User name "+username.getText() +" Displayed in the Left Menu Page" );
 
-        Assert.assertEquals(email.getText(),useremail,"UserName Displayed in the LeftMenu");
+        Assert.assertEquals(email.getText(), "test50@gmail.com","Email Displayed in the LeftMenu");
         Log.info("Email of the user "+email.getText() +" Displayed in the Left Menu Page" );
 
 

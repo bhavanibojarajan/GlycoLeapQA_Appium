@@ -24,11 +24,15 @@ public class IOS_Notification_Weight_Repository implements Notification_Weight_R
 
     //AndroidElement card_icon_nonfood
     @FindBy(how = How.ID, using = "card_icon_nonfood")
-    public AndroidElement cardiconnonfood;
+    public IOSElement cardiconnonfood;
 
     //AndroidElement card_icon_nonfood
-    @FindBy(how = How.ID, using = "tv_uom")
-    public AndroidElement weightvalueunits;
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='button back']")
+    public IOSElement backbutton;
+
+    //AndroidElement card_icon_nonfood
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther/XCUIElementTypeImage/following-sibling::XCUIElementTypeStaticText[2]")
+    public IOSElement weightvalueunits;
 
     //Created object of testng SoftAssert class to use It's Properties.
     SoftAssert s_assert = new SoftAssert();
@@ -52,9 +56,12 @@ public class IOS_Notification_Weight_Repository implements Notification_Weight_R
             Log.info("Pressed the Notification Button");
 
 
-            assertThat(units, containsString(weightvalueunits.getText().toLowerCase()));
+            assertThat(weightvalueunits.getText().toLowerCase(), containsString(units));
 
             Log.info("The Units displayed for the current weight same as in the settings "+weightvalueunits.getText());
+
+            backbutton.click();
+            Log.info("Back button pressed");
 
 
 

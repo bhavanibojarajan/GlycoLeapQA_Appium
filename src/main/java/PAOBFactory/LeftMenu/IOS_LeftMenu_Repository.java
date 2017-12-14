@@ -81,12 +81,12 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
 
 
 
-    //IOSElement Setting page
+    //IOSElement BackButton
     @FindBy(how = How.ID, using = "button back")
     public IOSElement backButton;
 
-    //IOSElement BackButton
-    @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='SETTINGS']")
+    //IOSElement Setting page
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='Settings']")
     public IOSElement settingpage;
 
 
@@ -101,9 +101,6 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
 
 
 
-    //IOSElement cancel button
-    @FindBy(how = How.XPATH, using = "//*[@name='Glyco.HGLSideMenuVC']/follow-sibling::XCUIElementTypeButton")
-    public IOSElement canceltheleftmenu;
 
 
     //Your current subscription plan
@@ -120,7 +117,8 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='About']")
     public IOSElement glycotext;
 
-
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton")
+    public IOSElement canceltheleftmenu;
 
 
     //==========================================================================================================
@@ -151,12 +149,12 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
     //==========================================================================================================
 
     @Override
-    public void LeftMenu_Navigation(String useremail) {
+    public void LeftMenu_Navigation() {
+
 
 
 
         allow.click();
-
 
         leftmenuopner.click();
 
@@ -171,7 +169,7 @@ public class IOS_LeftMenu_Repository implements LeftMenu_Repository {
         //Navigate to setting Page
         settings.click();
         Log.info("Setting menu clicked");
-        Assert.assertEquals(settingpage.getText(),"SETTINGS","Opened the Setting Page");
+        Assert.assertEquals(settingpage.getText(),"Settings","Opened the Setting Page");
         Log.info("Setting page opened properly and asserted with value "+settingpage.getText());
         backButton.click();
         Log.info("Back button clicked");

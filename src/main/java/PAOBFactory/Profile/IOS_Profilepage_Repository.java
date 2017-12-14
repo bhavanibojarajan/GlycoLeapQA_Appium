@@ -41,48 +41,48 @@ public class IOS_Profilepage_Repository implements Profilepage_Repository {
 
     //IOSElement email
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Email']/following-sibling::XCUIElementTypeStaticText[1]")
+    @FindBy(how = How.XPATH, using = "//*[@name='Email']/preceding-sibling::XCUIElementTypeStaticText")
     public IOSElement email;
 
 
     //IOSElement name
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Name']/preceding-sibling::XCUIElementTypeTextField")
+    @FindBy(how = How.XPATH, using = "//*[@name='Name']/preceding-sibling::XCUIElementTypeTextField/XCUIElementTypeTextField")
     public IOSElement name;
 
     //IOSElement dob
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Date of Birth']/following-sibling::XCUIElementTypeStaticText[1]")
+    @FindBy(how = How.XPATH, using = "//*[@name='Date of Birth']/preceding-sibling::XCUIElementTypeStaticText")
     public IOSElement dob;
 
 
 
     //IOSElement gender
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Gender']/preceding-sibling::XCUIElementTypeTextField[1]")
+    @FindBy(how = How.XPATH, using = "//*[@name='Gender']/preceding-sibling::XCUIElementTypeTextField")
     public IOSElement gender;
 
 
     //IOSElement startweight
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Start Weight']/preceding-sibling::XCUIElementTypeTextField")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeStaticText[@name='Start Weight']/following-sibling::XCUIElementTypeTextField[1]")
     public IOSElement startweight;
 
 
     //IOSElement startheight
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Start Height']/preceding-sibling::XCUIElementTypeTextField")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeStaticText[@name='Start Height']/following-sibling::XCUIElementTypeTextField[1]")
     public IOSElement startheight;
 
 //IOSElement Health Condition
 
-    @FindBy(how = How.XPATH, using = "//*[@name='Health Condition']/following-sibling::XCUIElementTypeStaticText[1]")
+    @FindBy(how = How.XPATH, using = "//*[@name='Health Condition']/following-sibling::XCUIElementTypeStaticText")
     public IOSElement healthcondition;
 
 
     //IOSElement Food Preference
 
-    @FindBy(how = How.XPATH, using = "//[@name='Food Preference']/following-sibling::XCUIElementTypeStaticText[1]")
+    @FindBy(how = How.XPATH, using = "//[@name='Food Preference']/following-sibling::XCUIElementTypeStaticText")
     public IOSElement foodpreference;
 
     //IOSElement change pasword
@@ -160,21 +160,23 @@ public class IOS_Profilepage_Repository implements Profilepage_Repository {
     {
         Log.info("----------------------------- Profile PAGE ------------------------------");
 
-        assertThat(units, containsString(startweight.getText().toLowerCase()));
-        Log.info("The Units displayed goal page weight is same as in the settings "+startweight.getText());
+
+
+        assertThat(startweight.getText().toLowerCase(), containsString(units));
+        Log.info("The Units displayed in the profile page  is same as in the settings "+startweight.getText());
 
         if(units== "kg")
         {
-            assertThat("cm", containsString(startheight.getText().toLowerCase()));
+            assertThat(startheight.getText().toLowerCase(), containsString("cm"));
 
 
         }
         else
         {
-            assertThat("ft", containsString(startheight.getText().toLowerCase()));
+            assertThat(startheight.getText().toLowerCase(), containsString("ft"));
         }
 
-        Log.info("The Units displayed goal page weight is same as in the settings "+startheight.getText());
+        Log.info("The Units displayed in the profile page  is same as in the settings "+startheight.getText());
     }
 
 }

@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class AppiumController {
 
-    public static OS executionOS = OS.ANDROID;
+    public static OS executionOS = OS.IOS;
 
     public enum OS {
         ANDROID,
@@ -32,7 +32,7 @@ public class AppiumController {
                 File app = new File (appDir, "Glyco.apk");
                 DesiredCapabilities capabilities = new DesiredCapabilities();
                 capabilities.setCapability("platformName", "Android");
-                capabilities.setCapability("deviceName", "Nexus_4_API_22");
+                capabilities.setCapability("deviceName", "Nexus_4_API_24");
                 capabilities.setCapability("app", app.getAbsolutePath());
                 capabilities.setCapability("appPackage", "com.holmusk.glycoleap");
                 capabilities.setCapability("appActivity", "com.holmusk.glycoleap.ui.activity.SplashActivity");
@@ -47,7 +47,7 @@ public class AppiumController {
                 capabilities = new DesiredCapabilities();
                 capabilities.setCapability("platformName", "ios");
                 capabilities.setCapability("deviceName", "iPhone X");
-                capabilities.setCapability("platformVersion","11.0");
+                capabilities.setCapability("platformVersion","11.2");
                 capabilities.setCapability("AutomationName","XCUITest");
 
                 capabilities.setCapability("app", app.getAbsolutePath());

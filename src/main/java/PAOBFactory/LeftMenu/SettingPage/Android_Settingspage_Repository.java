@@ -15,8 +15,13 @@ import java.util.concurrent.TimeUnit;
 
 public class Android_Settingspage_Repository implements Settingspage_Repository{
 
+    //AndroidElement LeftMenu Opener
+    @FindBy(how = How.XPATH, using ="//*[@class='android.widget.ImageButton']" )
+    public AndroidElement leftmenuopner;
+
+
     //AndroidElement BackButton
-    @FindBy(how = How.XPATH, using = "//*[@content-desc='Navigate up']")
+    @FindBy(how = How.ID, using = "Navigate up")
     public AndroidElement backbutton;
 
     //AndroidElement Settings
@@ -24,12 +29,12 @@ public class Android_Settingspage_Repository implements Settingspage_Repository{
     public AndroidElement settings;
 
     //AndroidElement Profile
-    @FindBy(how = How.XPATH, using = "//*[@text='Profile']")
+    @FindBy(how = How.ID, using ="ll_profile")
     public AndroidElement profile;
 
 
     //AndroidElement Goal
-    @FindBy(how = How.XPATH, using = "//*[@text='Goal']")
+    @FindBy(how = How.ID, using ="ll_goal")
     public AndroidElement goal;
 
     //AndroidElement FooD Tap Button
@@ -54,7 +59,7 @@ public class Android_Settingspage_Repository implements Settingspage_Repository{
 
 
     //AndroidElement Unit System
-    @FindBy(how = How.XPATH, using = "//*[@text='Unit System']")
+    @FindBy(how = How.ID, using = "ll_units")
     public AndroidElement units;
 
 
@@ -73,7 +78,7 @@ public class Android_Settingspage_Repository implements Settingspage_Repository{
     public AndroidElement privacybackbutton;
 
     //AndroidElement Privacy Settings
-    @FindBy(how = How.XPATH, using = "//*[@text='Privacy Settings']")
+    @FindBy(how = How.ID, using = "ll_privacy")
     public AndroidElement privacy;
 
 
@@ -101,7 +106,10 @@ public class Android_Settingspage_Repository implements Settingspage_Repository{
 
 public void Setting_Navigation() {
         String value="OFF";
-
+    leftmenuopner.click();
+    Log.info("Left menu open properly");
+    settings.click();
+    Log.info("Settings page opened ");
         //Navigate to profile page
         profile.click();
          Log.info("Profile menu clicked");

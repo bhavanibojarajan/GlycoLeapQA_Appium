@@ -8,6 +8,7 @@ import PAOBFactory.Comment_Edit_Delete.Android_Add_Photo_Comment_Delete_Edit_Rep
 import PAOBFactory.DashBoard.DashBoard_Weight_Repository;
 import PAOBFactory.FoodLog.*;
 import PAOBFactory.Goal.Android_Goal_Repository;
+import PAOBFactory.Goal.IOS_Goal_Repository;
 import PAOBFactory.LeftMenu.Android_LeftMenu_Repository;
 import PAOBFactory.LeftMenu.IOS_LeftMenu_Repository;
 import PAOBFactory.LeftMenu.LeftMenu_Repository;
@@ -18,6 +19,8 @@ import PAOBFactory.Login.Android_Login_Repository;
 import PAOBFactory.Login.IOS_Login_Repository;
 import PAOBFactory.Login.Login_Repository;
 import PAOBFactory.Notification.Android_Notification_Weight_Repository;
+import PAOBFactory.Notification.IOS_Notification_Weight_Repository;
+
 import PAOBFactory.Notification.Notification_Weight_Repository;
 import PAOBFactory.Profile.Android_Profilepage_Repository;
 import PAOBFactory.Profile.IOS_Profilepage_Repository;
@@ -25,17 +28,23 @@ import PAOBFactory.Profile.Profilepage_Repository;
 import PAOBFactory.RegisterNewUser.Android_PersonalDetail_Registory;
 import PAOBFactory.RegisterNewUser.Android_Register_Repository;
 import PAOBFactory.DashBoard.Android_DashBoard_Weight_Repository;
+import PAOBFactory.DashBoard.IOS_DashBoard_Weight_Repository;
 import PAOBFactory.RegisterNewUser.PersonalDetail_Repository;
 import PAOBFactory.RegisterNewUser.Register_Repository;
 import PAOBFactory.TimeLine.Android_Weight_Timeline_Repository;
+
+import PAOBFactory.TimeLine.IOS_Weight_Timeline_Repository;
 import PAOBFactory.TimeLine.Weight_Timeline_Repository;
 import PAOBFactory.WeightDetailPage.Android_Weight_Detail_Repository;
+import PAOBFactory.WeightDetailPage.IOS_Weight_Detail_Repository;
 import PAOBFactory.WeightDetailPage.Weight_Detail_Repository;
 import PAOBFactory.Goal.Goal_Repository;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import AppiumSupport.AppiumController;
+import PAOBFactory.Goal.Android_Goal_Repository;
+import PAOBFactory.Goal.IOS_Goal_Repository;
 
 import java.io.File;
 
@@ -72,7 +81,7 @@ public class BaseTestClass extends AppiumBaseClass{
                 LMR=new Android_LeftMenu_Repository(driver()) ;
                 SR= new Android_Settingspage_Repository(driver());
 
-                DWR=new Android_DashBoard_Weight_Repository(driver());
+                            DWR=new Android_DashBoard_Weight_Repository(driver());
                 WTR=new Android_Weight_Timeline_Repository(driver());
                 NWR = new Android_Notification_Weight_Repository(driver());
                 WDR= new Android_Weight_Detail_Repository(driver());
@@ -86,6 +95,13 @@ public class BaseTestClass extends AppiumBaseClass{
                 SR = new IOS_Settingspage_Repository(driver());
                 PR = new IOS_Profilepage_Repository(driver());
                 FLR=new IOS_Food_Log_Repository(driver());
+                GR=new IOS_Goal_Repository(driver());
+                GFLR=new IOS_Glucose_Food_Log_Repository(driver());
+                //APCDER =new IOS_Add_Photo_Comment_Delete_Edit_Repository(driver());
+               DWR=new IOS_DashBoard_Weight_Repository(driver());
+                WTR=new IOS_Weight_Timeline_Repository(driver());
+                NWR = new IOS_Notification_Weight_Repository(driver());
+                WDR= new IOS_Weight_Detail_Repository(driver());
 
                 break;
         }

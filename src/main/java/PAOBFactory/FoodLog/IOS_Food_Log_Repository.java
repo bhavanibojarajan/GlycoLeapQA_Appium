@@ -211,7 +211,7 @@ public IOSElement submit;
         Log.info("Pressed the mood "+relaxed.getText());
         foodtime.click();
         Log.info("Selecting the Time");
-        day.setValue("Oct 20");
+        day.setValue("Nov 20");
         Log.info("Selected the day from the given option "+day.getText());
         hours.sendKeys("8");
         Log.info("Selected the hour from the given option "+hours.getText());
@@ -221,9 +221,9 @@ public IOSElement submit;
         ampm.sendKeys("AM");
         Log.info("Selected the AM/PM from the given option "+ampm.getText());
         save.click();
-       String value=locationswitch.getText();
+       /*String value=locationswitch.getText();
        if(value == "OFF")
-       {locationswitch.click();}
+       {locationswitch.click();}*/
         submit.click();
        // multiphoto.click();
     }

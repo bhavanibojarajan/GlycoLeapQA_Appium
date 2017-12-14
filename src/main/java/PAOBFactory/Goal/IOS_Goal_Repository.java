@@ -32,13 +32,13 @@ public class IOS_Goal_Repository implements Goal_Repository {
 
 
 
-    //IOSElement -- FoodTime
-    @FindBy(how = How.XPATH, using = "//*[@name='Weight']/following-sibling::XCUIElementTypeStaticText[1]")
+    //IOSElement -- weightunit
+    @FindBy(how = How.XPATH, using = "//*[@name='Weight']/preceding-sibling::XCUIElementTypeStaticText")
     public IOSElement weightunit;
 
 
     //==========================================================================================================
-    //Constructor for the Android_LeftMenu_Repository
+    //Constructor for the IOS_Goal_Repository
     public IOS_Goal_Repository(AppiumDriver driver2) {
         // TODO Auto-generated constructor stub
 
@@ -54,7 +54,9 @@ public class IOS_Goal_Repository implements Goal_Repository {
 
         Log.info("----------------------------- Goal PAGE ------------------------------");
 
-        assertThat(units, containsString(weightunit.getText().toLowerCase()));
+
+        assertThat(weightunit.getText().toLowerCase(), containsString(units));
+
         Log.info("The Units displayed goal page weight is same as in the settings "+weightunit.getText());
 
 

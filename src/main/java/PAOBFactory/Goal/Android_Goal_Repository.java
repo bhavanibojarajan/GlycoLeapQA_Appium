@@ -50,7 +50,7 @@ public class Android_Goal_Repository implements Goal_Repository {
 
         Log.info("----------------------------- Goal PAGE ------------------------------");
 
-        assertThat(units, containsString(weightunit.getText().toLowerCase()));
+        assertThat(weightunit.getText().toLowerCase(), containsString(units));
         Log.info("The Units displayed goal page weight is same as in the settings "+weightunit.getText());
 
 

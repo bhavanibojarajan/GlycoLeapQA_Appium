@@ -154,6 +154,8 @@ public AndroidElement submit;
         plusicon.click();
         Log.info("Plus Button Pressed");
         foodLogIcon.click();
+        Log.info("----------------------------- Food Log Page ------------------------------");
+
         Log.info("FoodLogIcon Button Pressed");
         camerashutter.click();
         Log.info("Camera Shutter button Pressed");
@@ -174,17 +176,17 @@ public AndroidElement submit;
         foodDescription.sendKeys("crab");
 
         Log.info("Food Description Entered");
-        driver.hideKeyboard();
 
-        settime.click();
+
+        /*settime.click();
 
         Log.info("Select the Time");
 
 
-        inputtime.sendKeys("Wed, Nov 01 10 31");
+        inputtime.sendKeys(" Nov 20 10 31");
 
 
-        settime.click();
+        settime.click();*/
         Log.info("Food time set");
         relaxed.click();
         Log.info("Mood selected");

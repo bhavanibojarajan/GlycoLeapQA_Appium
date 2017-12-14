@@ -24,12 +24,12 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
     public IOSElement settings;
 
     //IOSElement Profile
-    @FindBy(how = How.ID, using = "Profile")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeStaticText[@name='Profile']")
     public IOSElement profile;
 
 
     //IOSElement Goal
-    @FindBy(how = How.ID, using = "Goal")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeStaticText[@name='Goal']")
     public IOSElement goal;
 
     //IOSElement FooD Tap Button
@@ -76,18 +76,18 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
 
 //IOSElement PROFILE PAGE
 
-    @FindBy(how = How.ID, using = "PROFILE")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='Profile']")
     public IOSElement profilepage;
 
 
     //IOSElement GOAL PAGE
-    @FindBy(how = How.ID, using = "GOAL")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='Personal Goal']")
     public IOSElement goalpage;
 
 
 
     //IOSElement Units PAGE
-    @FindBy(how = How.ID, using = "UNITS")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther[@name='Units']")
     public IOSElement unitspage;
 
     //IOSElement Allow button
@@ -111,6 +111,11 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
     @FindBy(how = How.ID, using = "//XCUIElementTypeButton[@name='mmol/L']")
     public IOSElement glucoseunitsmmol;
 
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton")
+    public IOSElement canceltheleftmenu;
+
+
+
     //==========================================================================================================
     //Constructor for the IOS_LeftMenu_Repository
     public IOS_Settingspage_Repository(AppiumDriver driver2) {
@@ -124,7 +129,7 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
 
     public void Setting_Navigation() {
         // String value="OFF";
-        allow.click();
+
         leftmenuopener.click();
         Log.info("Left Menu opened Properly");
         settings.click();
@@ -135,7 +140,7 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
         //Navigate to profile page
         profile.click();
         Log.info("Profile menu clicked");
-        Assert.assertEquals(profilepage.getText(),"PROFILE","Opened Profile Page");
+        Assert.assertEquals(profilepage.getText(),"Profile","Opened Profile Page");
         Log.info("Profile opened properly and asserted with the value "+profilepage.getText());
         backbutton.click();
         Log.info("Back button clicked");
@@ -144,7 +149,7 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
         //Navigate to Goal page
         goal.click();
         Log.info("Goal menu clicked");
-        Assert.assertEquals(goalpage.getText(),"PERSONAL GOAL","Opened Goal Page");
+        Assert.assertEquals(goalpage.getText(),"Personal Goal","Opened Goal Page");
         Log.info("Goal opened properly and asserted with the value "+goalpage.getText());
         backbutton.click();
         Log.info("Back button clicked");
@@ -171,13 +176,13 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
         //Navigate to Unit System
         units.click();
         Log.info("Unit System menu clicked");
-        Assert.assertEquals(unitspage.getText(),"UNITS", "Opened Unit System");
+        Assert.assertEquals(unitspage.getText(),"Units", "Opened Unit System");
         Log.info("Unit System opened properly and asserted with the value "+unitspage.getText());
         backbutton.click();
         Log.info("Back button clicked");
         backbutton.click();
 
-        iconclose.click();
+      canceltheleftmenu.click();
 
            /*//Navigate to Privacy
             privacy.click();
@@ -198,9 +203,18 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
 
     public String  CheckUnits_weight(){
         units.click();
+if(weightunitkg.getAttribute("value")=="1") {
     weightunitlbs.click();
-        Log.info("Unit System menu clicked");
-        return "lbs";
+    Log.info("Unit System menu clicked");
+    return "lbs";
+}
+else
+{
+    weightunitkg.click();
+    Log.info("Unit System menu clicked");
+    return "kg";
+
+}
 
     /*if(weightunitkg.isSelected()) {
         weightunitlbs.click();
@@ -218,18 +232,24 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
     public void Reach_Goal_Page()
     {
         backbutton.click();
+        Log.info("reached setting page");
         goal.click();
+        Log.info("Goal page opened properly");
+
 
     }
     public void Reach_Profile_Page()
     {
         backbutton.click();
+        Log.info("reached setting page");
         profile.click();
+        Log.info("Profile page opened properly");
     }
 
 
     public void Reach_to_Home_Page(){
         backbutton.click();
         backbutton.click();
+        canceltheleftmenu.click();
     }
 }

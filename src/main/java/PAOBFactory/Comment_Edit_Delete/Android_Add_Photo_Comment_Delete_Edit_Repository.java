@@ -1,6 +1,7 @@
 package PAOBFactory.Comment_Edit_Delete;
 
 
+import Log_File.Log;
 import PAOBFactory.Comment_Edit_Delete.Add_Photo_Comment_Delete_Edit_Repository;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -76,20 +77,29 @@ public class Android_Add_Photo_Comment_Delete_Edit_Repository implements Add_Pho
     public void AddCommentandImage() {
         //To do delete and edit
 
-        dotdeleteoredit.click();
+        //dotdeleteoredit.click();
 
-        edit.click();
-
+        //edit.click();
+        Log.info("----------------------------- Adding comments ------------------------------");
         addcomment.sendKeys("adja");
+        Log.info("Comments added in the add comment text box "+addcomment.getText());
         send_btn.click();
-       /* cammeraicon.click();
+        Log.info("Send Button Pressed ");
+
+
+
+
+        Log.info("----------------------------- Image sent ------------------------------");
+        cammeraicon.click();
+        Log.info("Click Camera Button clicked");
         // select for the camera option
         camera.click();
+        Log.info("Click Camera option");
         camerashutter.click();
         done.click();
         photocaption.sendKeys("photocaption");
         photoaccept.click();
-        send_btn.click();*/
+        send_btn.click();
 
 
 
