@@ -172,6 +172,7 @@ public String  CheckUnits_glucose() {
     units.click();
     Log.info("Unit System menu clicked");
     glucoseunit.click();
+    Log.info("Glucose Unit displayed "+ glucoseunit.getText());
     return glucoseunit.getText();
       }
 public String  CheckUnits_weight() {

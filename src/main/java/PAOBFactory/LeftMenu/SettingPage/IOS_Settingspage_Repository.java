@@ -8,6 +8,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
@@ -104,11 +105,11 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
     public IOSElement weightunitlbs;
 
     //IOSElement Units PAGE mg/DL
-    @FindBy(how = How.ID, using = "//XCUIElementTypeButton[@name='mg/DL']")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='mg/DL']")
     public IOSElement glucoseunitsmg;
 
     //IOSElement Units PAGE mmol/L
-    @FindBy(how = How.ID, using = "//XCUIElementTypeButton[@name='mmol/L']")
+    @FindBy(how = How.XPATH, using = "//XCUIElementTypeButton[@name='mmol/L']")
     public IOSElement glucoseunitsmmol;
 
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton")
@@ -197,38 +198,48 @@ public class IOS_Settingspage_Repository implements Settingspage_Repository{
 
 
     public String  CheckUnits_glucose() { units.click();
+        ExpectedConditions.visibilityOf(glucoseunitsmg);
+        Log.info("glucose mg element value" + glucoseunitsmg.getAttribute("value"));
+        Log.info("glucose mmol element value" + glucoseunitsmmol.getAttribute("value"));
+        if (glucoseunitsmg.getAttribute("value")=="1") {
 
-        Log.info("Unit System menu clicked");return glucoseunitsmg.getText();
+            glucoseunitsmmol.click();
+            Log.info("Unit System menu clicked" + glucoseunitsmmol.getText());
+            return "mmol/l";
+        }
+        else
+        {
+            glucoseunitsmg.click();
+            Log.info("Unit System menu clicked "+glucoseunitsmg.getText());
+            return "mg/dl";
+
+        }
+
+
     }
 
-    public String  CheckUnits_weight(){
+    public String  CheckUnits_weight() {
         units.click();
-if(weightunitkg.getAttribute("value")=="1") {
-    weightunitlbs.click();
-    Log.info("Unit System menu clicked");
-    return "lbs";
-}
-else
-{
-    weightunitkg.click();
-    Log.info("Unit System menu clicked");
-    return "kg";
+        ExpectedConditions.visibilityOf(weightunitkg);
+        Log.info("kg element value" + weightunitkg.getAttribute("value"));
+        Log.info("lbs element value" + weightunitlbs.getAttribute("value"));
+        if (weightunitkg.getAttribute("value")=="1") {
 
-}
+            weightunitlbs.click();
+            Log.info("Unit System menu clicked");
+            return "lbs";
+        }
+        else
+          {
+            weightunitkg.click();
+            Log.info("Unit System menu clicked");
+            return "kg";
 
-    /*if(weightunitkg.isSelected()) {
-        weightunitlbs.click();
-        Log.info("Unit System menu clicked");
-        return weightunitlbs.getId();
+        }
     }
-    else
-    {
-        weightunitkg.click();
-        Log.info("Unit System menu clicked");
-        return weightunitlbs.getId();
-    }*/
 
-    }
+
+
     public void Reach_Goal_Page()
     {
         backbutton.click();
@@ -251,5 +262,6 @@ else
         backbutton.click();
         backbutton.click();
         canceltheleftmenu.click();
+        Log.info("Reached the Home page");
     }
 }

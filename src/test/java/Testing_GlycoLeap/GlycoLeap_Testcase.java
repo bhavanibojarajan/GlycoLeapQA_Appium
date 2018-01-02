@@ -1,6 +1,7 @@
 package Testing_GlycoLeap;
 
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.Dimension;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
@@ -130,7 +131,7 @@ public static String UserEmail;
 
         //Checking the units in the notification page
 
-        NWR.Check_units_Notification(weightunit);
+        NWR.Check_weight_units_Notification(weightunit);
         Log.info("Check the same unit dislayed in the Notification");
 
 
@@ -183,21 +184,22 @@ public static String UserEmail;
 
         Log.startTestCase("Unit System - glucose Unit  "+glucoseunit);
 
+        SR.Reach_to_Home_Page();
 
         //Checking the units in the notification page
 
-        NWR.Check_units_Notification(glucoseunit);
+        NGR.Check_glucose_units_Notification(glucoseunit);
         Log.info("Check the same unit dislayed in the Notification");
 
         //Checking the units in the Timeline
 
-        Log.info("Pressed the Weight button to display all the Logged weight cards");
-        WTR.Check_units_Timeline(glucoseunit);
+        Log.info("Pressed the glucose button to display all the Logged glucose cards");
+       GTR.Check_units_Timeline(glucoseunit);
 
 
 
-        //Checking the units in the Weight Detail page
-        WDR.Check_units_Weight_Detail(glucoseunit);
+        //Checking the units in the Glucose Detail page
+        GDR.Check_units_glucose_Detail(glucoseunit);
 
         Log.endTestCase("Unit System - Weight Unit");
 
@@ -237,5 +239,24 @@ public static String UserEmail;
         Log.endTestCase("Profile Page");
 
     }
+
+
+    @Test
+    public void Foodsearch()
+    {
+        Log.startTestCase("Food search Page");
+        FSR.search_and_find_food();
+
+        Log.endTestCase("Food search Page");
+    }
+
+    @Test
+    public void AskAndCoach()
+    {
+        Log.startTestCase("Ask and Coach");
+        ACR.Ask_Coach_Msg_Validation();
+        Log.endTestCase("Ask and Coach");
+    }
+
 
 }

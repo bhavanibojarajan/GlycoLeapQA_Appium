@@ -34,6 +34,7 @@ public class Android_DashBoard_Weight_Repository implements DashBoard_Weight_Rep
     public AndroidElement startweightunits;
 
 
+
     //Created object of testng SoftAssert class to use It's Properties.
     SoftAssert s_assert = new SoftAssert();
     //=========================================================================
@@ -57,25 +58,27 @@ public class Android_DashBoard_Weight_Repository implements DashBoard_Weight_Rep
 
 
         public void Check_units_DashBoard(String units)
-        {
-            //Press the home Page button to check the weight unt in the Dashboard
-            homebutton.click();
-            Log.info("Press the home Page button to check the weight unt in the Dashboard ");
-            Log.info("-------------------- DashBoard Page -----------------------");
+    {
+        //Press the home Page button to check the weight unt in the Dashboard
+        homebutton.click();
+        Log.info("Press the home Page button to check the weight unt in the Dashboard ");
+        Log.info("-------------------- DashBoard Page -----------------------");
 
-            //Check the unit value with the  current weight unit vaule
-            assertThat(units, containsString(currentweightunits.getText().toLowerCase()));
-            Log.info("The Units displayed for the current weight same as in the settings "+currentweightunits.getText());
+        //Check the unit value with the  current weight unit vaule
+        assertThat(units, containsString(currentweightunits.getText().toLowerCase()));
+        Log.info("The Units displayed for the current weight same as in the settings "+currentweightunits.getText());
 
-            //Check the unit value with the  start weight unit vaule
-            assertThat(units,containsString(startweightunits.getText().toLowerCase()));
-            Log.info("The Units displayed for the start weight same as in the settings "+startweightunits.getText());
+        //Check the unit value with the  start weight unit vaule
+        assertThat(units,containsString(startweightunits.getText().toLowerCase()));
+        Log.info("The Units displayed for the start weight same as in the settings "+startweightunits.getText());
 
 
-            //Check the unit value with the  start weight unit vaule
-            assertThat(units,containsString(goalweightunits.getText().toLowerCase()));
-            Log.info("The Units displayed for the goal weight same as in the settings "+goalweightunits.getText());
+        //Check the unit value with the  start weight unit vaule
+        assertThat(units,containsString(goalweightunits.getText().toLowerCase()));
+        Log.info("The Units displayed for the goal weight same as in the settings "+goalweightunits.getText());
 
 
     }
+
+
 }

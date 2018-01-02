@@ -8,8 +8,10 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.asserts.SoftAssert;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -32,7 +34,7 @@ public class IOS_Notification_Weight_Repository implements Notification_Weight_R
 
     //AndroidElement card_icon_nonfood
     @FindBy(how = How.XPATH, using = "//XCUIElementTypeOther/XCUIElementTypeImage/following-sibling::XCUIElementTypeStaticText[2]")
-    public IOSElement weightvalueunits;
+    public List<IOSElement> weightvalueunits;
 
     //Created object of testng SoftAssert class to use It's Properties.
     SoftAssert s_assert = new SoftAssert();
@@ -48,17 +50,35 @@ public class IOS_Notification_Weight_Repository implements Notification_Weight_R
     //=========================================================================
 
 
-    public void Check_units_Notification(String units)
+    public void Check_weight_units_Notification(String units)
         {
-            alertbutton.click();
 
+            Log.info("Press the Notification bell button");
+            ExpectedConditions.visibilityOf(alertbutton);
+
+
+            alertbutton.click();
             Log.info("--------------------Notification Page -----------------------");
             Log.info("Pressed the Notification Button");
 
+            int i=0,j=0;
 
-            assertThat(weightvalueunits.getText().toLowerCase(), containsString(units));
+            do {
+                String unitLabel = weightvalueunits.get(i).getText().toLowerCase();
 
-            Log.info("The Units displayed for the current weight same as in the settings "+weightvalueunits.getText());
+                if (unitLabel.contains("kg") || unitLabel.contains("lbs"))
+                {
+                        Log.info("The unit displayed "+unitLabel);
+                    assertThat(units, containsString(unitLabel));
+                    j=1;
+                }
+                i++;
+            }while(j!=1);
+
+            Log.info("The Units displayed for the current weight same as in the settings "+ weightvalueunits.get(i).getText());
+
+
+
 
             backbutton.click();
             Log.info("Back button pressed");
